@@ -35,11 +35,11 @@
   },
   "scripts": {
     "start": "serve -s build",
-    "akobir": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve": ""
+    "serve": "",
+    "akobir": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
