@@ -73,7 +73,7 @@ function Quiz() {
         <div>
           <h1>Test yakunlandi</h1>
           <p>
-            To'g'ri javoblar soni:{score} <br />
+            To'g'ri javoblar soni::{score} <br />
             Umumiy savollar soni: {quizLimite} <br />
           </p>
           <Button variant="contained" onClick={tryAgain}>
