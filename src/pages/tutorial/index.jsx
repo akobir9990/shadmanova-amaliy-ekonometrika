@@ -6,7 +6,13 @@ function index() {
   return (
     <Container>
       {items.map((item) => (
-        <img loading="lazy" key={item.id} src={item.name} alt="??" />
+        <img
+          className="w-[100%] bg-[white]"
+          loading="lazy"
+          key={item.id}
+          src={item.name}
+          alt="??"
+        />
       ))}
     </Container>
   );

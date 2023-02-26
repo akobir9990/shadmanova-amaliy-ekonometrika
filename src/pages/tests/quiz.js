@@ -472,17 +472,7 @@ export const questions = [
       },
     ],
   },
-  {
-    questionText:
-      " Axborot-kommunikatsiya texnologiyalarining asosi nimalardan tashkil topgan?",
 
-    answerOptions: [
-      { id: 1, answerText: " Sofrware,hardware", isCorrect: false },
-      { id: 2, answerText: " Hardware,brainware", isCorrect: false },
-      { id: 3, answerText: "Sofrware, brainware", isCorrect: false },
-      { id: 4, answerText: "Sofrware,hardware,brainware", isCorrect: true },
-    ],
-  },
   {
     questionText: "Kompyuter qaysi ta’minotsiz “quruq temir”ga aylanib qoladi?",
     answerOptions: [
@@ -2313,7 +2303,6 @@ export const questions = [
   {
     questionText: "Shartli o’tishda qanday amallardan foydalaniladi?",
     answerOptions: [
-      ["", "", "", ""],
       { id: 1, answerText: ">=,<=", isCorrect: false },
       { id: 2, answerText: "==,!=", isCorrect: false },
       { id: 3, answerText: ">,<,>=,<=,!=,==", isCorrect: true },
@@ -2667,35 +2656,35 @@ export const questions = [
       },
     ],
   },
-  {
-    questionText:
-      "Qaysi shartlarda grafik usulda yechilgan CHPM yakuniy yechimga ega bo’ladi?",
+  // {
+  //   questionText:
+  //     "Qaysi shartlarda grafik usulda yechilgan CHPM yakuniy yechimga ega bo’ladi?",
 
-    answerOptions: [
-      {
-        id: 1,
-        answerText:
-          "Agar yarimtekisliklar kesishmasi  chegaralanmagan soha hosil bo’lsa",
-        isCorrect: true,
-      },
-      {
-        id: 2,
-        answerText: "Agar yarimtekisliklar  ox2 o’qiga parallel bo’lsa",
-        isCorrect: false,
-      },
-      {
-        id: 3,
-        answerText:
-          "Agar yarimtekisliklar kesishmasi chegaralangan ko’pburchak hosil qilsa",
-        isCorrect: true,
-      },
-      {
-        id: 4,
-        answerText: "Agar yarimtekisliklar bo’sh bo’lsa",
-        isCorrect: false,
-      },
-    ],
-  },
+  //   answerOptions: [
+  //     {
+  //       id: 1,
+  //       answerText:
+  //         "Agar yarimtekisliklar kesishmasi  chegaralanmagan soha hosil bo’lsa",
+  //       isCorrect: true,
+  //     },
+  //     {
+  //       id: 2,
+  //       answerText: "Agar yarimtekisliklar  ox2 o’qiga parallel bo’lsa",
+  //       isCorrect: false,
+  //     },
+  //     {
+  //       id: 3,
+  //       answerText:
+  //         "Agar yarimtekisliklar kesishmasi chegaralangan ko’pburchak hosil qilsa",
+  //       isCorrect: true,
+  //     },
+  //     {
+  //       id: 4,
+  //       answerText: "Agar yarimtekisliklar bo’sh bo’lsa",
+  //       isCorrect: false,
+  //     },
+  //   ],
+  // },
   {
     questionText:
       "Qanday shartlarda CHMPni  grafik usulda yechimi сhegaralanmagan  qiymatlarini qabul qiladi?",

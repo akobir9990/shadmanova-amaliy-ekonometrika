@@ -13,7 +13,7 @@ export const items = [
   {
     id: 1,
     name: "1-mavzu",
-    url: "https://www.youtube.com/watch?v=qx_T0NUK12Q",
+    url: "https://youtu.be/jIMnB1hzmF4",
     content: "content - 1",
     panel: "panel1",
     img: one,
@@ -21,7 +21,7 @@ export const items = [
   {
     id: 2,
     name: "2-mavzu",
-    url: "https://www.youtube.com/watch?v=qx_T0NUK12Q",
+    url: "https://youtu.be/UL-DlNiS_lg",
     content: "content - 2",
     panel: "panel2",
     img: two,
@@ -29,7 +29,7 @@ export const items = [
   {
     id: 3,
     name: "3-mavzu",
-    url: "https://www.youtube.com/watch?v=qx_T0NUK12Q",
+    url: "https://youtu.be/npBkP1_NB3o",
     content: "content - 3",
     panel: "panel3",
     img: three,
@@ -37,7 +37,7 @@ export const items = [
   {
     id: 4,
     name: "4-mavzu",
-    url: "https://www.youtube.com/watch?v=qx_T0NUK12Q",
+    url: "https://youtu.be/cDNU7XQQZvA",
     content: "content - 4",
     panel: "panel4",
     img: four,
@@ -45,7 +45,7 @@ export const items = [
   {
     id: 5,
     name: "5-mavzu",
-    url: "https://www.youtube.com/watch?v=qx_T0NUK12Q",
+    url: "https://youtu.be/PT4rR0f1V3g",
     content: "content - 5",
     panel: "panel5",
     img: five,
@@ -53,7 +53,7 @@ export const items = [
   {
     id: 6,
     name: "6-mavzu",
-    url: "https://www.youtube.com/watch?v=qx_T0NUK12Q",
+    url: "https://youtu.be/_tFXhCYBYro",
     content: "content - 6",
     panel: "panel6",
     img: six,
@@ -61,7 +61,7 @@ export const items = [
   {
     id: 7,
     name: "7-mavzu",
-    url: "https://www.youtube.com/watch?v=qx_T0NUK12Q",
+    url: "https://youtu.be/NYQ84pCESAY",
     content: "content - 7",
     panel: "panel7",
     img: seven,
@@ -69,7 +69,7 @@ export const items = [
   {
     id: 8,
     name: "8-mavzu",
-    url: "https://www.youtube.com/watch?v=qx_T0NUK12Q",
+    url: "https://youtu.be/MIZQ28lO3gQ",
     content: "content - 8",
     panel: "panel8",
     img: eight,
@@ -77,7 +77,7 @@ export const items = [
   {
     id: 9,
     name: "9-mavzu",
-    url: "https://www.youtube.com/watch?v=qx_T0NUK12Q",
+    url: "https://youtu.be/IiaQ2JubVLQ",
     content: "content - 9",
     panel: "panel9",
     img: nine,
@@ -85,7 +85,7 @@ export const items = [
   {
     id: 10,
     name: "10-mavzu",
-    url: "https://www.youtube.com/watch?v=qx_T0NUK12Q",
+    url: "https://youtu.be/3qO5FrihZnU",
     content: "content - 10",
     panel: "panel10",
     img: ten,

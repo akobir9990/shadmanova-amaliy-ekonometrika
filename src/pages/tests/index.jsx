@@ -13,6 +13,7 @@ function Quiz() {
   const [showScore, setShowScore] = useState(false);
   const [complatedAnswerIds, setComplatedAnswersIds] = useState([]);
   const [randomNumber, setRandomNumber] = useState(0);
+  const [scorePercent, setScorePercent] = useState(0);
 
   const quizLimite = 20;
 
@@ -46,6 +47,8 @@ function Quiz() {
   const getResult = () => {
     setShowScore(!showScore);
     setComplatedAnswersIds([]);
+
+    setScorePercent(Math.floor((score / quizLimite) * 100));
   };
 
   const getRandomNumber = () => {
@@ -67,18 +70,30 @@ function Quiz() {
     setRandomNumber(getRandomNumber());
   }, []);
 
+  // console.log("scorePercent => ", scorePercent, typeof scorePercent);
+
   return (
-    <div>
+    <div className="h-[100vh]">
       {showScore ? (
         <div>
-          <h1>Test yakunlandi</h1>
-          <p>
-            To'g'ri javoblar soni::{score} <br />
+          <h1 className="text-[28px]">Test yakunlandi</h1>
+          <p className="text-[20px]">
+            To'g'ri javoblar soni: {score} <br />
             Umumiy savollar soni: {quizLimite} <br />
           </p>
           <Button variant="contained" onClick={tryAgain}>
             qayta topshirish
           </Button>
+          <div className="relative border-[solid] border-[1px] border-[grey] rounded-lg w-[400px] my-3 h-9 flex items-center overflow-hidden">
+            <div
+              style={{ width: `${scorePercent}%` }}
+              className={
+                "relative h-9 bg-green-500 flex items-center justify-center text-slate-50 font-bold"
+              }
+            >
+              {scorePercent}%
+            </div>
+          </div>
         </div>
       ) : (
         <div>

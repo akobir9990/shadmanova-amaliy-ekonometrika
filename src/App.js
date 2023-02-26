@@ -4,7 +4,7 @@ import Appbar from "./components/appbar";
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-repeat bg-[url('./assets/images/bg-repeat.jpeg')] h-[100%]">
       <Appbar />
     </div>
   );

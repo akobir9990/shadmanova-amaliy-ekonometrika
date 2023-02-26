@@ -62,7 +62,7 @@ function ResponsiveAppBar() {
 
   return (
     <div>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
@@ -201,7 +201,7 @@ function ResponsiveAppBar() {
           </Toolbar>
         </Container>
       </AppBar>
-      <Container sx={{ paddingTop: "20px" }}>
+      <Container className="pt-20">
         <Router />
       </Container>
     </div>

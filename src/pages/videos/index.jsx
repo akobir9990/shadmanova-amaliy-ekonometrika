@@ -6,6 +6,7 @@ import MuiAccordionSummary from "@mui/material/AccordionSummary";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ReactPlayer from "react-player/youtube";
+
 import { items } from "./videosData";
 
 const Accordion = styled((props) => (
@@ -53,7 +54,7 @@ export default function CustomizedAccordions() {
   };
 
   return (
-    <div>
+    <div className="h-[100vh]">
       {items.map((item) => (
         <Accordion
           key={item.id}
@@ -67,9 +68,9 @@ export default function CustomizedAccordions() {
           <AccordionDetails className="flex justify-center flex-col items-center">
             {expanded && videoId === item.id && (
               <ReactPlayer
-                controls
                 url={item.url}
-                className="min-w-[100%] max-w-[60%] min-h-[100%] max-h-[60%]"
+                controls
+                className="min-w-[100%] max-w-[60%] min-h-[100%] max-h-[60%] px-2"
                 config={{
                   youtube: {
                     playerVars: { showinfo: 1 },

@@ -63,7 +63,7 @@ function index() {
     <Container>
       {items.map((item) => (
         <img
-          className="w-[100%]"
+          className="w-[100%] bg-[white]"
           key={item.id}
           src={item.name}
           alt={item.name}
