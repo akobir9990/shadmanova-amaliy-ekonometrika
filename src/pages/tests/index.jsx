@@ -76,31 +76,68 @@ function Quiz() {
     <div className="h-[100vh]">
       {showScore ? (
         <div>
-          <h1 className="text-[28px]">Test yakunlandi</h1>
-          <p className="text-[20px]">
-            To'g'ri javoblar soni: {score} <br />
-            Umumiy savollar soni: {quizLimite} <br />
-          </p>
-          <Button variant="contained" onClick={tryAgain}>
-            qayta topshirish
-          </Button>
-          <div className="relative border-[solid] border-[1px] border-[grey] rounded-lg w-[400px] my-3 h-9 flex items-center overflow-hidden">
-            <div
-              style={{ width: `${scorePercent}%` }}
-              className={
-                "relative h-9 bg-green-500 flex items-center justify-center text-slate-50 font-bold"
-              }
-            >
-              {scorePercent}%
+          <div className="border-[2px] border-[solid] border-[grey] rounded-md py-4 px-3">
+            <h1 className="text-4xl">Test yakunlandi</h1>
+            <p className="text-3xl">
+              To'g'ri javoblar soni: {score} <br />
+              Umumiy savollar soni: {quizLimite} <br />
+            </p>
+            <div className="relative border-[solid] border-[1px] border-[grey] rounded-lg min-w-[250px] max-w-[400px] my-3 h-9 flex items-center overflow-hidden">
+              <div
+                style={{ width: `${scorePercent}%` }}
+                className={
+                  "text-[15px] relative h-9 flex items-center justify-center text-slate-50 font-bold overflow-hidden " +
+                  (scorePercent < 56 ? "bg-red-600" : "") +
+                  (scorePercent > 55 && scorePercent < 71
+                    ? "bg-yellow-600"
+                    : "") +
+                  (scorePercent > 70 && scorePercent < 86
+                    ? "bg-green-600"
+                    : "") +
+                  (scorePercent > 85 ? "bg-[green]" : "")
+                }
+              >
+                {scorePercent}%
+              </div>
+              {/* <div className="bg-white h-9 min-w-0 max-w-[100%]"></div> */}
             </div>
+            <div className="sm:text-[40px] text-[30px]">
+              {scorePercent < 56 ? (
+                <h1 className="">NATIJANGIZ YAHSHI EMAS!!</h1>
+              ) : (
+                <h1> </h1>
+              )}
+              {scorePercent > 55 && scorePercent < 71 ? (
+                <h1 className="">hech bo'lmaganda 3 oldingiz</h1>
+              ) : (
+                <h1> </h1>
+              )}
+              {scorePercent > 70 && scorePercent < 86 ? (
+                <h1 className="">malades 4 olding</h1>
+              ) : (
+                <h1> </h1>
+              )}
+              {scorePercent > 85 ? (
+                <h1 className="">MAQTOV YORLIG'I BERINGLA 5 OLDI BU BOLA</h1>
+              ) : (
+                <h1> </h1>
+              )}
+            </div>
+            <Button
+              className="w-[250px] mt-4"
+              variant="contained"
+              onClick={tryAgain}
+            >
+              qayta topshirish
+            </Button>
           </div>
         </div>
       ) : (
         <div>
-          <h3>
+          <h3 className="text-3xl font-bold italic">
             Savol - {currentQuestion + 1}/{quizLimite}
           </h3>
-          <h1 className="text-4xl font-bold py-2">
+          <h1 className="cursor-help text-3xl font-bold py-2">
             {questions[randomNumber].questionText}
           </h1>
           <div>
@@ -108,7 +145,7 @@ function Quiz() {
               <div
                 key={item.id}
                 className={
-                  "answerItem " +
+                  "bg-[rgba(209,209,209,0.4)] cursor-pointer answerItem " +
                   (isAnswered && answerId === item.id
                     ? item.isCorrect
                       ? " "
@@ -133,7 +170,7 @@ function Quiz() {
                 margin: "5px 0px",
               }}
             >
-              next
+              keyingi savol
             </Button>
             <Button
               variant="contained"
@@ -152,7 +189,7 @@ function Quiz() {
                 margin: "5px 0px",
               }}
             >
-              ShowScore
+              Natijani ko'rish
             </Button>
           </Box>
         </div>

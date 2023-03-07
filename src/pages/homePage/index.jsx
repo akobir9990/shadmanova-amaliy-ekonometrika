@@ -5,17 +5,10 @@ function index() {
   return (
     <Container>
       <Box>
-        <Box
-          // sx={{
-          //   height: "90vh",
-          //   textAlign: "center",
-          //   display: "flex",
-          //   alignItems: "center",
-          // }}
-          className="h-[90vh] flex justify-center items-center text-center"
-        >
-          <p className="text-5xl">
-            ATvaJMM fanidan <br />
+        <Box className="h-[90vh] flex justify-center items-center text-center">
+          <p className="md:text-5xl text-[22px]">
+            Axborot texnologiyalari va jarayonlarni matematik modellashtirish
+            fanidan <br />
             <b>web darslik</b>
           </p>
         </Box>
