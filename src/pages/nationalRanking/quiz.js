@@ -1033,12 +1033,12 @@ export const questions = [
     ],
   },
   {
-    questionText: "",
+    questionText: "Shaxsiy kompyuter nima?",
     answerOptions: [
-      { id: 1, answerText: "", isCorrect: false },
-      { id: 2, answerText: "", isCorrect: false },
-      { id: 3, answerText: "", isCorrect: false },
-      { id: 4, answerText: "", isCorrect: false },
+      { id: 1, answerText: "asosini mikroprotsessor tashkil etuvchi kichik EHM", isCorrect: true },
+      { id: 2, answerText: "mexanik hisoblash mashinasi", isCorrect: false },
+      { id: 3, answerText: "matn tahrir etuvchi qurilma", isCorrect: false },
+      { id: 4, answerText: "matnni chop etuvchi qurilma", isCorrect: false },
     ],
   },
 ];
