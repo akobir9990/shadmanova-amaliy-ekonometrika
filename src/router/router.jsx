@@ -10,7 +10,7 @@ import Practice from "../pages/practice";
 import Videos from "../pages/videos";
 import Tutorial from "../pages/tutorial";
 import TestAPage from "../pages/tests";
-import Error from "../pages/errorPage";
+import NationalRanking from "../pages/nationalRanking";
 import One from "../pages/presentation/pages/one";
 import Two from "../pages/presentation/pages/two/index";
 import Three from "../pages/presentation/pages/three";
@@ -33,6 +33,7 @@ import {
   TEST_PAGE,
   TUTORIAL_PAGE,
   VIDEOS_PAGE,
+  NATIONAL_RANKING,
 } from "./const";
 
 function router() {
@@ -61,7 +62,7 @@ function router() {
 
         <Route path={PRACTICE_PAGE} element={<Practice />} />
         <Route path={TEST_PAGE} element={<TestAPage />} />
-        <Route path="*" element={<Error />} />
+        <Route path={NATIONAL_RANKING} element={<NationalRanking />} />
       </Routes>
     </div>
   );

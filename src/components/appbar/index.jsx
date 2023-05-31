@@ -20,6 +20,7 @@ import {
   ABOUT_PAGE,
   AUTHOR_PAGE,
   LABORATORY_PAGE,
+  NATIONAL_RANKING,
   PRACTICE_PAGE,
   PRESENTATION_PAGE,
   TEST_PAGE,
@@ -34,6 +35,7 @@ const pages = [
   { id: 4, name: "Amaliyotlar", path: PRACTICE_PAGE },
   { id: 5, name: "Laboratoriyalar", path: LABORATORY_PAGE },
   { id: 6, name: "Testlar", path: TEST_PAGE },
+  { id: 7, name: "Milliy reyting", path: NATIONAL_RANKING },
 ];
 const settings = [
   { id: 1, name: "Muallif haqida", path: AUTHOR_PAGE },
@@ -201,7 +203,7 @@ function ResponsiveAppBar() {
           </Toolbar>
         </Container>
       </AppBar>
-      <Container className="pt-20">
+      <Container className="py-20">
         <Router />
       </Container>
     </div>

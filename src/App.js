@@ -27,7 +27,7 @@ function App() {
   };
 
   return (
-    <div className="bg-repeat bg-[url('./assets/images/bg-repeat.jpeg')] h-[100%]">
+    <div className="bg-repeat bg-[url('./assets/images/bg-repeat.jpeg')] bg-fixed">
       <Appbar />
     </div>
   );

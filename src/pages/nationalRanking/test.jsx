@@ -4,8 +4,9 @@ import Button from "@mui/material/Button";
 import { questions } from "./quiz";
 import "./style.css";
 import { Box } from "@mui/material";
+import { NavLink } from "react-router-dom";
 
-function Quiz() {
+function Test({ userDetails }) {
   const [score, setScore] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answerId, setAnswerId] = useState();
@@ -15,7 +16,7 @@ function Quiz() {
   const [randomNumber, setRandomNumber] = useState(0);
   const [scorePercent, setScorePercent] = useState(0);
 
-  const quizLimite = 20;
+  //   const quizLimite = 20;
 
   const checkAnswer = (item) => {
     setIsAnswered(true);
@@ -48,7 +49,7 @@ function Quiz() {
     setShowScore(!showScore);
     setComplatedAnswersIds([]);
 
-    setScorePercent(Math.floor((score / quizLimite) * 100));
+    setScorePercent(Math.floor((score / questions.length) * 100));
   };
 
   const getRandomNumber = () => {
@@ -73,14 +74,17 @@ function Quiz() {
   // console.log("scorePercent => ", scorePercent, typeof scorePercent);
 
   return (
-    <div>
+    <div className="h-[100vh]">
       {showScore ? (
         <div>
           <div className="border-[2px] border-[solid] border-[grey] rounded-md py-4 px-3">
-            <h1 className="text-4xl">Test yakunlandi</h1>
-            <p className="text-3xl">
+            <h1>Test yakunlandi</h1>
+            <p>
               To'g'ri javoblar soni: {score} <br />
-              Umumiy savollar soni: {quizLimite} <br />
+              Umumiy savollar soni: {questions.length} <br />
+              Ism: {userDetails.name} <br />
+              Familiya: {userDetails.surname} <br />
+              Kafedra: {userDetails.department} <br />
             </p>
             <div className="relative border-[solid] border-[1px] border-[grey] rounded-lg min-w-[250px] max-w-[400px] my-3 h-9 flex items-center overflow-hidden">
               <div
@@ -123,19 +127,21 @@ function Quiz() {
                 <h1> </h1>
               )}
             </div>
-            <Button
-              className="w-[250px] mt-4"
-              variant="contained"
-              onClick={tryAgain}
-            >
-              qayta topshirish
-            </Button>
+            <NavLink to="/raking">
+              <Button
+                className="w-[250px] mt-4"
+                variant="contained"
+                onClick={tryAgain}
+              >
+                qayta topshirish
+              </Button>
+            </NavLink>
           </div>
         </div>
       ) : (
         <div>
           <h3 className="text-3xl font-bold italic">
-            Savol - {currentQuestion + 1}/{quizLimite}
+            Savol - {currentQuestion + 1}/{questions.length}
           </h3>
           <h1 className="cursor-help text-3xl font-bold py-2">
             {questions[randomNumber].questionText}
@@ -162,7 +168,7 @@ function Quiz() {
           </div>
           <Box className="sm:flex-row sm:my-3 flex flex-col justify-between">
             <Button
-              disabled={currentQuestion === quizLimite - 1}
+              disabled={currentQuestion === questions.length - 1}
               variant="outlined"
               onClick={nextQeustion}
               className="py-4"
@@ -198,4 +204,4 @@ function Quiz() {
   );
 }
 
-export default Quiz;
+export default Test;

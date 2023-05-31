@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Container } from "@mui/material";
 import "./style.css";
-function index() {
+function HomePage() {
   return (
     <Container>
       <Box>
@@ -17,4 +17,4 @@ function index() {
   );
 }
 
-export default index;
+export default HomePage;
