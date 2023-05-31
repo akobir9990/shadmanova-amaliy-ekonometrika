@@ -1,7 +1,7 @@
 import * as React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-import abdullayev from "../../assets/images/abdullayev.png";
+import abdullayev from "../../assets/images/author.jpeg";
 
 export default function MediaCard() {
   return (
@@ -9,7 +9,7 @@ export default function MediaCard() {
       <Card className="flex flex-col p-7 items-center sm:flex-row my-7">
         <div>
           <img
-            className=" max-w-[300px]"
+            className=" max-w-[300px] rounded-md"
             src={abdullayev}
             alt="Abdullayev Zafar Sayfutdinovich"
           />

@@ -12,7 +12,7 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
-import abdullayev from "../../assets/images/abdullayev.jpg";
+import abdullayev from "../../assets/images/author.jpeg";
 import Router from "../../router/router";
 import { NavLink } from "react-router-dom";
 import "../../router/const";
