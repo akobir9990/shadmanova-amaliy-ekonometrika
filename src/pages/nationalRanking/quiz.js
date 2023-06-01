@@ -2089,4 +2089,725 @@ export const questions = [
       { id: 4, answerText: "UPS", isCorrect: false },
     ],
   },
+  {
+    questionText:
+      "Портални шакллантириш йўли билан интернет орқали фуқароларга барча давлат хизматлари мажмуини тақдим этувчи “электрон ҳукумат” тизимининг ташкил этувчисини кўрсатинг:",
+    answerOptions: [
+      { id: 1, answerText: "G2C – (Ҳукумат-Фуқаро)", isCorrect: true },
+      { id: 2, answerText: "G2B – (Ҳукумат - Бизнес)", isCorrect: false },
+      { id: 3, answerText: "G2G – (Ҳукумат - Ҳукумат )", isCorrect: false },
+      { id: 4, answerText: "G2E – (Ҳукумат - Ишчи)", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Информатика соҳасининг асосий ресурси бу . . . ",
+    answerOptions: [
+      { id: 1, answerText: "Ахборот ", isCorrect: true },
+      { id: 2, answerText: "Компьютер", isCorrect: false },
+      { id: 3, answerText: "Китоб", isCorrect: false },
+      { id: 4, answerText: "Қурилмалар", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Микропроцессор қандай қурилмалардан ташкил топган?",
+    answerOptions: [
+      { id: 1, answerText: "Арифметик-мантиқий ва бошкариш ", isCorrect: true },
+      { id: 2, answerText: "Арифметик ва мантиқий ", isCorrect: false },
+      { id: 3, answerText: "Хотира ва тизимли блок", isCorrect: false },
+      { id: 4, answerText: "Қидирув ва бошқарув", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Хотиранинг  ўлчов бирликлари ошиб бориши тўғри кўрсатилган қаторни тангланг. ",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "Терабайт, Байт, Килобайт, Мегабайт, Гегабайт ",
+        isCorrect: false,
+      },
+      {
+        id: 2,
+        answerText: "Байт, Килобайт, Мегабайт, Гегабайт, Террабайт",
+        isCorrect: true,
+      },
+      {
+        id: 3,
+        answerText: "Бит, Килобит, Гегабит, Мегабит, Террабит",
+        isCorrect: false,
+      },
+      { id: 4, answerText: "Бит, герц, байт, Мегабайт", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Компьютер қаттиқ диски (венчестр) нима вазифа бажаради?",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "Асосий хотирани ташкил қилиб, маълумотларни  вақтинчалик сақлайди",
+        isCorrect: false,
+      },
+      { id: 2, answerText: "Ишлаш тезлигини оширади", isCorrect: false },
+      {
+        id: 3,
+        answerText: "Асосий хотирани ташкил қилиб, маълумотларни сақлайди",
+        isCorrect: true,
+      },
+      { id: 4, answerText: "Хеч қандай вазифа бажармайди", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Процессор ишлаш тезлиги нимада ўлчанади?",
+    answerOptions: [
+      { id: 1, answerText: "Байт", isCorrect: false },
+      { id: 2, answerText: "Дюйм  ", isCorrect: false },
+      { id: 3, answerText: "Герц", isCorrect: true },
+      { id: 4, answerText: "Мегабайт", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Қайси турдаги принтерлар сиёҳни пуркаш йўли билан босмага чиқаради?  ",
+    answerOptions: [
+      { id: 1, answerText: "Струйный  ", isCorrect: true },
+      { id: 2, answerText: "Лазерный  ", isCorrect: false },
+      { id: 3, answerText: "Матрицали ", isCorrect: false },
+      { id: 4, answerText: "жавоблар тўғри", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Плоттер қурилмасининг вазифаси? ",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "Катта хажмдаги маълумотларни босмага чиқариш ",
+        isCorrect: true,
+      },
+      { id: 2, answerText: "Маълумотларни сақлаш", isCorrect: false },
+      { id: 3, answerText: "Қурилмаларни совутиш", isCorrect: false },
+      { id: 4, answerText: "Электр токи билан таъминлаш", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Қандай курилма ахборотларни катта экранда чикариш имконини беради?",
+    answerOptions: [
+      { id: 1, answerText: "Плоттер", isCorrect: false },
+      { id: 2, answerText: "Проектор ", isCorrect: true },
+      { id: 3, answerText: "Принтер", isCorrect: false },
+      { id: 4, answerText: "Сканер ", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Компьютер қурилмаларига хизмат кўрсатувчи дарстурлар қандай номланади?",
+    answerOptions: [
+      { id: 1, answerText: "Драйвер", isCorrect: true },
+      { id: 2, answerText: "Сканер", isCorrect: false },
+      { id: 3, answerText: "принтер", isCorrect: false },
+      { id: 4, answerText: "монитор", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Архивловчи-дастур бу",
+    answerOptions: [
+      { id: 1, answerText: "Файлларни учириш дастури", isCorrect: false },
+      { id: 2, answerText: "Файлларни яратувчи дастур", isCorrect: false },
+      { id: 3, answerText: "Файлларни сақловчи дастур", isCorrect: false },
+      { id: 4, answerText: "Файлларни сиқувчи дастур", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Ахборотнинг энг кичик ўлчов бирлиги нима?",
+    answerOptions: [
+      { id: 1, answerText: "Бит", isCorrect: true },
+      { id: 2, answerText: "байт", isCorrect: false },
+      { id: 3, answerText: "Кбайт", isCorrect: false },
+      { id: 4, answerText: "Гбайт", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Бир байт неча битга тенг?",
+    answerOptions: [
+      { id: 1, answerText: "8", isCorrect: true },
+      { id: 2, answerText: "32", isCorrect: false },
+      { id: 3, answerText: "16", isCorrect: false },
+      { id: 4, answerText: "10", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Тармоқ платаси (адаптери) нима учун ишлатилади?",
+    answerOptions: [
+      { id: 1, answerText: "Компьютерни локал тармоққа улаш", isCorrect: true },
+      {
+        id: 2,
+        answerText: "Компьютерни глобал тармоққа улаш",
+        isCorrect: false,
+      },
+      { id: 3, answerText: "Компьютерни тармоққа улаш", isCorrect: false },
+      { id: 4, answerText: "Компьютерни Интранетга улаш", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Компьютер хотираси учун характерли бўлган параметрни кўрсатинг:",
+    answerOptions: [
+      { id: 1, answerText: "Ҳажм", isCorrect: true },
+      { id: 2, answerText: "Частота", isCorrect: false },
+      { id: 3, answerText: "Гц", isCorrect: false },
+      { id: 4, answerText: "Тездик", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Фақатгина ўзининг қайд маълумоти созлашларини ўзгартириш ҳуқуқига эга бўлган, аммо дастурларни ўрнатиш ва операцион тизим функцияларини созлаш бўйича чекловлари мавжуд бўлган фойдаланувчи турини кўрсатинг:",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "Оддий фойдаланувчи (Пользователь)",
+        isCorrect: true,
+      },
+      { id: 2, answerText: "Меҳмон фойдала-нувчи (Гость)", isCorrect: false },
+      { id: 3, answerText: "Администратор", isCorrect: false },
+      { id: 4, answerText: "User", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Қуйидаги технологияларнинг қайси бирлари орқали Интернет тармоғига симсиз уланиш мумкин",
+    answerOptions: [
+      { id: 1, answerText: "WiFi, WiMax", isCorrect: true },
+      { id: 2, answerText: "Sputnik", isCorrect: false },
+      { id: 3, answerText: "Bluetooth", isCorrect: false },
+      { id: 4, answerText: "Dial-UP", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Модем қурилмасининг вазифасини кўрсатинг",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "маълумотларни сақлаш вазифасини бажаради.",
+        isCorrect: false,
+      },
+      {
+        id: 2,
+        answerText:
+          "анолог сигналларни ракамли сигналларга айлантириб берувчи курилма булиб, компьтерларни бир-бири билан боғлаш вазифасини бажаради",
+        isCorrect: true,
+      },
+      {
+        id: 3,
+        answerText: "вируслардан сақлаш вазифасини бажаради.",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "Интернет тармоғига симсиз уланиш мумкин.",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      " Қайси жавобда веб ресурсларнинг URL манзили тўғри кўрсатилган",
+    answerOptions: [
+      { id: 1, answerText: "1http://www.mk.uz", isCorrect: false },
+      { id: 2, answerText: "*http://www.mk.uz", isCorrect: true },
+      { id: 3, answerText: "ht://tp//www.mk.uz", isCorrect: false },
+      { id: 4, answerText: "google.http://www.mk.uz", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Интернет тармоғидаги қидирув тизимларининг вазифасини кўрсатинг",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "Кидирув тизими бу дастурий-аппаратли веб-интерфейсли комплекс булиб, Интернет тармогида маълумотларни кидириш имкониятини беради.",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText:
+          "Кидирув тизими- дастурий-аппаратли веб-интерфейсли комплекс булиб, Интернет тармогида маълумотларни учириш имкониятини беради.",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText:
+          "Кидирув тизими- дастурий-аппаратли веб-интерфейсли комплекс ",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText:
+          "Интернет тармогида маълумотларни  босмага чикариш имкониятини беради.",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      "Қуйидаги веб серверларнинг қайси бирлари қидирув тизими ҳисобланади",
+    answerOptions: [
+      { id: 1, answerText: "Google, yahoo, Bing, MSN", isCorrect: true },
+      { id: 2, answerText: "mk, google, msn", isCorrect: false },
+      { id: 3, answerText: "informatika, mail", isCorrect: false },
+      { id: 4, answerText: "arbuz, mail, yarmarka", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Қайси жавобда веб ресурсларнинг URL манзили тўғри кўрсатилган",
+    answerOptions: [
+      { id: 1, answerText: "http://www.mk.uz", isCorrect: true },
+      { id: 2, answerText: "1http://www.mk.uz", isCorrect: false },
+      { id: 3, answerText: "ht://tp//www.mk.uz", isCorrect: false },
+      { id: 4, answerText: "google.http://www.mk.uz", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Веб саҳифалар таркибидага график маълумотларни алоҳида файл кўринишида компьютер дискига сақлаш учун қандай амалларни бажариш керак",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "график маълумотнинг устида сичконнинг унг тугмасини босиб, «Сохранить рисунок как…» буйругини ишга тушириш керак",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText:
+          "сичконнинг унг тугмасини босиб, «печать» буйругини ишга тушириш керак",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText:
+          "сичконнинг унг тугмасини босиб, «открыт» буйругини ишга тушириш керак",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "«Формат рисунка» буйругини ишга тушириш керак",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      "Интернет тармоғи орқали электрон хабарларни узатиш ва қабул қилиш технологияси ва у орқали тақдим қилинадиган хизмати тури қандай аталади",
+    answerOptions: [
+      { id: 1, answerText: "Электрон почта", isCorrect: true },
+      { id: 2, answerText: "Электрон утказгич", isCorrect: false },
+      { id: 3, answerText: "Информатцион тизим", isCorrect: false },
+      { id: 4, answerText: "Хизмат курсатиш тизими", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Интернет тармоғи орқали кўрсатиладиган электрон почта хизмати қандай аталади",
+    answerOptions: [
+      { id: 1, answerText: "ТСР", isCorrect: false },
+      { id: 2, answerText: "E-mail", isCorrect: true },
+      { id: 3, answerText: "HTML", isCorrect: false },
+      { id: 4, answerText: "SQL", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      " Электрон почта қутиларини шакллантириш, хабарларини сақлаш ва бошқариш вазифасини электрон почта хизматининг қайси компоненти бажаради",
+    answerOptions: [
+      { id: 1, answerText: "Электрон почта серверлари", isCorrect: true },
+      { id: 2, answerText: "Компьютер тармоги", isCorrect: false },
+      { id: 3, answerText: "Почта ящиги", isCorrect: false },
+      { id: 4, answerText: "Электрон мухит", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Қуйидаги дастурлар ичидан электрон почта клиентини кўрсатинг",
+    answerOptions: [
+      { id: 1, answerText: "rano@mail.ru", isCorrect: true },
+      { id: 2, answerText: "rano@mail.1ru", isCorrect: false },
+      { id: 3, answerText: "@rano mail.ru", isCorrect: false },
+      { id: 4, answerText: "mail.ru.@rano", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Компьютер тармокларининг турлари-",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "локал, махаллий (минтакавий), глобал",
+        isCorrect: true,
+      },
+      { id: 2, answerText: "Республика микёсида", isCorrect: false },
+      { id: 3, answerText: "Давлат микёсида", isCorrect: false },
+      { id: 4, answerText: "Локал", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Булутли технологиялар нима? ",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "biror-bir dastur yoki dasturlar majmuasini foydalanuvchi qurilmasidai ma’lum turdagi dasturiy xizmatlarni taqdim etish",
+        isCorrect: false,
+      },
+      {
+        id: 2,
+        answerText:
+          "biror-bir dastur yoki dasturlar majmuasini foydalanuvchi qurilmasida emas, balki internet tarmog‘i orqali ma’lum turdagi dasturiy xizmatlarni taqdim etish",
+        isCorrect: true,
+      },
+      {
+        id: 3,
+        answerText:
+          "biror-bir dastur yoki dasturlar majmuasini foydalanuvchi qurilmasida  ma’lum turdagi xizmatlarni taqdim etish",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText:
+          "biror-bir dastur yoki dasturlar majmuasini foydalanuvchi qurilmasida  ma’lum turdagi xizmatlarni taqdim ",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      "Ўзига уланган компьютерларга хизмат қилиш ва тармоққа чикиш имконини берадиган компьютер бу-",
+    answerOptions: [
+      { id: 1, answerText: "Сервер", isCorrect: true },
+      { id: 2, answerText: "Клиент", isCorrect: false },
+      { id: 3, answerText: "Протокол", isCorrect: false },
+      { id: 4, answerText: "Датаграммалар", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "user_name@mtu.net.ru адресида компьютер номи нима",
+    answerOptions: [
+      { id: 1, answerText: "mtu.net", isCorrect: true },
+      { id: 2, answerText: "Ru", isCorrect: false },
+      { id: 3, answerText: "Username", isCorrect: false },
+      { id: 4, answerText: "Net", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Интернетга уланган компьютерларда албатта –",
+    answerOptions: [
+      { id: 1, answerText: "IP адрес мавжуд бўлади", isCorrect: true },
+      { id: 2, answerText: "Tcp адрес мавжуд бўлади", isCorrect: false },
+      { id: 3, answerText: "Udp  адрес  мавжуд бўлади", isCorrect: false },
+      { id: 4, answerText: "Парол булади", isCorrect: false },
+    ],
+  },
+  {
+    questionText: " Электрон почта оркали нимани узатиш мумкин",
+    answerOptions: [
+      { id: 1, answerText: "Факат ахборотларни", isCorrect: false },
+      { id: 2, answerText: "ахборот ва файлларни", isCorrect: true },
+      { id: 3, answerText: "Факат расмларни", isCorrect: false },
+      { id: 4, answerText: "Факат паролни", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Аниқ бир мавзу электрон хабарлар билан  алмашув жараёни",
+    answerOptions: [
+      { id: 1, answerText: "Телеконференция", isCorrect: true },
+      { id: 2, answerText: "Чат", isCorrect: false },
+      { id: 3, answerText: "SMS", isCorrect: false },
+      { id: 4, answerText: "ISQ", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      " Компьютер тармоқлари дуне буйича бир бутун килиб бирлаштирувчи ва ягона қоида бўйича ишловчи компьютер тармоғи нима дейилади ",
+    answerOptions: [
+      { id: 1, answerText: "Интернет", isCorrect: true },
+      { id: 2, answerText: "Локал тармок", isCorrect: false },
+      { id: 3, answerText: "Махаллий тармок", isCorrect: false },
+      { id: 4, answerText: "Юлдузсимон тармок", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Глобал тармок бу-",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "дунёнинг ихтиёрий давлатларидаги компьютерларни бирлаштирувчи тармоқ",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "Махаллий тармокларни бирлаштирувчи тармок",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "Локал тармокларни бирлаштирувчи",
+        isCorrect: false,
+      },
+      { id: 4, answerText: "Иккита тармокни бирлаштирувчи", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Компьютер тармоги нима ",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "узатиш каналлари оркали узаро богланган компьютерлар мажмуаси",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "узаро богланмаган компьютерлар мажмуаси",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "Фойдаланувчининг шахсий компьютери",
+        isCorrect: false,
+      },
+      { id: 4, answerText: "Битта компьютер", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Махаллий тармок бу",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "Бир худудда жойлашган абонентлар",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "узаро богланмаган компьютерлар мажмуаси",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "Фойдаланувчининг шахсий компьютери",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "Дуне буйича богланган компьютерлар",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "Web сахифа формати (кенгайтмаси)",
+    answerOptions: [
+      { id: 1, answerText: ".html", isCorrect: true },
+      { id: 2, answerText: ".bmp", isCorrect: false },
+      { id: 3, answerText: ".jpg", isCorrect: false },
+      { id: 4, answerText: ".arj", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Internet-да WEB-сахифани кўриш учун қайси дастур керак бўлади?",
+    answerOptions: [
+      { id: 1, answerText: "Браузер (мухаррир", isCorrect: true },
+      { id: 2, answerText: "График мухаррир ", isCorrect: false },
+      { id: 3, answerText: "Матн ", isCorrect: false },
+      { id: 4, answerText: "HTML – мухаррир", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Тармоқни назорат килувчи инсонни аталиши?",
+    answerOptions: [
+      { id: 1, answerText: "Администратор", isCorrect: true },
+      { id: 2, answerText: "Контролёр", isCorrect: false },
+      { id: 3, answerText: "Сервер", isCorrect: false },
+      { id: 4, answerText: "Провайдер", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "WEB – сахифа тузувчи инсонни нима деб атайди?",
+    answerOptions: [
+      { id: 1, answerText: "WEB- дизайнер", isCorrect: true },
+      { id: 2, answerText: "Администратор", isCorrect: false },
+      { id: 3, answerText: "Сервер", isCorrect: false },
+      { id: 4, answerText: "Провайдер", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "IP – адрес бу нима?",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "компьютернинг тармоқдаги ягона номери",
+        isCorrect: true,
+      },
+      { id: 2, answerText: "сайтнинг номи", isCorrect: false },
+      { id: 3, answerText: "уланиш сокетининг ягона номери", isCorrect: false },
+      {
+        id: 4,
+        answerText: "электрон почта адреси (Internet Pоst)",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "ТСР/IP қисқартманинг тўлик номини топинг",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "Transcontinental Control Paket/Internet Protocol",
+        isCorrect: false,
+      },
+      {
+        id: 2,
+        answerText: "Transmission Control Protocol/Internet Protocol",
+        isCorrect: true,
+      },
+      {
+        id: 3,
+        answerText: "Tridenet Computers Programm/Internal programs",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "Transmission Control Paket/Internet Paket",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "Сайт деганда нимани тушунасиз?",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "Интернетдаги битта номга эга бўлган файл",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "WORD матн мухарририда тузилган хужжатли файл",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "POWER POINT таљдимот дастурида тузилган файл",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "Excel ишчи китобида тузилган файл",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      "Интернетда керакли информация излашнинг энг онсон усули қайси",
+    answerOptions: [
+      { id: 1, answerText: "Қидирув системалари ёрдамида", isCorrect: true },
+      { id: 2, answerText: "Шахсий хат алмашиш усули", isCorrect: false },
+      { id: 3, answerText: "Локал тармоқ ёрдамида", isCorrect: false },
+      { id: 4, answerText: "Gopher ёрдамида", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Бепул E-mailда регистрациядан ўтиш учун нима зарур",
+    answerOptions: [
+      { id: 1, answerText: "*махсус анкетани тўлдириш зарур", isCorrect: true },
+      { id: 2, answerText: "паспорт маълумотлари зарур", isCorrect: false },
+      {
+        id: 3,
+        answerText: "маълум миқдорда взнос тўлаш лозим",
+        isCorrect: false,
+      },
+      { id: 4, answerText: "тест топшириш зарур", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "WORLD WIDE WEB – нимани англатади(Интернет)",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "WWW- гипертекстга асосланган мультимедианинг таксимланган ахборот тизими",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText:
+          "WWW-бу тармоқдаги фойдаланувчилар ўртасида принтерни тақсимловчи тизим",
+        isCorrect: false,
+      },
+      { id: 3, answerText: "WWW-бу график мухаррири", isCorrect: false },
+      {
+        id: 4,
+        answerText: "WWW-бу картотека кўринишидаги содда маълумотлар тўплами",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "Электрон почта қандай воситадир:",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "E-mail-бу маршрутлаштириш жадвалини автомат равишда янгилаш воситасидир",
+        isCorrect: false,
+      },
+      {
+        id: 2,
+        answerText: "E-mail-гипертекст кўринишидаги ахборотни алмашиш воситаси",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText:
+          "Электрон почта ахборотни аниқ электрон адрес бўйича электрон усулда узатиш воситаси",
+        isCorrect: true,
+      },
+      {
+        id: 4,
+        answerText: "E-mail-дисклар учун мўлжалланган операцион тизим",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "Кайднома (протокол) нима  (Интернет)?",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "Кайднома бу- компьютерлар уртасида ахборотларни узатиш-кабул килиш ва улар уртасида алока урнатишда ишлатиладиган сигналлар хакидаги келишувлар туплами ",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText:
+          "Кайднома бу-товушларни кабул килувчи мультимедианинг воситаси",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: " Кайднома бу-маълумотлар базасини бошкариш тизими",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText:
+          "Кайднома бу- компьютер конфигурациясини текширувчи диагностик дастурлар",
+        isCorrect: false,
+      },
+    ],
+  },
 ];
