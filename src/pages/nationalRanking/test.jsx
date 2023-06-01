@@ -107,22 +107,22 @@ function Test({ userDetails }) {
             </div>
             <div className="sm:text-[40px] text-[30px]">
               {scorePercent < 56 ? (
-                <h1 className="">NATIJANGIZ YAHSHI EMAS!!</h1>
+                <h1 className="">Bunday natijaga qanday erishdinggiz??</h1>
               ) : (
                 <h1> </h1>
               )}
               {scorePercent > 55 && scorePercent < 71 ? (
-                <h1 className="">hech bo'lmaganda 3 oldingiz</h1>
+                <h1 className="">O'z ustingizda ishlashingiz kerak !!!</h1>
               ) : (
                 <h1> </h1>
               )}
               {scorePercent > 70 && scorePercent < 86 ? (
-                <h1 className="">malades 4 olding</h1>
+                <h1 className="">Yaxshi natija !!!</h1>
               ) : (
                 <h1> </h1>
               )}
               {scorePercent > 85 ? (
-                <h1 className="">MAQTOV YORLIG'I BERINGLA 5 OLDI BU BOLA</h1>
+                <h1 className="">TASANNO !!!</h1>
               ) : (
                 <h1> </h1>
               )}
@@ -169,7 +169,7 @@ function Test({ userDetails }) {
           <Box className="sm:flex-row sm:my-3 flex flex-col justify-between">
             <Button
               disabled={currentQuestion === questions.length - 1}
-              variant="outlined"
+              variant="contained"
               onClick={nextQeustion}
               className="py-4"
               sx={{

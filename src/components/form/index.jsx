@@ -29,44 +29,58 @@ function RankingForm({ setUserDetails, setShowTest }) {
         <h1 className="text-3xl my-5"> Foydalanuvchi ma'lumotlari</h1>
         <div className="flex justify-between ">
           <label htmlFor="name">Name</label>
-          <input
-            type="text"
-            placeholder="name"
-            name="name"
-            id="name"
-            onChange={handleChange}
-            className="mb-4 w-[300px] h-10 rounded p-2 bg-transparent border-[1px] border-[white] border-[solid] placeholder:text-[#5a5a5a] "
-            {...register("name", { required: "ismingizni kiriitng" })}
-          />
-          {errors.name && <div> {errors.name.message} </div>}
+          <div>
+            {errors.name && (
+              <div className="text-red-500"> {errors.name.message} </div>
+            )}
+            <input
+              type="text"
+              placeholder="name"
+              name="name"
+              id="name"
+              onChange={handleChange}
+              className="mb-4 w-[300px] h-10 rounded p-2 bg-transparent border-[1px] border-[white] border-[solid] placeholder:text-[#5a5a5a] "
+              {...register("name", { required: "ismingizni kiriitng" })}
+            />
+          </div>
         </div>
         <div className="flex justify-between ">
-          <label htmlFor="surname">Surname</label>
-          <input
-            type="text"
-            placeholder="surname"
-            name="surname"
-            id="surname"
-            onChange={handleChange}
-            className="mb-4 w-[300px] h-10 rounded p-2 bg-transparent border-[1px] border-[white] border-[solid] placeholder:text-[#5a5a5a] "
-            {...register("surname", { required: "Familiyangizni kiriting" })}
-          />
-          {errors.surname && <div> {errors.surname.message} </div>}
+          <label htmlFor="surname">Surname</label>{" "}
+          <div>
+            {errors.surname && (
+              <div className="text-red-500"> {errors.surname.message} </div>
+            )}
+            <input
+              type="text"
+              placeholder="surname"
+              name="surname"
+              id="surname"
+              onChange={handleChange}
+              className="mb-4 w-[300px] h-10 rounded p-2 bg-transparent border-[1px] border-[white] border-[solid] placeholder:text-[#5a5a5a] "
+              {...register("surname", { required: "Familiyangizni kiriting" })}
+            />
+          </div>
         </div>
         <div className="flex justify-between">
           <label htmlFor="department" className="flex">
             Department
           </label>
-          <input
-            type="text"
-            placeholder="department of ..."
-            name="department"
-            id="department"
-            onChange={handleChange}
-            className="mb-4 w-[300px] h-10 rounded p-2 bg-transparent border-[1px] border-[white] border-[solid] placeholder:text-[#5a5a5a] "
-            {...register("department", { required: "kafedrangizni kriiting" })}
-          />
-          {errors.department && <div> {errors.department.message} </div>}
+          <div>
+            {errors.department && (
+              <div className="text-red-500"> {errors.department.message} </div>
+            )}
+            <input
+              type="text"
+              placeholder="department of ..."
+              name="department"
+              id="department"
+              onChange={handleChange}
+              className="mb-4 w-[300px] h-10 rounded p-2 bg-transparent border-[1px] border-[white] border-[solid] placeholder:text-[#5a5a5a] "
+              {...register("department", {
+                required: "kafedrangizni kriiting",
+              })}
+            />
+          </div>
         </div>
         <button
           type="submit"

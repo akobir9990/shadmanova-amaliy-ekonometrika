@@ -425,25 +425,6 @@ export const questions = [
   },
   {
     questionText:
-      " Аxborot-kommunikatsiya texnologiyalarini asosiy roli va ahamyatlaridan biri bu-",
-
-    answerOptions: [
-      {
-        id: 1,
-        answerText: " Aholini yaxshi yashash darajasini pasaytirish",
-        isCorrect: true,
-      },
-      {
-        id: 2,
-        answerText: "Aholini yaxshi yashash darajasini oshirish",
-        isCorrect: false,
-      },
-      { id: 3, answerText: " Dehqonchilikni rivojlantirish", isCorrect: false },
-      { id: 4, answerText: "Siyosatni rivojlantirish", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
       "Аxborot-kommunikatsiya texnologiyalarini tatbiq etishdan maqsad-…",
 
     answerOptions: [

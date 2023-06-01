@@ -2,10 +2,14 @@ export const questions = [
   {
     questionText: "[Shift+ yo‘nalish tugmasi] nima vazifani bajaradi?",
     answerOptions: [
-      { id: 1, answerText: "3,89 + 07", isCorrect: false },
-      { id: 2, answerText: "3,89E", isCorrect: false },
-      { id: 3, answerText: "3,89E + 07", isCorrect: true },
-      { id: 4, answerText: "3,89(10)5 + 07", isCorrect: false },
+      { id: 1, answerText: "matnni o‘chiradi", isCorrect: false },
+      { id: 2, answerText: "kursorni suradi", isCorrect: false },
+      { id: 3, answerText: "matnni ajratadi", isCorrect: true },
+      {
+        id: 4,
+        answerText: "kursorni varaq oxiriga o‘tkazadi",
+        isCorrect: false,
+      },
     ],
   },
   {
@@ -93,7 +97,7 @@ export const questions = [
       { id: 3, answerText: "hisoblash", isCorrect: false },
       {
         id: 4,
-        answerText: "*papka va fayllar ustida ishlash",
+        answerText: "papka va fayllar ustida ishlash",
         isCorrect: true,
       },
     ],
@@ -114,7 +118,7 @@ export const questions = [
     answerOptions: [
       { id: 1, answerText: "ajratish", isCorrect: true },
       { id: 2, answerText: "kirish", isCorrect: false },
-      { id: 3, answerText: "chiqish", isCorrect: true },
+      { id: 3, answerText: "chiqish", isCorrect: false },
       { id: 4, answerText: "o'chirish", isCorrect: false },
     ],
   },
@@ -123,7 +127,7 @@ export const questions = [
     answerOptions: [
       { id: 1, answerText: "pusk", isCorrect: true },
       { id: 2, answerText: "yoyish", isCorrect: false },
-      { id: 3, answerText: "yig'ishtirish", isCorrect: true },
+      { id: 3, answerText: "yig'ishtirish", isCorrect: false },
       { id: 4, answerText: "yopish", isCorrect: false },
     ],
   },
@@ -267,7 +271,7 @@ export const questions = [
     questionText:
       "Windowsda sichqoncha yordamida oynani ko‘chirish oynaning qaysi elementi yordamida bajariladi?",
     answerOptions: [
-      { id: 1, answerText: "*sarlavha satri", isCorrect: true },
+      { id: 1, answerText: "sarlavha satri", isCorrect: true },
       { id: 2, answerText: "menyu satri", isCorrect: false },
       { id: 3, answerText: "holat satri", isCorrect: false },
       { id: 4, answerText: "vositalar paneli", isCorrect: false },
@@ -308,7 +312,7 @@ export const questions = [
       { id: 1, answerText: "qo‘shtirnoq", isCorrect: false },
       { id: 2, answerText: "vergul", isCorrect: false },
       { id: 3, answerText: "nuqta", isCorrect: false },
-      { id: 4, answerText: "*tabulyatsiya", isCorrect: true },
+      { id: 4, answerText: "tabulyatsiya", isCorrect: true },
     ],
   },
   {
@@ -674,7 +678,7 @@ export const questions = [
     answerOptions: [
       {
         id: 1,
-        answerText: "*monitor, sistema bloki va klaviatura",
+        answerText: "monitor, sistema bloki va klaviatura",
         isCorrect: true,
       },
       {
@@ -771,7 +775,7 @@ export const questions = [
     answerOptions: [
       {
         id: 1,
-        answerText: "*ularni tashkil qiluvchi axborotlar va qo‘llanishi bilan",
+        answerText: "ularni tashkil qiluvchi axborotlar va qo‘llanishi bilan",
         isCorrect: true,
       },
       { id: 2, answerText: "qo‘llanishi bilan", isCorrect: false },
@@ -948,7 +952,7 @@ export const questions = [
       {
         id: 1,
         answerText:
-          "*kompyuter tarmoqlari va zamonaviy texnika aloqa vositalari yordamida ma’lumotlarni masofadan uzatish",
+          "kompyuter tarmoqlari va zamonaviy texnika aloqa vositalari yordamida ma’lumotlarni masofadan uzatish",
         isCorrect: true,
       },
       {
@@ -968,7 +972,7 @@ export const questions = [
     questionText:
       "Telefon tarmog‘i orqali boshqa kompyuterlar bilan ma’lumot almashinuvini ta’minlaydigan qurilma nima?",
     answerOptions: [
-      { id: 1, answerText: "*modem", isCorrect: true },
+      { id: 1, answerText: "modem", isCorrect: true },
       { id: 2, answerText: "plotter", isCorrect: false },
       { id: 3, answerText: "skaner", isCorrect: false },
       { id: 4, answerText: "audioplata", isCorrect: false },
@@ -1035,10 +1039,1054 @@ export const questions = [
   {
     questionText: "Shaxsiy kompyuter nima?",
     answerOptions: [
-      { id: 1, answerText: "asosini mikroprotsessor tashkil etuvchi kichik EHM", isCorrect: true },
+      {
+        id: 1,
+        answerText: "asosini mikroprotsessor tashkil etuvchi kichik EHM",
+        isCorrect: true,
+      },
       { id: 2, answerText: "mexanik hisoblash mashinasi", isCorrect: false },
       { id: 3, answerText: "matn tahrir etuvchi qurilma", isCorrect: false },
       { id: 4, answerText: "matnni chop etuvchi qurilma", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "EHM lokal tarmog‘ining vazifasi:",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "o‘zaro yaqin masofadagi bir nechta SHKlar orasida aloqa o‘rnatish",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "bir EHM dan boshqasiga ma’lumotlar o‘tkazish",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "foydalanuvchiga dasturlarni jo‘natish",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "Foydalanuvchilar-ni diskovod qurilmasidan foydalanishi",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "Ma’lumotlar bazasining qanday axborot modellari mavjud?",
+    answerOptions: [
+      { id: 1, answerText: "Relyasion, tarmoqli", isCorrect: false },
+      {
+        id: 2,
+        answerText: "Relyasion, ierarxik, tarmoqli, tizimli",
+        isCorrect: false,
+      },
+      { id: 3, answerText: "Relyasion, ierarxik, tarmoqli", isCorrect: true },
+      { id: 4, answerText: "Relyasion, ierarxik", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Ma’lumotlar bazasi jadvalida ustun qanday nomlanadi?",
+    answerOptions: [
+      { id: 1, answerText: "element", isCorrect: true },
+      { id: 2, answerText: "yozuv", isCorrect: false },
+      { id: 3, answerText: "maydon", isCorrect: true },
+      { id: 4, answerText: "ob’ekt", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Ma’lumotlar bazasi jadvalida qator qanday nomlanadi?",
+    answerOptions: [
+      { id: 1, answerText: "yozuv", isCorrect: true },
+      { id: 2, answerText: "maydon", isCorrect: false },
+      { id: 3, answerText: "element", isCorrect: false },
+      { id: 4, answerText: "ob’ekt", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Qaysi ob’ektlar yordamida ma’lumotlar bazasiga ma’lumot kiritish mumkin?",
+    answerOptions: [
+      { id: 1, answerText: "jadval va shakl", isCorrect: true },
+      { id: 2, answerText: "jadval, shakl, so‘rov", isCorrect: false },
+      {
+        id: 3,
+        answerText: "jadval, shakl, hisobot va so‘rov",
+        isCorrect: false,
+      },
+      { id: 4, answerText: "jadval, hisobot va so‘rov", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Quyidagi dasturlardan qaysi birlari ma’lumotlar bazasini boshqarish tizimi deb hisoblanadi?",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "MS Access, Clipper, Paradox, FoxPro",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "MS Access, MS Excel, Clipper, Paradox, FoxPro",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "MS Access, Clipper, MS Excel, FoxPro, MS Word",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "MS Access, Clipper, Paradox, MS Excel, MS Power Point",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      "MS Word matn muharririda sahifaga ramka qo‘yish qanday amalga oshiriladi?",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "Razmetka stranitsi → Granitsi stranits → Granitsi i zalivka oynasidan",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "Vid →Masshtab → Masshtab oynasidan",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText:
+          "Razmetka stranitsi → Granitsi stranits → Nastroyka  oynasidan",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "Vstavka → Podlojka → Granitsi i zalivka oynasidan",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      "MS Excel dasturida formula kiritish uchun yacheykaga avvalo qaysi belgi kiritiladi?",
+    answerOptions: [
+      { id: 1, answerText: "=", isCorrect: true },
+      { id: 2, answerText: ">", isCorrect: false },
+      { id: 3, answerText: "<", isCorrect: false },
+      { id: 4, answerText: "+", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MS Excel dasturida masshtabni o‘zgartirish uchun qaysi buyruqdan foydalaniladi?",
+    answerOptions: [
+      { id: 1, answerText: "vid → masshtab", isCorrect: true },
+      { id: 2, answerText: "vid → struktura", isCorrect: false },
+      { id: 3, answerText: "vid  → chernovik", isCorrect: false },
+      { id: 4, answerText: "vid → rejim chteniya", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MS Excel dasturida ob’ektlar bilan ishlash qaysi bandda joylashgan?",
+    answerOptions: [
+      { id: 1, answerText: "vstavka  → figuri", isCorrect: true },
+      { id: 2, answerText: "figuri  → vstavka", isCorrect: false },
+      { id: 3, answerText: "vstavka  → risunok", isCorrect: false },
+      { id: 4, answerText: "vid → figuri", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MS Power Point  dasturida diagrammalar bilan ishlash qaysi menyu orqali amalga oshiriladi?",
+    answerOptions: [
+      { id: 1, answerText: "vstavka", isCorrect: true },
+      { id: 2, answerText: "vid", isCorrect: false },
+      { id: 3, answerText: "animatsiya", isCorrect: false },
+      { id: 4, answerText: "glavnaya", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Harakatli tasvirlarni amalga oshiruvchi dasturlar qatorini tanlang?",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "Gif Animator, Power Point, MX Flash",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "MS Word, Power Point, Gif Animator",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "MS Word, MS Excel, Gif Animator",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "MS Word, MS Excel, Gif Animator",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      "MS Power Point  namoyish dasturida fonni o‘zgartirish uchun qaysi menyudan foydalaniladi? ",
+    answerOptions: [
+      { id: 1, answerText: "dizayn", isCorrect: true },
+      { id: 2, answerText: "animatsiya", isCorrect: false },
+      { id: 3, answerText: "vid", isCorrect: false },
+      { id: 4, answerText: "glavnaya", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MS Excel dasturida ma’lumotlarni saralash qaysi buyruq yordamida bajariladi?",
+    answerOptions: [
+      { id: 1, answerText: "dannie→ sortirovka", isCorrect: true },
+      { id: 2, answerText: "formuli → sortirovka", isCorrect: false },
+      { id: 3, answerText: "sortirovka→ retsenzirovanie", isCorrect: false },
+      { id: 4, answerText: "vstavka → sortirovka", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MS Word  dasturida hujjatni  pechatga berishdan oldin qaysi bilan ko‘riladi? ",
+    answerOptions: [
+      { id: 1, answerText: "predvaritelniy prasmotr", isCorrect: true },
+      { id: 2, answerText: "chteniye", isCorrect: false },
+      { id: 3, answerText: "razmer", isCorrect: false },
+      { id: 4, answerText: "obichniy", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MS Excel  dasturida gipermurojaatlar qaysi buyruq yordamida bajariladi?",
+    answerOptions: [
+      { id: 1, answerText: "zakladka", isCorrect: false },
+      { id: 2, answerText: "giperssilka", isCorrect: true },
+      { id: 3, answerText: "gistogramma", isCorrect: false },
+      { id: 4, answerText: "sortirovka", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MS Word dasturida ob’ektlarni birlashtirish qaysi buyruq yordamida bajariladi? ",
+    answerOptions: [
+      { id: 1, answerText: "gruppirovat", isCorrect: true },
+      { id: 2, answerText: "razgrupppiro-vat", isCorrect: false },
+      { id: 3, answerText: "povernut", isCorrect: false },
+      { id: 4, answerText: "sravnit", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "4-avlod EHM larining asosiy elementini aniqlang.",
+    answerOptions: [
+      { id: 1, answerText: "kichik integral sxema", isCorrect: false },
+      { id: 2, answerText: "elektron lampa", isCorrect: false },
+      { id: 3, answerText: "katta integral sxema", isCorrect: true },
+      { id: 4, answerText: "transistorlar", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Kommunikatsiya vositasi nima",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "SHKni kompyuter tarmog‘iga yoki internetga ulash vositasi",
+        isCorrect: true,
+      },
+      { id: 2, answerText: "SHKning asosiy qurilmasi", isCorrect: false },
+      {
+        id: 3,
+        answerText: "SHK ishlash jarayonini boshqarish vositasi",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "SHKni viruslardan himoya qilish vositasi",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "Axborotlarni ...  kodlash deb ataladi.",
+    answerOptions: [
+      { id: 1, answerText: "siqilgan xolda ifodalash", isCorrect: false },
+      {
+        id: 2,
+        answerText:
+          "ma’lum qonun va qoida asosida boshqa ko‘rinishda ifodalash",
+        isCorrect: true,
+      },
+      { id: 3, answerText: "difragmentatsiya qilish", isCorrect: false },
+      { id: 4, answerText: "to'gri javob berilmagan", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Deshifratsiya jarayoni nima?",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "kodlangan axborotni arxivlash jarayoni",
+        isCorrect: false,
+      },
+      {
+        id: 2,
+        answerText: "kodlangan axborotni asl holiga keltirish jarayoni",
+        isCorrect: true,
+      },
+      {
+        id: 3,
+        answerText: "kodlangan axborotni himoya qilish jarayoni",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "kodlangan axborotni operativ xotirada saqlash jarayoni",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "...ga “fayl” deb ataladi.",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "axborotni o‘z ichida saqlovchi diskning ma’lum bir qismi",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "axborotlarning tartiblangan ketma-ketligi",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "axborotlarning tartibsiz ketma-ketligi",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "axborotlarning kodlangan shakli",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "Fayl atributi deb uning... ga aytiladi.",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "nomi,adresi, sanasi, vaqti, xajmi",
+        isCorrect: false,
+      },
+      { id: 2, answerText: "nomi, sanasi, vaqti, xajmi", isCorrect: false },
+      {
+        id: 3,
+        answerText: "nomi, kengaytmasi, sanasi, xajmi",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "nomi, kengaytmasi, sanasi, vaqti, hajmi",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText: "Papka deb ... ga aytiladi.",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "fayl atributlarini o‘z ichida saqlovchi diskning ma’lum bir qismiga",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "arxivlangan fayllarni o‘z ichida saqlovchi diskga",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "faylning zichlangan ko‘rinishiga",
+        isCorrect: false,
+      },
+      { id: 4, answerText: "ikki yoki undan ortiq fayllar", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Drayver bu ,,,",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "yordamchi qurilmalarni o‘rnatish va uni ishlashini ta’minlovchi dastur",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "kompyuterni tarmoqga ulovchi dastur",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "operativ xotirani kengaytiruvchi dastur",
+        isCorrect: false,
+      },
+      { id: 4, answerText: "fayllarni siquvchi dastur", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Biblioteka fayllar kengaytmasi qanday bo‘ladi?",
+    answerOptions: [
+      { id: 1, answerText: "dll", isCorrect: true },
+      { id: 2, answerText: "exe", isCorrect: false },
+      { id: 3, answerText: "com", isCorrect: false },
+      { id: 4, answerText: "bat", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Kompyuterga yangi dastur o‘rnatish jarayoni … deb ataladi.",
+    answerOptions: [
+      { id: 1, answerText: "ko‘chirish", isCorrect: false },
+      { id: 2, answerText: "yangilash", isCorrect: false },
+      { id: 3, answerText: "installyatsiya", isCorrect: true },
+      { id: 4, answerText: "kompilyatsiya", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Dastur bu …",
+    answerOptions: [
+      { id: 1, answerText: "kompyuter buyruqlari to‘plami", isCorrect: true },
+      { id: 2, answerText: "masalaning echish algoritmi", isCorrect: false },
+      { id: 3, answerText: "masalani echish va uni tahlili", isCorrect: false },
+      {
+        id: 4,
+        answerText: "natijalar olish va uni chop etish",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      "exe, com, bat kengaytmasiga ega fayllar … fayllar deb ataladi.",
+    answerOptions: [
+      { id: 1, answerText: "bajariluvchi", isCorrect: true },
+      { id: 2, answerText: "biblioteka", isCorrect: false },
+      { id: 3, answerText: "konfiguratsiya", isCorrect: false },
+      { id: 4, answerText: "hujjat", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Arxivator … dastur hisoblanadi.",
+    answerOptions: [
+      { id: 1, answerText: "antivirus", isCorrect: false },
+      { id: 2, answerText: "siquvchi", isCorrect: true },
+      { id: 3, answerText: "drayver", isCorrect: false },
+      { id: 4, answerText: "modelyator", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Operativ xotira bu …",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "kompyuter ishlayotgan vaqtda foydalaniladigan xotira",
+        isCorrect: true,
+      },
+      { id: 2, answerText: "kompyuterdagi doimiy xotira", isCorrect: false },
+      {
+        id: 3,
+        answerText: "katta xajmli axborotlarni doimiy saqlovchi xotira",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "kichik xajmli axborotlarni doimiy saqlovchi xotira",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      "Axborot tizimlari yoki axborot resurslariga kim egalik qilishi mumkin?",
+    answerOptions: [
+      { id: 1, answerText: "yuridik yoki jismoniy shaxslar", isCorrect: true },
+      { id: 2, answerText: "tashkilot rahbari", isCorrect: false },
+      { id: 3, answerText: "foydalanuvchi", isCorrect: false },
+      { id: 4, answerText: "tarmoq administratori", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Axborot texnologiyalarini qo‘llab avvaldan shakllantirilgan davlat xizmatlarini fuqarolar, biznes va davlatning boshqa tarmoqlariga axborotlarni taqdim etish nima deb ataladi?",
+    answerOptions: [
+      { id: 1, answerText: "elektron biznes", isCorrect: false },
+      { id: 2, answerText: "elektron boshqaruv", isCorrect: false },
+      { id: 3, answerText: "elektron tijorat", isCorrect: false },
+      { id: 4, answerText: "elektron hukumat", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "Davlat organining normativ-huquqiy hujjatlari  ushbu organning rasmiy saytiga qaysi muddatda joylashtirilishi zarur?",
+    answerOptions: [
+      { id: 1, answerText: "ikki kundan kechikmay", isCorrect: true },
+      { id: 2, answerText: "besh ish kunidan kechikmay", isCorrect: false },
+      { id: 3, answerText: "o‘n kundan kechikmay", isCorrect: false },
+      { id: 4, answerText: "uch kundan so‘ng", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Davlat organining rasmiy sayti qaysi domen zonasida joylashtirilishi kerak?",
+    answerOptions: [
+      { id: 1, answerText: "gov", isCorrect: false },
+      { id: 2, answerText: "uz", isCorrect: true },
+      { id: 3, answerText: "com", isCorrect: false },
+      { id: 4, answerText: "net", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Quyidagi qurilmalarning qaysi biri yordamida Internetga ulanish mumkin?",
+    answerOptions: [
+      { id: 1, answerText: "modem", isCorrect: true },
+      { id: 2, answerText: "skaner", isCorrect: false },
+      { id: 3, answerText: "printer", isCorrect: false },
+      { id: 4, answerText: "kabel", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Operatsion tizim va kompyuter funksiyalaridan foydalanish xamda ularni boshqarish bo‘yicha to‘liq huquqga ega bo‘lgan foydalanuvchini turini ko‘rsating:",
+    answerOptions: [
+      { id: 1, answerText: "tinglovchi", isCorrect: false },
+      {
+        id: 2,
+        answerText: "oddiy foydalanuvchi (polzovatel)",
+        isCorrect: false,
+      },
+      { id: 3, answerText: "mehmon foydalanuvchi (gost)", isCorrect: false },
+      { id: 4, answerText: "administrator", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "Microsoft Excel dasturida quyida keltirilgan ma’lumotlar turining qaysi biri mavjud emas?",
+    answerOptions: [
+      { id: 1, answerText: "matnli", isCorrect: false },
+      { id: 2, answerText: "sonli", isCorrect: false },
+      { id: 3, answerText: "grafik", isCorrect: true },
+      { id: 4, answerText: "pul birligi", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Microsoft Excel dasturida yacheyka manzili to‘g‘ri yozilgan javobni ko‘rsating:",
+    answerOptions: [
+      { id: 1, answerText: "B7", isCorrect: true },
+      { id: 2, answerText: "F2C", isCorrect: false },
+      { id: 3, answerText: "5D6", isCorrect: false },
+      { id: 4, answerText: "12A", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Microsoft Excel dasturida noto‘g‘ri yozilgan formulani ko‘rsating:",
+    answerOptions: [
+      { id: 1, answerText: "=D6/G12", isCorrect: false },
+      { id: 2, answerText: "=F2+F3", isCorrect: false },
+      { id: 3, answerText: "A2+B4", isCorrect: true },
+      { id: 4, answerText: "=B7-A2", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Microsoft PowerPoint dasturi yordamida yaratiladigan hujjatlar qanday nomlanadi?",
+    answerOptions: [
+      { id: 1, answerText: "“prezentatsiya”", isCorrect: true },
+      { id: 2, answerText: "“kniga”", isCorrect: false },
+      { id: 3, answerText: "“dokument”", isCorrect: false },
+      { id: 4, answerText: "“slayd”", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Taqdimotga (prezentatsiya) yangi slayd qo‘shish uchun qanday amalni bajarish kerak?",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "«pravka\vstavka slayd» menyu amalini",
+        isCorrect: false,
+      },
+      { id: 2, answerText: "«pravka\vstavit» menyu amalini", isCorrect: false },
+      {
+        id: 3,
+        answerText: "«glavnayasozdat slayd» menyu amalini",
+        isCorrect: true,
+      },
+      { id: 4, answerText: "«faylsozdat» menyu amalini", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Slaydlarni chop etish oynasining «Pechatat» ro‘yxatidagi qaysi amal bir betga bir nechta slaydlarni chop etish imkonini beradi?",
+    answerOptions: [
+      { id: 1, answerText: "«vidachi»", isCorrect: true },
+      { id: 2, answerText: "«slaydi»", isCorrect: false },
+      { id: 3, answerText: "«zametki»", isCorrect: false },
+      { id: 4, answerText: "«stranitsi»", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Taqdimot namoyishi vaqtida klaviaturadagi Page Down tugmasi bosilsa nima sodir bo‘ladi?",
+    answerOptions: [
+      { id: 1, answerText: "oldingi slaydga o‘tiladi", isCorrect: false },
+      { id: 2, answerText: "navbatdagi slaydga o‘tiladi", isCorrect: true },
+      {
+        id: 3,
+        answerText: "slaydlar namoyishi to‘xtatiladi",
+        isCorrect: false,
+      },
+      { id: 4, answerText: "birinchi slaydga o‘tiladi", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Taqdimot namoyishi vaqtida klaviaturadagi Page Up tugmasi bosilsa nima sodir bo‘ladi?",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "slaydlar namoyishi to‘xtatiladi",
+        isCorrect: false,
+      },
+      { id: 2, answerText: "birinchi slaydga o‘tiladi", isCorrect: false },
+      { id: 3, answerText: "oldingi slaydga o‘tiladi", isCorrect: true },
+      { id: 4, answerText: "oxirgi slaydga o‘tiladi", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Taqdimot namoyishi vaqtida klaviaturadagi Esc tugmasi bosilsa nima sodir bo‘ladi",
+    answerOptions: [
+      { id: 1, answerText: "slaydlar namoyishi to‘xtatiladi", isCorrect: true },
+      { id: 2, answerText: "navbatdagi slaydga o‘tiladi", isCorrect: false },
+      { id: 3, answerText: "oldingi slaydga o‘tiladi", isCorrect: false },
+      { id: 4, answerText: "birinchi slaydga o‘tiladi", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Microsoft PowerPoint – bu:",
+    answerOptions: [
+      { id: 1, answerText: "matn muxarriri", isCorrect: false },
+      { id: 2, answerText: "jadval muxarriri", isCorrect: false },
+      { id: 3, answerText: "taqdimot muxarriri", isCorrect: true },
+      { id: 4, answerText: "grafik muharrir", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Internet tarmog‘iga oddiy modem yordamida, telefon liniyasi orqali telefon raqamini terish yo‘li bilan ulanish usulini ko‘rsating:",
+    answerOptions: [
+      { id: 1, answerText: "Modem", isCorrect: false },
+      { id: 2, answerText: "WiFi", isCorrect: false },
+      { id: 3, answerText: "ADSL", isCorrect: false },
+      { id: 4, answerText: "Dial-up", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "Internet tarmog‘iga ajratilgan liniya orqali ulanish usulini ko‘rsating:",
+    answerOptions: [
+      { id: 1, answerText: "ADSL", isCorrect: true },
+      { id: 2, answerText: "WiMAX", isCorrect: false },
+      { id: 3, answerText: "Dial-up", isCorrect: false },
+      { id: 4, answerText: "Modem", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Давлатни бошқариш органлари билан бизнес ўртасида самарали муносабатларни шакллантирувчи “электрон ҳукумат” тизимининг ташкил этувчисини кўрсатинг: ",
+    answerOptions: [
+      { id: 1, answerText: "G2B – (Ҳукумат - Бизнес)", isCorrect: false },
+      { id: 2, answerText: "G2G – (Ҳукумат - Ҳукумат )", isCorrect: false },
+      { id: 3, answerText: "G2B – (Ҳукумат - Бизнес)", isCorrect: true },
+      { id: 4, answerText: "G2E – (Ҳукумат - Ишчи)", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Давлат органлари ўртасидаги ўзаро муносабатларни шакллантирувчи “электрон ҳукумат” тизимининг ташкил этувчисини кўрсатинг:",
+    answerOptions: [
+      { id: 1, answerText: "G2G – (Ҳукумат - Ҳукумат)", isCorrect: true },
+      { id: 2, answerText: "G2E – (Ҳукумат - Ишчи)", isCorrect: false },
+      { id: 3, answerText: "G2B – (Ҳукумат - Бизнес)", isCorrect: false },
+      { id: 4, answerText: "G2C – (Ҳукумат-Фуқаро)", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Гиперматли техно­логия — бу . . .  ",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "матнни чизиқли шаклдан шажара­вий шаклга ўтказув­чи технологиядир, гипер ҳаволали матндир",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText:
+          "маълумотни кў­риш ва қабул қи­лиш­ни тубдан ўз­гар­тириш техно­ло­гиясидир",
+        isCorrect: false,
+      },
+      { id: 3, answerText: "гипер ҳаволали ", isCorrect: false },
+      {
+        id: 4,
+        answerText: "мураккаб структурали матн тайёрлаш",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "Гипермедиа технологияси — бу . . . ",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "видеоахборот ва товушни сақловчи технологиядир",
+        isCorrect: false,
+      },
+      {
+        id: 2,
+        answerText: "гра­фи­ка, видеоах­бо­рот сақловчи техноло­гия­дир",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText:
+          "матн, гра­фи­ка, видеоахборот ва товушни сақловчи технологиядир",
+        isCorrect: true,
+      },
+      {
+        id: 4,
+        answerText: "матн, видеоахборот ва товушни сақлов­чи технологиядир",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "Асосий гиперматнли технологияларга ...",
+    answerOptions: [
+      { id: 1, answerText: "мавзу, тугунлар, ҳавола", isCorrect: false },
+      { id: 2, answerText: "ахборот бўлаги, мавзу, ҳавола", isCorrect: false },
+      {
+        id: 3,
+        answerText: " ахборот бўлаги,  тугунлар, ҳавола",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "ахборот бўлаги, мавзу, тугунлар, ҳавола",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText: "Web технология­лар ахборот тизи­мига кирадими?",
+    answerOptions: [
+      { id: 1, answerText: "xа", isCorrect: true },
+      { id: 2, answerText: "йўқ", isCorrect: false },
+      { id: 3, answerText: "шубҳаланаяпман", isCorrect: false },
+      { id: 4, answerText: "қисман", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Web технология­нинг асосини қайси бири ташкил қилади?",
+    answerOptions: [
+      { id: 1, answerText: "PHP", isCorrect: false },
+      { id: 2, answerText: "MS Front Page", isCorrect: false },
+      { id: 3, answerText: "Corel Draw", isCorrect: false },
+      { id: 4, answerText: "HTML", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "MS FrontPage — бу . . .",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "ишончли web – тугун (узел)ларни яратиш ва кузатиб бориш имконини берувчи программа",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText:
+          "web – сайтларни яратиш ва кузатиб бориш имконини берувчи программа",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText:
+          "web – порталларни яратиш ва кузатиб бориш имконини берувчи программа",
+        isCorrect: false,
+      },
+      { id: 4, answerText: "web – порталларни яратиш", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Мультимедиа – бу ...",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "програм таъминот ва техник воситалар ёр­да­мида компью­терда оддий ахбо­рот­ни, шу­нингдек, овоз, тасвир, анима­ция ва видеони қай­та ишловчи  мах­сус технологиялар",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText:
+          "програм таъминот ва техник восита­лар ёрдамида ком­пью­терда оддий ахбо­ротни қайта ишлов­чи  махсус техноло­гиялар",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText:
+          "програм таъминот ва техник воситалар ёрдамида компью­тер­да овоз ва тас­вир­ни қайта ишлов­чи  махсус технологиялар",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText:
+          "програм таъминот ва техник воситалар ёрдамида компью­терда овоз, тасвир, анимация ва видеони қайта ишловчи  махсус технологиялар",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "MS FrontPage муҳаррири …",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "HTML хужжатни таҳрирлаш ва web – саҳифаларни яратиш имконини беради",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "HTML хужжатни таҳрирлаш  имконини беради",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: " web – саҳифаларни яратиш имконини беради",
+        isCorrect: false,
+      },
+      { id: 4, answerText: "Corel Draw", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Ахборот тизимлари ёки ахборот ресурсларига ким эгалик қилиши мумкин?",
+    answerOptions: [
+      { id: 1, answerText: "Тармоқ администратори", isCorrect: false },
+      { id: 2, answerText: "Юридик ёки жисмоний шахслар", isCorrect: true },
+      { id: 3, answerText: "Компания директори", isCorrect: false },
+      { id: 4, answerText: "Ташкилот раҳбари", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Ахборот ресурсларида сақланаётган ва ишлов берилаётган, электрон рақамли имзо билан тасдиқланган ва қоғоз кўринишидаги хужжат билан бир хил юридик кучга эга бўлган ахборот нима деб аталади?",
+    answerOptions: [
+      { id: 1, answerText: "Электрон рақамли имзо", isCorrect: false },
+      { id: 2, answerText: "Ахборот ресурси", isCorrect: false },
+      { id: 3, answerText: "Электрон хужжат", isCorrect: true },
+      { id: 4, answerText: "Ахборот", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Ўзбекистон Республикасида қуйидаги қонунлар қабул қилинган:",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "«Ахборотлаштириш тўғрисида», «Электрон тижорат тўғрисида», «Электрон хужжат айланиши тўғрисида», «Электрон рақамли имзо тўғрисида» ва бошқалар.",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText:
+          "«Ахборотлаштириш тўғрисида», «Электрон хужжат айланиши тўғрисида», «Ахборот хавфсизлиги тўғрисида» ва бошқалар.",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText:
+          "«Ахборот эркинлиги тўғрисида», «Электрон тижорат тўғрисида», ва бошқалар.",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText:
+          "«Интернет тўғрисида», «Балоғат ёшига етмаганларни саломатликларига зарар етказувчи ахборотлардан муҳофаза қилиш тўғрисида» ва бошқалар.",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      "“Электрон хужжат айланиши тўғрисида”ги Ўзбекистон Республикаси қонунининг асосий мақсади:",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "Электрон хужжат айланиш соҳасидаги муносабатларни тартибга солиш",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText:
+          "Ахборот эркинлиги ва кафолатларига риоя этилишини таъминлаш",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "Электрон тижорат соҳасидаги муносабатларни тартибга солиш",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "Ахборотлаштириш соҳасидаги муносабатларни ",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      "Давлат органининг норматив-ҳуқуқий ҳужжатлари  ушбу органнинг расмий сайтига қайси муддатда жойлаштирилиши зарур?",
+    answerOptions: [
+      { id: 1, answerText: "Бир ойдан кечикмай", isCorrect: false },
+      { id: 2, answerText: "Ўн кундан кечикмай", isCorrect: false },
+      { id: 3, answerText: "Беш иш кунидан кечикмай", isCorrect: false },
+      { id: 4, answerText: "Икки кундан кечикмай", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Ахборотни муҳофаза этиш тушунчаси нимани англатади?",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "*Ахборот борасидаги хавфсизликка таҳдидларни олдини олиш ва уларни оқибатларини бартараф этиш чора-тадбирларини",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "Ахборот борасидаги хавфсизликка таҳдидларни олдини олиш",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "оқибатларини бартараф этиш чора-тадбирларини",
+        isCorrect: false,
+      },
+      { id: 4, answerText: "Ахборотларни узатиш", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Давлат органининг расмий сайти қайси домен зонасида жойлаштирилиши керак?",
+    answerOptions: [
+      { id: 1, answerText: "Uk", isCorrect: false },
+      { id: 2, answerText: "Uz", isCorrect: true },
+      { id: 3, answerText: "Ru", isCorrect: false },
+      { id: 4, answerText: "Us", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Қуйидаги қурилмаларнинг қайси бири ёрдамида Интернетга уланиш мумкин?",
+    answerOptions: [
+      { id: 1, answerText: "Сканер", isCorrect: false },
+      { id: 2, answerText: "Модем", isCorrect: true },
+      { id: 3, answerText: "принтер", isCorrect: false },
+      { id: 4, answerText: "монитор", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Сканер қурилмаси қандай вазифани бажаради",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "Сканер– график ва матнли ахборотларни компьютерга кўчириш қурилмаси.",
+        isCorrect: true,
+      },
+      {
+        id: 2,
+        answerText: "Сканер– компьютерни тармоққа уловчи курилма",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "Сканер– матнли ахборотларни қоғозга чиқариш қурилмаси",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "Сканер– чизмаларни қоғозга чиқариш қурилмаси.",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "Модем нима:",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "Модем– компьютерни бошқа компьютерлар билан уловчи программа",
+        isCorrect: false,
+      },
+      {
+        id: 2,
+        answerText: "Модем– видео ва графика билан ишлайдиган дастур",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "Модем– компьютерни электр тармоғига уловчи қурилма",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText:
+          "Модем– компьютерни бошқа компьютерлар билан телефон тармоғи орқали ахборот алмашинув қурилмаси",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText: "Қайси ташқи қурилма компьютердаги ахборотни қоғозга узатади",
+    answerOptions: [
+      { id: 1, answerText: "Принтер", isCorrect: true },
+      { id: 2, answerText: "Сканер", isCorrect: false },
+      { id: 3, answerText: "CD–ROM", isCorrect: false },
+      { id: 4, answerText: "UPS", isCorrect: false },
     ],
   },
 ];
