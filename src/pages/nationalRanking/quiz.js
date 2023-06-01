@@ -1091,7 +1091,7 @@ export const questions = [
   {
     questionText: "Ma’lumotlar bazasi jadvalida ustun qanday nomlanadi?",
     answerOptions: [
-      { id: 1, answerText: "element", isCorrect: true },
+      { id: 1, answerText: "element", isCorrect: false },
       { id: 2, answerText: "yozuv", isCorrect: false },
       { id: 3, answerText: "maydon", isCorrect: true },
       { id: 4, answerText: "ob’ekt", isCorrect: false },
