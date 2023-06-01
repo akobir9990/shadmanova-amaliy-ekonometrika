@@ -1723,7 +1723,7 @@ export const questions = [
     questionText:
       "Давлатни бошқариш органлари билан бизнес ўртасида самарали муносабатларни шакллантирувчи “электрон ҳукумат” тизимининг ташкил этувчисини кўрсатинг: ",
     answerOptions: [
-      { id: 1, answerText: "G2B – (Ҳукумат - Бизнес)", isCorrect: false },
+      { id: 1, answerText: "B2B – (Ҳукумат - Бизнес)", isCorrect: false },
       { id: 2, answerText: "G2G – (Ҳукумат - Ҳукумат )", isCorrect: false },
       { id: 3, answerText: "G2B – (Ҳукумат - Бизнес)", isCorrect: true },
       { id: 4, answerText: "G2E – (Ҳукумат - Ишчи)", isCorrect: false },
@@ -1991,7 +1991,7 @@ export const questions = [
       {
         id: 1,
         answerText:
-          "*Ахборот борасидаги хавфсизликка таҳдидларни олдини олиш ва уларни оқибатларини бартараф этиш чора-тадбирларини",
+          "Ахборот борасидаги хавфсизликка таҳдидларни олдини олиш ва уларни оқибатларини бартараф этиш чора-тадбирларини",
         isCorrect: true,
       },
       {
@@ -2277,10 +2277,10 @@ export const questions = [
     questionText:
       "Қуйидаги технологияларнинг қайси бирлари орқали Интернет тармоғига симсиз уланиш мумкин",
     answerOptions: [
-      { id: 1, answerText: "WiFi, WiMax", isCorrect: true },
-      { id: 2, answerText: "Sputnik", isCorrect: false },
-      { id: 3, answerText: "Bluetooth", isCorrect: false },
-      { id: 4, answerText: "Dial-UP", isCorrect: false },
+      { id: 1, answerText: "Sputnik", isCorrect: false },
+      { id: 2, answerText: "Bluetooth", isCorrect: false },
+      { id: 3, answerText: "Dial-UP", isCorrect: false },
+      { id: 4, answerText: "WiFi, WiMax", isCorrect: true },
     ],
   },
   {
@@ -2314,7 +2314,7 @@ export const questions = [
       " Қайси жавобда веб ресурсларнинг URL манзили тўғри кўрсатилган",
     answerOptions: [
       { id: 1, answerText: "1http://www.mk.uz", isCorrect: false },
-      { id: 2, answerText: "*http://www.mk.uz", isCorrect: true },
+      { id: 2, answerText: "http://www.mk.uz", isCorrect: true },
       { id: 3, answerText: "ht://tp//www.mk.uz", isCorrect: false },
       { id: 4, answerText: "google.http://www.mk.uz", isCorrect: false },
     ],
@@ -2326,14 +2326,14 @@ export const questions = [
       {
         id: 1,
         answerText:
-          "Кидирув тизими бу дастурий-аппаратли веб-интерфейсли комплекс булиб, Интернет тармогида маълумотларни кидириш имкониятини беради.",
-        isCorrect: true,
+          "Кидирув тизими- дастурий-аппаратли веб-интерфейсли комплекс булиб, Интернет тармогида маълумотларни учириш имкониятини беради.",
+        isCorrect: false,
       },
       {
         id: 2,
         answerText:
-          "Кидирув тизими- дастурий-аппаратли веб-интерфейсли комплекс булиб, Интернет тармогида маълумотларни учириш имкониятини беради.",
-        isCorrect: false,
+          "Кидирув тизими бу дастурий-аппаратли веб-интерфейсли комплекс булиб, Интернет тармогида маълумотларни кидириш имкониятини беради.",
+        isCorrect: true,
       },
       {
         id: 3,
@@ -2353,9 +2353,9 @@ export const questions = [
     questionText:
       "Қуйидаги веб серверларнинг қайси бирлари қидирув тизими ҳисобланади",
     answerOptions: [
-      { id: 1, answerText: "Google, yahoo, Bing, MSN", isCorrect: true },
-      { id: 2, answerText: "mk, google, msn", isCorrect: false },
-      { id: 3, answerText: "informatika, mail", isCorrect: false },
+      { id: 1, answerText: "mk, google, msn", isCorrect: false },
+      { id: 2, answerText: "informatika, mail", isCorrect: false },
+      { id: 3, answerText: "Google, yahoo, Bing, MSN", isCorrect: true },
       { id: 4, answerText: "arbuz, mail, yarmarka", isCorrect: false },
     ],
   },
@@ -2363,8 +2363,8 @@ export const questions = [
     questionText:
       "Қайси жавобда веб ресурсларнинг URL манзили тўғри кўрсатилган",
     answerOptions: [
-      { id: 1, answerText: "http://www.mk.uz", isCorrect: true },
-      { id: 2, answerText: "1http://www.mk.uz", isCorrect: false },
+      { id: 1, answerText: "1http://www.mk.uz", isCorrect: false },
+      { id: 2, answerText: "http://www.mk.uz", isCorrect: true },
       { id: 3, answerText: "ht://tp//www.mk.uz", isCorrect: false },
       { id: 4, answerText: "google.http://www.mk.uz", isCorrect: false },
     ],
@@ -2376,14 +2376,14 @@ export const questions = [
       {
         id: 1,
         answerText:
-          "график маълумотнинг устида сичконнинг унг тугмасини босиб, «Сохранить рисунок как…» буйругини ишга тушириш керак",
-        isCorrect: true,
+          "сичконнинг унг тугмасини босиб, «печать» буйругини ишга тушириш керак",
+        isCorrect: false,
       },
       {
         id: 2,
         answerText:
-          "сичконнинг унг тугмасини босиб, «печать» буйругини ишга тушириш керак",
-        isCorrect: false,
+          "график маълумотнинг устида сичконнинг унг тугмасини босиб, «Сохранить рисунок как…» буйругини ишга тушириш керак",
+        isCorrect: true,
       },
       {
         id: 3,
@@ -2402,8 +2402,8 @@ export const questions = [
     questionText:
       "Интернет тармоғи орқали электрон хабарларни узатиш ва қабул қилиш технологияси ва у орқали тақдим қилинадиган хизмати тури қандай аталади",
     answerOptions: [
-      { id: 1, answerText: "Электрон почта", isCorrect: true },
-      { id: 2, answerText: "Электрон утказгич", isCorrect: false },
+      { id: 1, answerText: "Электрон утказгич", isCorrect: false },
+      { id: 2, answerText: "Электрон почта", isCorrect: true },
       { id: 3, answerText: "Информатцион тизим", isCorrect: false },
       { id: 4, answerText: "Хизмат курсатиш тизими", isCorrect: false },
     ],
@@ -2422,9 +2422,9 @@ export const questions = [
     questionText:
       " Электрон почта қутиларини шакллантириш, хабарларини сақлаш ва бошқариш вазифасини электрон почта хизматининг қайси компоненти бажаради",
     answerOptions: [
-      { id: 1, answerText: "Электрон почта серверлари", isCorrect: true },
-      { id: 2, answerText: "Компьютер тармоги", isCorrect: false },
-      { id: 3, answerText: "Почта ящиги", isCorrect: false },
+      { id: 1, answerText: "Компьютер тармоги", isCorrect: false },
+      { id: 2, answerText: "Почта ящиги", isCorrect: false },
+      { id: 3, answerText: "Электрон почта серверлари", isCorrect: true },
       { id: 4, answerText: "Электрон мухит", isCorrect: false },
     ],
   },
@@ -2432,22 +2432,22 @@ export const questions = [
     questionText:
       "Қуйидаги дастурлар ичидан электрон почта клиентини кўрсатинг",
     answerOptions: [
-      { id: 1, answerText: "rano@mail.ru", isCorrect: true },
-      { id: 2, answerText: "rano@mail.1ru", isCorrect: false },
-      { id: 3, answerText: "@rano mail.ru", isCorrect: false },
+      { id: 1, answerText: "rano@mail.1ru", isCorrect: false },
+      { id: 2, answerText: "@rano mail.ru", isCorrect: false },
+      { id: 3, answerText: "rano@mail.ru", isCorrect: true },
       { id: 4, answerText: "mail.ru.@rano", isCorrect: false },
     ],
   },
   {
     questionText: "Компьютер тармокларининг турлари-",
     answerOptions: [
+      { id: 1, answerText: "Республика микёсида", isCorrect: false },
+      { id: 2, answerText: "Давлат микёсида", isCorrect: false },
       {
-        id: 1,
+        id: 3,
         answerText: "локал, махаллий (минтакавий), глобал",
         isCorrect: true,
       },
-      { id: 2, answerText: "Республика микёсида", isCorrect: false },
-      { id: 3, answerText: "Давлат микёсида", isCorrect: false },
       { id: 4, answerText: "Локал", isCorrect: false },
     ],
   },
@@ -2484,8 +2484,8 @@ export const questions = [
     questionText:
       "Ўзига уланган компьютерларга хизмат қилиш ва тармоққа чикиш имконини берадиган компьютер бу-",
     answerOptions: [
-      { id: 1, answerText: "Сервер", isCorrect: true },
-      { id: 2, answerText: "Клиент", isCorrect: false },
+      { id: 1, answerText: "Клиент", isCorrect: false },
+      { id: 2, answerText: "Сервер", isCorrect: true },
       { id: 3, answerText: "Протокол", isCorrect: false },
       { id: 4, answerText: "Датаграммалар", isCorrect: false },
     ],
@@ -2493,17 +2493,17 @@ export const questions = [
   {
     questionText: "user_name@mtu.net.ru адресида компьютер номи нима",
     answerOptions: [
-      { id: 1, answerText: "mtu.net", isCorrect: true },
-      { id: 2, answerText: "Ru", isCorrect: false },
-      { id: 3, answerText: "Username", isCorrect: false },
+      { id: 1, answerText: "Ru", isCorrect: false },
+      { id: 2, answerText: "Username", isCorrect: false },
+      { id: 3, answerText: "mtu.net", isCorrect: true },
       { id: 4, answerText: "Net", isCorrect: false },
     ],
   },
   {
     questionText: "Интернетга уланган компьютерларда албатта –",
     answerOptions: [
-      { id: 1, answerText: "IP адрес мавжуд бўлади", isCorrect: true },
-      { id: 2, answerText: "Tcp адрес мавжуд бўлади", isCorrect: false },
+      { id: 1, answerText: "Tcp адрес мавжуд бўлади", isCorrect: false },
+      { id: 2, answerText: "IP адрес мавжуд бўлади", isCorrect: true },
       { id: 3, answerText: "Udp  адрес  мавжуд бўлади", isCorrect: false },
       { id: 4, answerText: "Парол булади", isCorrect: false },
     ],
@@ -2530,10 +2530,10 @@ export const questions = [
     questionText:
       " Компьютер тармоқлари дуне буйича бир бутун килиб бирлаштирувчи ва ягона қоида бўйича ишловчи компьютер тармоғи нима дейилади ",
     answerOptions: [
-      { id: 1, answerText: "Интернет", isCorrect: true },
-      { id: 2, answerText: "Локал тармок", isCorrect: false },
-      { id: 3, answerText: "Махаллий тармок", isCorrect: false },
-      { id: 4, answerText: "Юлдузсимон тармок", isCorrect: false },
+      { id: 1, answerText: "Локал тармок", isCorrect: false },
+      { id: 2, answerText: "Махаллий тармок", isCorrect: false },
+      { id: 3, answerText: "Юлдузсимон тармок", isCorrect: false },
+      { id: 4, answerText: "Интернет", isCorrect: true },
     ],
   },
   {
@@ -2541,19 +2541,19 @@ export const questions = [
     answerOptions: [
       {
         id: 1,
-        answerText:
-          "дунёнинг ихтиёрий давлатларидаги компьютерларни бирлаштирувчи тармоқ",
-        isCorrect: true,
-      },
-      {
-        id: 2,
         answerText: "Махаллий тармокларни бирлаштирувчи тармок",
         isCorrect: false,
       },
       {
-        id: 3,
+        id: 2,
         answerText: "Локал тармокларни бирлаштирувчи",
         isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText:
+          "дунёнинг ихтиёрий давлатларидаги компьютерларни бирлаштирувчи тармоқ",
+        isCorrect: true,
       },
       { id: 4, answerText: "Иккита тармокни бирлаштирувчи", isCorrect: false },
     ],
@@ -2563,19 +2563,19 @@ export const questions = [
     answerOptions: [
       {
         id: 1,
-        answerText:
-          "узатиш каналлари оркали узаро богланган компьютерлар мажмуаси",
-        isCorrect: true,
-      },
-      {
-        id: 2,
         answerText: "узаро богланмаган компьютерлар мажмуаси",
         isCorrect: false,
       },
       {
-        id: 3,
+        id: 2,
         answerText: "Фойдаланувчининг шахсий компьютери",
         isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText:
+          "узатиш каналлари оркали узаро богланган компьютерлар мажмуаси",
+        isCorrect: true,
       },
       { id: 4, answerText: "Битта компьютер", isCorrect: false },
     ],
@@ -2585,13 +2585,13 @@ export const questions = [
     answerOptions: [
       {
         id: 1,
-        answerText: "Бир худудда жойлашган абонентлар",
-        isCorrect: true,
+        answerText: "узаро богланмаган компьютерлар мажмуаси",
+        isCorrect: false,
       },
       {
         id: 2,
-        answerText: "узаро богланмаган компьютерлар мажмуаси",
-        isCorrect: false,
+        answerText: "Бир худудда жойлашган абонентлар",
+        isCorrect: true,
       },
       {
         id: 3,
@@ -2608,8 +2608,8 @@ export const questions = [
   {
     questionText: "Web сахифа формати (кенгайтмаси)",
     answerOptions: [
-      { id: 1, answerText: ".html", isCorrect: true },
-      { id: 2, answerText: ".bmp", isCorrect: false },
+      { id: 1, answerText: ".bmp", isCorrect: false },
+      { id: 2, answerText: ".html", isCorrect: true },
       { id: 3, answerText: ".jpg", isCorrect: false },
       { id: 4, answerText: ".arj", isCorrect: false },
     ],
@@ -2618,27 +2618,27 @@ export const questions = [
     questionText:
       "Internet-да WEB-сахифани кўриш учун қайси дастур керак бўлади?",
     answerOptions: [
-      { id: 1, answerText: "Браузер (мухаррир", isCorrect: true },
-      { id: 2, answerText: "График мухаррир ", isCorrect: false },
-      { id: 3, answerText: "Матн ", isCorrect: false },
+      { id: 1, answerText: "График мухаррир ", isCorrect: false },
+      { id: 2, answerText: "Матн ", isCorrect: false },
+      { id: 3, answerText: "Браузер (мухаррир", isCorrect: true },
       { id: 4, answerText: "HTML – мухаррир", isCorrect: false },
     ],
   },
   {
     questionText: "Тармоқни назорат килувчи инсонни аталиши?",
     answerOptions: [
-      { id: 1, answerText: "Администратор", isCorrect: true },
-      { id: 2, answerText: "Контролёр", isCorrect: false },
-      { id: 3, answerText: "Сервер", isCorrect: false },
+      { id: 1, answerText: "Контролёр", isCorrect: false },
+      { id: 2, answerText: "Сервер", isCorrect: false },
+      { id: 3, answerText: "Администратор", isCorrect: true },
       { id: 4, answerText: "Провайдер", isCorrect: false },
     ],
   },
   {
     questionText: "WEB – сахифа тузувчи инсонни нима деб атайди?",
     answerOptions: [
-      { id: 1, answerText: "WEB- дизайнер", isCorrect: true },
-      { id: 2, answerText: "Администратор", isCorrect: false },
-      { id: 3, answerText: "Сервер", isCorrect: false },
+      { id: 1, answerText: "Администратор", isCorrect: false },
+      { id: 2, answerText: "Сервер", isCorrect: false },
+      { id: 3, answerText: "WEB- дизайнер", isCorrect: true },
       { id: 4, answerText: "Провайдер", isCorrect: false },
     ],
   },
@@ -2689,23 +2689,23 @@ export const questions = [
     answerOptions: [
       {
         id: 1,
-        answerText: "Интернетдаги битта номга эга бўлган файл",
-        isCorrect: true,
-      },
-      {
-        id: 2,
         answerText: "WORD матн мухарририда тузилган хужжатли файл",
         isCorrect: false,
       },
       {
-        id: 3,
+        id: 2,
         answerText: "POWER POINT таљдимот дастурида тузилган файл",
         isCorrect: false,
       },
       {
-        id: 4,
+        id: 3,
         answerText: "Excel ишчи китобида тузилган файл",
         isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "Интернетдаги битта номга эга бўлган файл",
+        isCorrect: true,
       },
     ],
   },
@@ -2713,17 +2713,17 @@ export const questions = [
     questionText:
       "Интернетда керакли информация излашнинг энг онсон усули қайси",
     answerOptions: [
-      { id: 1, answerText: "Қидирув системалари ёрдамида", isCorrect: true },
-      { id: 2, answerText: "Шахсий хат алмашиш усули", isCorrect: false },
-      { id: 3, answerText: "Локал тармоқ ёрдамида", isCorrect: false },
+      { id: 1, answerText: "Шахсий хат алмашиш усули", isCorrect: false },
+      { id: 2, answerText: "Локал тармоқ ёрдамида", isCorrect: false },
+      { id: 3, answerText: "Қидирув системалари ёрдамида", isCorrect: true },
       { id: 4, answerText: "Gopher ёрдамида", isCorrect: false },
     ],
   },
   {
     questionText: "Бепул E-mailда регистрациядан ўтиш учун нима зарур",
     answerOptions: [
-      { id: 1, answerText: "*махсус анкетани тўлдириш зарур", isCorrect: true },
-      { id: 2, answerText: "паспорт маълумотлари зарур", isCorrect: false },
+      { id: 1, answerText: "паспорт маълумотлари зарур", isCorrect: false },
+      { id: 2, answerText: "махсус анкетани тўлдириш зарур", isCorrect: true },
       {
         id: 3,
         answerText: "маълум миқдорда взнос тўлаш лозим",
