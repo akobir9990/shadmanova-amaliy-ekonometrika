@@ -1,6 +1,6 @@
 import { Button, Card } from "@mui/material";
 import React, { useState } from "react";
-import { questions } from "./quiz";
+import { questions } from "../rankAkt/quiz";
 
 function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);

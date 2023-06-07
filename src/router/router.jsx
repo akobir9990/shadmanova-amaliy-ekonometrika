@@ -12,7 +12,7 @@ import Tutorial from "../pages/tutorial";
 import TestAPage from "../pages/tests";
 import NationalRanking from "../pages/nationalRanking";
 import EnglishRanking from "../pages/rankEng";
-import AktRanking from "../pages/rankEng";
+import AktRanking from "../pages/rankAkt";
 import One from "../pages/presentation/pages/one";
 import Two from "../pages/presentation/pages/two/index";
 import Three from "../pages/presentation/pages/three";

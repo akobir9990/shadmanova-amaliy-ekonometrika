@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Button from "@mui/material/Button";
 
-import { questions } from "./quiz";
+import { questions } from "../rankAkt/quiz";
 import "./style.css";
 import { Box } from "@mui/material";
 import { NavLink } from "react-router-dom";
@@ -127,7 +127,7 @@ function Test({ userDetails }) {
                 <h1> </h1>
               )}
             </div>
-            <NavLink to="/raking">
+            <NavLink to="/">
               <Button
                 className="w-[250px] mt-4"
                 variant="contained"

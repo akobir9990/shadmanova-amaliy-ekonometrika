@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Form from "../../components/form";
 import Test from "../rankAkt/test";
 
-function RankingEng() {
+function NationalRanking() {
   const [userDetails, setUserDetails] = useState({});
   const [showTest, setShowTest] = useState(false);
   return (
@@ -17,4 +17,4 @@ function RankingEng() {
   );
 }
 
-export default RankingEng;
+export default NationalRanking;
