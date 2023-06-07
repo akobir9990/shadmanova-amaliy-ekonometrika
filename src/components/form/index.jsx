@@ -26,7 +26,7 @@ function RankingForm({ setUserDetails, setShowTest }) {
         onSubmit={handleSubmit(onSubmit)}
         className="max-w-[100%] min-w-[350px] bg-[rgba(24,118,210,0.6)] rounded p-5 flex flex-col"
       >
-        <h1 className="text-3xl my-5"> Foydalanuvchi ma'lumotlari</h1>
+        <h1 className="text-3xl my-5 uppercase"> Foydalanuvchi ma'lumotlari</h1>
         <div className="flex justify-between ">
           <label htmlFor="name">Name</label>
           <div>
