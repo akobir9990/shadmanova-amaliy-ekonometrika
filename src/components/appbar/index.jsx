@@ -18,7 +18,9 @@ import { NavLink } from "react-router-dom";
 import "../../router/const";
 import {
   ABOUT_PAGE,
+  AKT_RANKING,
   AUTHOR_PAGE,
+  ENGLISH_RANKING,
   LABORATORY_PAGE,
   NATIONAL_RANKING,
   PRACTICE_PAGE,
@@ -36,6 +38,8 @@ const pages = [
   { id: 5, name: "Laboratoriyalar", path: LABORATORY_PAGE },
   { id: 6, name: "Testlar", path: TEST_PAGE },
   { id: 7, name: "Milliy reyting", path: NATIONAL_RANKING },
+  { id: 7, name: "ATK REYTING", path: AKT_RANKING },
+  { id: 7, name: "ENG REYTING", path: ENGLISH_RANKING },
 ];
 const settings = [
   { id: 1, name: "Muallif haqida", path: AUTHOR_PAGE },

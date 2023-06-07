@@ -8,4 +8,6 @@ export const PRACTICE_PAGE = "practice";
 export const LABORATORY_PAGE = "laboratory";
 export const TEST_PAGE = "test";
 export const NATIONAL_RANKING = "raking";
+export const ENGLISH_RANKING = "english-ranking";
+export const AKT_RANKING = "akt-ranking";
 export const NOT_FOUND_PAGE = "error";

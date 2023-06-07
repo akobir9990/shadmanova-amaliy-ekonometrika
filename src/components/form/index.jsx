@@ -39,7 +39,7 @@ function RankingForm({ setUserDetails, setShowTest }) {
               name="name"
               id="name"
               onChange={handleChange}
-              className="mb-4 w-[300px] h-10 rounded p-2 bg-transparent border-[1px] border-[white] border-[solid] placeholder:text-[#5a5a5a] "
+              className="mb-4 min-w-[100px] max-w-[300px] h-10 rounded p-2 bg-transparent border-[1px] border-[white] border-[solid] placeholder:text-[#5a5a5a] "
               {...register("name", { required: "ismingizni kiriitng" })}
             />
           </div>
@@ -56,7 +56,7 @@ function RankingForm({ setUserDetails, setShowTest }) {
               name="surname"
               id="surname"
               onChange={handleChange}
-              className="mb-4 w-[300px] h-10 rounded p-2 bg-transparent border-[1px] border-[white] border-[solid] placeholder:text-[#5a5a5a] "
+              className="mb-4  min-w-[100px] max-w-[300px] h-10 rounded p-2 bg-transparent border-[1px] border-[white] border-[solid] placeholder:text-[#5a5a5a] "
               {...register("surname", { required: "Familiyangizni kiriting" })}
             />
           </div>
@@ -75,7 +75,7 @@ function RankingForm({ setUserDetails, setShowTest }) {
               name="department"
               id="department"
               onChange={handleChange}
-              className="mb-4 w-[300px] h-10 rounded p-2 bg-transparent border-[1px] border-[white] border-[solid] placeholder:text-[#5a5a5a] "
+              className="mb-4  min-w-[100px] max-w-[300px] h-10 rounded p-2 bg-transparent border-[1px] border-[white] border-[solid] placeholder:text-[#5a5a5a] "
               {...register("department", {
                 required: "kafedrangizni kriiting",
               })}

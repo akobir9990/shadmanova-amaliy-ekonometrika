@@ -127,7 +127,7 @@ function Test({ userDetails }) {
                 <h1> </h1>
               )}
             </div>
-            <NavLink to="/">
+            <NavLink to="/raking">
               <Button
                 className="w-[250px] mt-4"
                 variant="contained"
