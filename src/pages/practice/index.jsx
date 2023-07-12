@@ -1,76 +1,116 @@
-import { Container } from "@mui/system";
-import React from "react";
+import * as React from "react";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import { TelegramIcon, TelegramShareButton } from "react-share";
+import { Box } from "@mui/system";
+import { NavLink } from "react-router-dom";
+import PracticeIcon from "../../assets/images/practice-work-icon.png";
 
-import one from "./images/1.svg";
-import two from "./images/2.svg";
-import three from "./images/3.svg";
-import four from "./images/4.svg";
-import five from "./images/5.svg";
-import six from "./images/6.svg";
-import seven from "./images/7.svg";
-import eight from "./images/8.svg";
-import nine from "./images/9.svg";
-import ten from "./images/10.svg";
-import eleven from "./images/11.svg";
-import twelve from "./images/12.svg";
-import thurteen from "./images/13.svg";
-import fourteen from "./images/14.svg";
-import fifteen from "./images/15.svg";
-import sixteen from "./images/16.svg";
-import seventeen from "./images/17.svg";
-import eightteen from "./images/18.svg";
-import nineteen from "./images/19.svg";
-import twenty from "./images/20.svg";
-import twentyOne from "./images/21.svg";
-import twentyTwo from "./images/22.svg";
-import twentyThree from "./images/23.svg";
-import twentyFour from "./images/24.svg";
-import twentyFive from "./images/25.svg";
-import twentySix from "./images/26.svg";
-import twentySeven from "./images/27.svg";
-
-function index() {
+export default function Lecture() {
   const items = [
-    { id: 1, name: one },
-    { id: 2, name: two },
-    { id: 3, name: three },
-    { id: 4, name: four },
-    { id: 5, name: five },
-    { id: 6, name: six },
-    { id: 7, name: seven },
-    { id: 8, name: eight },
-    { id: 9, name: nine },
-    { id: 10, name: ten },
-    { id: 11, name: eleven },
-    { id: 12, name: twelve },
-    { id: 13, name: thurteen },
-    { id: 14, name: fourteen },
-    { id: 15, name: fifteen },
-    { id: 16, name: sixteen },
-    { id: 17, name: seventeen },
-    { id: 18, name: eightteen },
-    { id: 19, name: nineteen },
-    { id: 20, name: twenty },
-    { id: 21, name: twentyOne },
-    { id: 22, name: twentyTwo },
-    { id: 23, name: twentyThree },
-    { id: 24, name: twentyFour },
-    { id: 25, name: twentyFive },
-    { id: 26, name: twentySix },
-    { id: 27, name: twentySeven },
+    {
+      id: 1,
+      path: "https://t.me/atjmmmm/2",
+      url: "1",
+      themeName: "1-практическая работа ",
+    },
+    {
+      id: 2,
+      path: "https://t.me/atjmmmm/4",
+      url: "2",
+      themeName: "2-практическая работа",
+    },
+    {
+      id: 3,
+      path: "https://t.me/atjmmmm/5",
+      url: "3",
+      themeName: "3-практическая работа",
+    },
+    {
+      id: 4,
+      path: "https://t.me/atjmmmm/6",
+      url: "4",
+      themeName: "4-практическая работа",
+    },
+    {
+      id: 5,
+      path: "https://t.me/atjmmmm/7",
+      url: "5",
+      themeName: "5-практическая работа",
+    },
+    {
+      id: 6,
+      path: "https://t.me/atjmmmm/8",
+      url: "6",
+      themeName: "6-практическая работа",
+    },
+    {
+      id: 7,
+      path: "https://t.me/atjmmmm/9",
+      url: "7",
+      themeName: "7-практическая работа",
+    },
+    {
+      id: 8,
+      path: "https://t.me/atjmmmm/10",
+      url: "8",
+      themeName: "8-практическая работа",
+    },
+    {
+      id: 9,
+      path: "https://t.me/atjmmmm/11",
+      url: "9",
+      themeName: "9-практическая работа",
+    },
+    {
+      id: 10,
+      path: "https://t.me/atjmmmm/12",
+      url: "10",
+      themeName: "10-практическая работа",
+    },
   ];
   return (
-    <Container>
+    <Box sx={{ minWidth: 275 }}>
+      <h1 className="text-center text-[50px] font-bold">Практическая работа</h1>
       {items.map((item) => (
-        <img
-          className="w-[100%] bg-[white]"
+        <Card
+          sx={{
+            margin: "10px 0px",
+          }}
           key={item.id}
-          src={item.name}
-          alt={item.name}
-        />
+          className="border-[1px] border-[solid] border-[grey] my-4 rounded-md shadow-inner"
+        >
+          <CardContent>
+            <Typography
+              className="flex justify-between"
+              sx={{ fontSize: 14 }}
+              color="text.secondary"
+              gutterBottom
+            >
+              <img className="h-20" src={PracticeIcon} alt="" />
+              <CardActions>
+                <Button variant="outlined" size="small">
+                  <NavLink to={item.url} key={items.id}>
+                    открыть
+                  </NavLink>
+                </Button>
+
+                <TelegramShareButton url={item.path}>
+                  <TelegramIcon className="rounded w-8"></TelegramIcon>
+                </TelegramShareButton>
+              </CardActions>
+            </Typography>
+            <Typography variant="h6" color="text.secondary">
+              <span className="font-bold text-xl my-3 text-black">
+                {item.themeName}
+              </span>
+            </Typography>
+          </CardContent>
+        </Card>
       ))}
-    </Container>
+    </Box>
   );
 }
-
-export default index;

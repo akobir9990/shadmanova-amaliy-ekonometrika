@@ -73,14 +73,14 @@ function Quiz() {
   // console.log("scorePercent => ", scorePercent, typeof scorePercent);
 
   return (
-    <div>
+    <div className="h-[100vh]">
       {showScore ? (
         <div>
           <div className="border-[2px] border-[solid] border-[grey] rounded-md py-4 px-3">
-            <h1 className="text-4xl">Test yakunlandi</h1>
+            <h1 className="text-4xl">Тест завершен</h1>
             <p className="text-3xl">
-              To'g'ri javoblar soni: {score} <br />
-              Umumiy savollar soni: {quizLimite} <br />
+              Количество правильных ответов: {score} <br />
+              Общее количество вопросов: {quizLimite} <br />
             </p>
             <div className="relative border-[solid] border-[1px] border-[grey] rounded-lg min-w-[250px] max-w-[400px] my-3 h-9 flex items-center overflow-hidden">
               <div
@@ -103,22 +103,22 @@ function Quiz() {
             </div>
             <div className="sm:text-[40px] text-[30px]">
               {scorePercent < 56 ? (
-                <h1 className="">NATIJANGIZ YAHSHI EMAS!!</h1>
+                <h1 className="lowercase">Ваш результат не хороший 2!!</h1>
               ) : (
                 <h1> </h1>
               )}
               {scorePercent > 55 && scorePercent < 71 ? (
-                <h1 className="">hech bo'lmaganda 3 oldingiz</h1>
+                <h1 className="uppercase">Ваша оценка 3</h1>
               ) : (
                 <h1> </h1>
               )}
               {scorePercent > 70 && scorePercent < 86 ? (
-                <h1 className="">malades 4 olding</h1>
+                <h1 className="uppercase">Вы получили 4 Маладес</h1>
               ) : (
                 <h1> </h1>
               )}
               {scorePercent > 85 ? (
-                <h1 className="">MAQTOV YORLIG'I BERINGLA 5 OLDI BU BOLA</h1>
+                <h1 className="uppercase">отличный результат 5</h1>
               ) : (
                 <h1> </h1>
               )}
@@ -128,14 +128,14 @@ function Quiz() {
               variant="contained"
               onClick={tryAgain}
             >
-              qayta topshirish
+              повторно представить
             </Button>
           </div>
         </div>
       ) : (
         <div>
           <h3 className="text-3xl font-bold italic">
-            Savol - {currentQuestion + 1}/{quizLimite}
+            Вопрос - {currentQuestion + 1}/{quizLimite}
           </h3>
           <h1 className="cursor-help text-3xl font-bold py-2">
             {questions[randomNumber].questionText}
@@ -163,14 +163,14 @@ function Quiz() {
           <Box className="sm:flex-row sm:my-3 flex flex-col justify-between">
             <Button
               disabled={currentQuestion === quizLimite - 1}
-              variant="outlined"
+              variant="contained"
               onClick={nextQeustion}
               className="py-4"
               sx={{
                 margin: "5px 0px",
               }}
             >
-              keyingi savol
+              Следующий вопрос
             </Button>
             <Button
               variant="contained"
@@ -180,7 +180,7 @@ function Quiz() {
                 margin: "5px 0px",
               }}
             >
-              qayta topshirish
+              повторно представить
             </Button>
             <Button
               variant="contained"
@@ -189,7 +189,7 @@ function Quiz() {
                 margin: "5px 0px",
               }}
             >
-              Natijani ko'rish
+              Посмотреть результат
             </Button>
           </Box>
         </div>

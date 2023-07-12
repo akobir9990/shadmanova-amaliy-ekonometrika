@@ -8,14 +8,14 @@ function index() {
       <Card className=" w-[100%] flex justify-ceenter items-center flex-wrap px-[50px] py-[70px]">
         <div className="flex justify-center items-center flex-col text-3xl font-bold p-3 w-[150px] h-[150px] ">
           <img className="" src={logo} alt="???" />
-          ATJMM
+          ИТММП
         </div>
         <p className="p-3 min-w-[200px] w-[700px]">
-          Ushbu dastur axborot texnlogiyalari va jarayonlarni matematik
-          modellashtirish fanidan o'quv mashg'ulotni to'liq o'tish uchun
-          tayyorlangan va o'z ichiga shu fanga tegishli bo'lgan o'quv qo'llanma
-          uslubiy bo'llanma darslik videodarslik laboratoriya mashg'ulotlari
-          amaliy mashg'ulot topshiriqlari hamda test mashg'ulotini jamlagan.
+          Данная программа подготовлена ​​для полноценного обучения
+          информационным технологиям и математическому моделированию процессов и
+          включает в себя учебное пособие, методическое пособие, самоучитель,
+          видеоурок, лабораторные занятия по данной тематике, включает в себя
+          практические учебные задания и тестовую подготовку.
         </p>
       </Card>
     </div>

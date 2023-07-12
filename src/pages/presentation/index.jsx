@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import { TelegramIcon, TelegramShareButton } from "react-share";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
+import presentation from "../../assets/images/presentation.svg";
 
 export default function BasicCard() {
   const items = [
@@ -14,65 +15,67 @@ export default function BasicCard() {
       id: 1,
       path: "https://t.me/atjmmmm/2",
       url: "1",
-      themeName: "Axborot texnologiyalarining asosiy tushunchalari",
+      themeName: "Понятия информации",
     },
     {
       id: 2,
       path: "https://t.me/atjmmmm/4",
       url: "2",
-      themeName: "Axborot-kommunikatsiya texnologiyalari",
+      themeName: "Техн. и прогр.обесп",
     },
     {
       id: 3,
       path: "https://t.me/atjmmmm/5",
       url: "3",
-      themeName: "Operatsion tizimlar",
+      themeName: "MS Word",
     },
     {
       id: 4,
       path: "https://t.me/atjmmmm/6",
       url: "4",
-      themeName: "Internet texnologiyalari va ularning rivojlanishi",
+      themeName: "Табличный_процессор_MS_Excel",
     },
     {
       id: 5,
       path: "https://t.me/atjmmmm/7",
       url: "5",
-      themeName: "Algoritm tushunchasi va ularning turlari",
+      themeName: "Базы данных",
     },
     {
       id: 6,
       path: "https://t.me/atjmmmm/8",
       url: "6",
-      themeName: "Dasturlash tizimlari va tillari",
+      themeName: "Алгоритмы рус",
     },
     {
       id: 7,
       path: "https://t.me/atjmmmm/9",
       url: "7",
-      themeName: "C++ dasturlash tilining asosiy tushunchalari va strukturasi",
+      themeName: "Основы  С++",
     },
     {
       id: 8,
       path: "https://t.me/atjmmmm/10",
       url: "8",
-      themeName: "C++ dasturlash tilida chiziqli algoritmlar",
+      themeName: "Программир. разветвленного алг",
     },
     {
       id: 9,
       path: "https://t.me/atjmmmm/11",
       url: "9",
-      themeName: "C++ dasturlash tilida tarmoqlanuvchi algoritmlar",
+      themeName: "Прогр. циклических алг",
     },
     {
       id: 10,
       path: "https://t.me/atjmmmm/12",
       url: "10",
-      themeName: "C++ dasturlash tilida takrorlanuvchi algoritmlar",
+      themeName: "Массивы",
     },
   ];
   return (
     <Box sx={{ minWidth: 275 }}>
+      <h1 className="text-center text-[50px] font-bold">Презентации</h1>
+
       {items.map((item) => (
         <Card
           sx={{
@@ -83,27 +86,39 @@ export default function BasicCard() {
         >
           <CardContent>
             <Typography
-              sx={{ fontSize: 14 }}
+              sx={{
+                fontSize: 14,
+                display: "flex",
+                justifyContent: "space-between",
+              }}
               color="text.secondary"
               gutterBottom
             >
-              {item.id}-ma'ruza
+              <img className="h-20" src={presentation} alt="" />
+              <CardActions>
+                <Button variant="outlined" size="small">
+                  <NavLink to={item.url} key={items.id}>
+                    открыть
+                  </NavLink>
+                </Button>
+
+                <TelegramShareButton url={item.path}>
+                  <TelegramIcon className="rounded w-8"></TelegramIcon>
+                </TelegramShareButton>
+              </CardActions>
             </Typography>
-            <Typography variant="h5" component="div">
+            <Typography
+              sx={{ display: "flex", flexDirection: "column" }}
+              className="flex flex-col"
+              variant="h5"
+              component="div"
+            >
+              <span className="font-bold text-xl my-3 text-black">
+                {item.id}-презентация
+              </span>
               {item.themeName}
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button variant="outlined" size="small">
-              <NavLink to={item.url} key={items.id}>
-                ochish
-              </NavLink>
-            </Button>
-
-            <TelegramShareButton url={item.path}>
-              <TelegramIcon className="rounded w-8"></TelegramIcon>
-            </TelegramShareButton>
-          </CardActions>
         </Card>
       ))}
     </Box>

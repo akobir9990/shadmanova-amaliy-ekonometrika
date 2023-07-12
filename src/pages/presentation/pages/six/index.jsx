@@ -1,28 +1,22 @@
 import React, { useState } from "react";
 
-import one from "./img/1.svg";
-import two from "./img/2.svg";
-import three from "./img/3.svg";
-import four from "./img/4.svg";
-import five from "./img/5.svg";
-import six from "./img/6.svg";
-import seven from "./img/7.svg";
-import eight from "./img/8.svg";
-import nine from "./img/9.svg";
-import ten from "./img/10.svg";
-import eleven from "./img/11.svg";
-import twelve from "./img/12.svg";
-import thirteen from "./img/13.svg";
-import fourteen from "./img/14.svg";
-import fifteen from "./img/15.svg";
-import sixteen from "./img/16.svg";
-import seventeen from "./img/17.svg";
-import eighteen from "./img/18.svg";
-import nineteen from "./img/19.svg";
-import twenty from "./img/20.svg";
-import twentyOne from "./img/21.svg";
-import twentyTwo from "./img/22.svg";
-import twentyThree from "./img/23.svg";
+import one from "./img/1.jpeg";
+import two from "./img/2.jpeg";
+import three from "./img/3.jpeg";
+import four from "./img/4.jpeg";
+import five from "./img/5.jpeg";
+import six from "./img/6.jpeg";
+import seven from "./img/7.jpeg";
+import eight from "./img/8.jpeg";
+import nine from "./img/9.jpeg";
+import ten from "./img/10.jpeg";
+import eleven from "./img/11.jpeg";
+import twelve from "./img/12.jpeg";
+import thirteen from "./img/13.jpeg";
+import fourteen from "./img/14.jpeg";
+import fifteen from "./img/15.jpeg";
+import sixteen from "./img/16.jpeg";
+import seventeen from "./img/17.jpeg";
 import { Box, Button, Container } from "@mui/material";
 import { TelegramIcon, TelegramShareButton } from "react-share";
 import { NavLink } from "react-router-dom";
@@ -48,12 +42,6 @@ function Six() {
     { id: 15, name: fifteen },
     { id: 16, name: sixteen },
     { id: 17, name: seventeen },
-    { id: 18, name: eighteen },
-    { id: 19, name: nineteen },
-    { id: 20, name: twenty },
-    { id: 21, name: twentyOne },
-    { id: 22, name: twentyTwo },
-    { id: 23, name: twentyThree },
   ];
   return (
     <Container>

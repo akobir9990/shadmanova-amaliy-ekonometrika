@@ -11,39 +11,35 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
-import abdullayev from "../../assets/images/author.jpeg";
+import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
+
 import Router from "../../router/router";
+import developer from "../../assets/images/developer-icon.png";
+
 import { NavLink } from "react-router-dom";
 import "../../router/const";
 import {
   ABOUT_PAGE,
-  AKT_RANKING,
   AUTHOR_PAGE,
-  ENGLISH_RANKING,
   LABORATORY_PAGE,
-  NATIONAL_RANKING,
   PRACTICE_PAGE,
   PRESENTATION_PAGE,
+  LECTURE_PAGE,
   TEST_PAGE,
-  TUTORIAL_PAGE,
   VIDEOS_PAGE,
 } from "../../router/const";
 
 const pages = [
-  { id: 1, name: "O'quv qo'llanma", path: TUTORIAL_PAGE },
-  { id: 2, name: "Taqdimotlar", path: PRESENTATION_PAGE },
-  { id: 3, name: "Videolar", path: VIDEOS_PAGE },
-  { id: 4, name: "Amaliyotlar", path: PRACTICE_PAGE },
-  { id: 5, name: "Laboratoriyalar", path: LABORATORY_PAGE },
-  { id: 6, name: "Testlar", path: TEST_PAGE },
-  { id: 7, name: "Milliy reyting", path: NATIONAL_RANKING },
-  { id: 7, name: "ATK REYTING", path: AKT_RANKING },
-  { id: 7, name: "ENG REYTING", path: ENGLISH_RANKING },
+  { id: 1, name: "Лекции", path: LECTURE_PAGE },
+  { id: 2, name: "Презентации", path: PRESENTATION_PAGE },
+  { id: 2, name: "Видео", path: VIDEOS_PAGE },
+  { id: 3, name: "Практики", path: PRACTICE_PAGE },
+  { id: 4, name: "Лаборатории", path: LABORATORY_PAGE },
+  { id: 5, name: "Тесты", path: TEST_PAGE },
 ];
 const settings = [
-  { id: 1, name: "Muallif haqida", path: AUTHOR_PAGE },
-  { id: 2, name: "Dastur haqida", path: ABOUT_PAGE },
+  { id: 1, name: "Об авторе", path: AUTHOR_PAGE },
+  { id: 2, name: "О программе", path: ABOUT_PAGE },
 ];
 
 function ResponsiveAppBar() {
@@ -64,14 +60,16 @@ function ResponsiveAppBar() {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
-  const nameOfScinece = "ATJMM";
+  const nameOfScinece = "atjmm";
 
   return (
     <div>
-      <AppBar position="fixed">
+      <AppBar position="fixed" sx={{ backgroundColor: "#164B60" }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+            <DeveloperModeIcon
+              sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
+            />
             <Typography
               variant="h6"
               noWrap
@@ -80,7 +78,6 @@ function ResponsiveAppBar() {
                 display: { xs: "none", md: "flex" },
                 fontFamily: "monospace",
                 fontWeight: 700,
-                letterSpacing: ".3rem",
                 color: "inherit",
                 textDecoration: "none",
               }}
@@ -133,7 +130,9 @@ function ResponsiveAppBar() {
                 ))}
               </Menu>
             </Box>
-            <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+            <DeveloperModeIcon
+              sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
+            />
             <Typography
               variant="h5"
               noWrap
@@ -157,7 +156,11 @@ function ResponsiveAppBar() {
                 <NavLink to={page.path} key={page.id}>
                   <Button
                     onClick={handleCloseNavMenu}
-                    sx={{ my: 2, color: "white", display: "block" }}
+                    sx={{
+                      my: 2,
+                      color: "white",
+                      display: "block",
+                    }}
                   >
                     {page.name}
                   </Button>
@@ -168,7 +171,7 @@ function ResponsiveAppBar() {
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt="Remy Sharp" src={abdullayev} />
+                  <Avatar className="bg-white" src={developer} />
                 </IconButton>
               </Tooltip>
               <Menu

@@ -1,11 +1,12 @@
 import React from "react";
 import { Container } from "@mui/system";
-import { items } from "./tutorialData";
+// import { items } from "./tutorialData";
 
 function index() {
   return (
     <Container>
-      {items.map((item) => (
+      <h1 className="text-center text-[50px] font-bold">Tutorial</h1>
+      {/* {items.map((item) => (
         <img
           className="w-[100%] bg-[white]"
           loading="lazy"
@@ -13,7 +14,7 @@ function index() {
           src={item.name}
           alt="??"
         />
-      ))}
+      ))} */}
     </Container>
   );
 }
