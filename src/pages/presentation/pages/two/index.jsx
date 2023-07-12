@@ -24,7 +24,7 @@ import { NavLink } from "react-router-dom";
 
 function Two() {
   const [goBack, setGoBack] = useState(false);
-  const path = "https://t.me/atjmmmm/2";
+  const path = "";
 
   const items = [
     { id: 1, name: one },

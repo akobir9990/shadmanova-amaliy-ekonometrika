@@ -13,64 +13,64 @@ export default function Lecture() {
   const items = [
     {
       id: 1,
-      path: "https://t.me/atjmmmm/2",
+      path: "",
       url: "1",
       themeName:
         "Понятие информации. информационные технологии и системы. геоинформационные технологии",
     },
     {
       id: 2,
-      path: "https://t.me/atjmmmm/4",
+      path: "",
       url: "2",
       themeName:
         "Техническое и программное обеспечение информационных технологий",
     },
     {
       id: 3,
-      path: "https://t.me/atjmmmm/5",
+      path: "",
       url: "3",
       themeName: "Текстовый процессор ms word",
     },
     {
       id: 4,
-      path: "https://t.me/atjmmmm/6",
+      path: "",
       url: "4",
       themeName: "Табличный процессор ms excel",
     },
     {
       id: 5,
-      path: "https://t.me/atjmmmm/7",
+      path: "",
       url: "5",
       themeName: "База данных. системы управления базы данных (субд)",
     },
     {
       id: 6,
-      path: "https://t.me/atjmmmm/8",
+      path: "",
       url: "6",
       themeName: "Алгоритмы. свойства и виды алгоритмов",
     },
     {
       id: 7,
-      path: "https://t.me/atjmmmm/9",
+      path: "",
       url: "7",
       themeName:
         "Основы программирования на языке с++. программирование алгоритмов линейной структуры",
     },
     {
       id: 8,
-      path: "https://t.me/atjmmmm/10",
+      path: "",
       url: "8",
       themeName: "Программирование разветвляющихся и циклических алгоритмов",
     },
     {
       id: 9,
-      path: "https://t.me/atjmmmm/11",
+      path: "",
       url: "9",
       themeName: "Программирование циклических алгоритмов",
     },
     {
       id: 10,
-      path: "https://t.me/atjmmmm/12",
+      path: "",
       url: "10",
       themeName: "Массивы. программирование одномерных массивов",
     },
@@ -97,7 +97,7 @@ export default function Lecture() {
               <CardActions>
                 <Button variant="outlined" size="small">
                   <NavLink to={item.url} key={items.id}>
-                    ochish
+                    открыть
                   </NavLink>
                 </Button>
 

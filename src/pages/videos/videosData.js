@@ -12,8 +12,8 @@ import one from "./img/1.svg";
 export const items = [
   {
     id: 1,
-    name: "1-mavzu",
-    url: "https://youtu.be/jIMnB1hzmF4",
+    name: "1-тема",
+    url: "",
     content: "content - 1",
     panel: "panel1",
     img: one,
