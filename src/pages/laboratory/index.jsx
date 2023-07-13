@@ -7,45 +7,45 @@ import Typography from "@mui/material/Typography";
 import { TelegramIcon, TelegramShareButton } from "react-share";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
-import laboratory from "../../assets/images/laboratory-icon.png";
+import laboratory from "../../assets/images/laboratory-icon 23.45.24.png";
 
 export default function Lecture() {
   const items = [
     {
       id: 1,
-      path: "https://t.me/atjmmmm/2",
+      path: "",
       url: "1",
       themeName:
         "Работа в среде dev c++. представление стандартных функций в c++",
     },
     {
       id: 2,
-      path: "https://t.me/atjmmmm/4",
+      path: "",
       url: "2",
       themeName: "Программирование алгоритмов линейной структуры",
     },
     {
       id: 3,
-      path: "https://t.me/atjmmmm/5",
+      path: "",
       url: "3",
       themeName: "Программирование алгоритмов разветвленной структуры",
     },
     {
       id: 4,
-      path: "https://t.me/atjmmmm/6",
+      path: "",
       url: "4",
       themeName: "Программирование алгоритмов циклической структур",
     },
     {
       id: 5,
-      path: "https://t.me/atjmmmm/7",
+      path: "",
       url: "5",
       themeName:
         "Программирование специализированных задач, относящихся к алгоритму циклической структуры с оператором for, while",
     },
     {
       id: 6,
-      path: "https://t.me/atjmmmm/8",
+      path: "",
       url: "6",
       themeName: "Работа с одномерными массивами",
     },
