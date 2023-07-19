@@ -7,7 +7,7 @@ function HomePage() {
       <Box>
         <Box className="h-[90vh] flex justify-center items-center text-center">
           <p className="md:text-5xl text-[22px]">
-            Информационные технологии математическое моделирование и процессов
+            Информационные технологии и математическое моделирование процессов
             <br />
             <b>web учебник</b>
           </p>
