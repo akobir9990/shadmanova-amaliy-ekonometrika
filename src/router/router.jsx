@@ -15,7 +15,6 @@ import LaboratoryTwo from "../pages/laboratory/pages/2";
 import LaboratoryThree from "../pages/laboratory/pages/3";
 import LaboratoryFour from "../pages/laboratory/pages/4";
 import LaboratoryFive from "../pages/laboratory/pages/5";
-import LaboratorySix from "../pages/laboratory/pages/6";
 
 import Lecture from "../pages/lecture/index";
 
@@ -87,7 +86,6 @@ function router() {
           <Route path="3" element={<LaboratoryThree />} />
           <Route path="4" element={<LaboratoryFour />} />
           <Route path="5" element={<LaboratoryFive />} />
-          <Route path="6" element={<LaboratorySix />} />
         </Route>
 
         <Route path={PRESENTATION_PAGE}>

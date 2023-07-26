@@ -15,44 +15,42 @@ export default function Lecture() {
       id: 1,
       path: "",
       url: "1",
-      themeName:
-        "Работа в среде dev c++. представление стандартных функций в c++",
+      themeName: "Algoritmlash asoslari. Algoritmlarni grafik tasvirlash.",
     },
     {
       id: 2,
       path: "",
       url: "2",
-      themeName: "Программирование алгоритмов линейной структуры",
+      themeName:
+        "Chizigli algoritmlarga dastur tuzish. Muhandislik va suv xo jaligi mexanizatsiyasi masalalarida ma lumotlarni kiritish-chiqarish operatorlaridan foydalanib dastur tuzish.",
     },
     {
       id: 3,
       path: "",
       url: "3",
-      themeName: "Программирование алгоритмов разветвленной структуры",
+      themeName:
+        "Tarmoqlanuvchi algoritmlarga dastur tuzish. Shartli, shartsiz o tish va tanlash operatorlaridan foydalanib dastur tuzish.",
     },
     {
       id: 4,
       path: "",
       url: "4",
-      themeName: "Программирование алгоритмов циклической структур",
+      themeName:
+        "Takrorlanuvchi algoritmlarga dastur tuzish. for, while, do while operatorlaridan foydalanib dastur tuzish.",
     },
     {
       id: 5,
       path: "",
       url: "5",
       themeName:
-        "Программирование специализированных задач, относящихся к алгоритму циклической структуры с оператором for, while",
-    },
-    {
-      id: 6,
-      path: "",
-      url: "6",
-      themeName: "Работа с одномерными массивами",
+        "Bir o`Ichovli massivlar uchun massiv operatorlaridan foydalanib dastur tuzish.",
     },
   ];
   return (
     <Box sx={{ minWidth: 275 }}>
-      <h1 className="text-center text-[50px] font-bold">Лаборатория</h1>
+      <h1 className="text-center text-[50px] font-bold">
+        Laboratoriya mashg'uloti
+      </h1>
       {items.map((item) => (
         <Card
           sx={{
@@ -73,7 +71,7 @@ export default function Lecture() {
               <CardActions className="">
                 <Button variant="outlined" size="small">
                   <NavLink to={item.url} key={items.id}>
-                    открыть
+                    ochish
                   </NavLink>
                 </Button>
 
@@ -91,7 +89,7 @@ export default function Lecture() {
               }}
             >
               <span className="font-bold text-xl my-3 text-black">
-                Лаборатория - {item.id}
+                Laboratoriya - {item.id}
               </span>
               {item.themeName}
             </Typography>
