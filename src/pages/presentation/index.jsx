@@ -15,66 +15,131 @@ export default function BasicCard() {
       id: 1,
       path: "",
       url: "1",
-      themeName: "Понятия информации",
+      themeName:
+        '"Axborot texnologiyalari va jarayonlarni matematik modellashtirish" fanning asosiy tushunchalari. Ma`lumotlarni kodlash. Axborot jarayonlarining texnik va dasturiy ta`minoti.',
     },
     {
       id: 2,
       path: "",
       url: "2",
-      themeName: "Техн. и прогр.обесп",
+      themeName:
+        "Mutaxassislik masalalarini yech-ishda axborot tenologiyalarini qo'llash. MS Office dasturlari.",
     },
     {
       id: 3,
       path: "",
       url: "3",
-      themeName: "MS Word",
+      themeName: "Kompyuter tarmoglari va tarmoq texnologiyalari.",
     },
     {
       id: 4,
       path: "",
       url: "4",
-      themeName: "Табличный_процессор_MS_Excel",
+      themeName: "Algoritmning xossalari.Algoritmni tasvirlash usullari.",
     },
     {
       id: 5,
       path: "",
       url: "5",
-      themeName: "Базы данных",
+      themeName:
+        "Dasturlash tili elementlari. Masalalarini chiziqli algoritmlar yordamida dasturlash.",
     },
     {
       id: 6,
       path: "",
       url: "6",
-      themeName: "Алгоритмы рус",
+      themeName:
+        "Masalalarni tarmoqlanuvchi al-goritmlar yordamida dasturlash.",
     },
     {
       id: 7,
       path: "",
       url: "7",
-      themeName: "Основы  С++",
+      themeName:
+        "Masalalarni tarmoqlanuvchi al-goritmlar yordamida dasturlash.",
     },
     {
       id: 8,
       path: "",
       url: "8",
-      themeName: "Программир. разветвленного алг",
+      themeName: "Masalalarini dasturlashda massivlardan foydalanish",
     },
     {
       id: 9,
       path: "",
       url: "9",
-      themeName: "Прогр. циклических алг",
+      themeName: "Masalalarni dasturlashda funktsiyalardan foydalanish.",
     },
     {
       id: 10,
       path: "",
       url: "10",
-      themeName: "Массивы",
+      themeName: "MathCAD dasturining interfeysi. Funktsiyalar. Grafika.",
+    },
+    {
+      id: 11,
+      path: "",
+      url: "11",
+      themeName: "MathCad dasturida algoritmlash va dasturlash.",
+    },
+    {
+      id: 12,
+      path: "",
+      url: "12",
+      themeName: "Matematik model va modelashtirish.",
+    },
+    {
+      id: 13,
+      path: "",
+      url: "13",
+      themeName: "Chizigli modellar va ularni yechish.",
+    },
+    {
+      id: 14,
+      path: "",
+      url: "14",
+      themeName: "Chizigsiz modellar va ularni yechish.",
+    },
+    {
+      id: 15,
+      path: "",
+      url: "15",
+      themeName: "Chizigli dasturlash masalasini grafik lusulida yechish",
+    },
+    {
+      id: 16,
+      path: "",
+      url: "16",
+      themeName: "Chiziqli dasturlash masalasini simpleks usulida yechish",
+    },
+    {
+      id: 17,
+      path: "",
+      url: "17",
+      themeName: "Transport masalasi. Tayanch yechimni topish.",
+    },
+    {
+      id: 18,
+      path: "",
+      url: "18",
+      themeName: "Transport masalasi. Optimal yechim.",
+    },
+    {
+      id: 19,
+      path: "",
+      url: "19",
+      themeName: "Integral modellar ",
+    },
+    {
+      id: 20,
+      path: "",
+      url: "20",
+      themeName: "Differensial modellar.",
     },
   ];
   return (
     <Box sx={{ minWidth: 275 }}>
-      <h1 className="text-center text-[50px] font-bold">Презентации</h1>
+      <h1 className="text-center text-[50px] font-bold">Taqdimot</h1>
 
       {items.map((item) => (
         <Card
@@ -98,7 +163,7 @@ export default function BasicCard() {
               <CardActions>
                 <Button variant="outlined" size="small">
                   <NavLink to={item.url} key={items.id}>
-                    открыть
+                    ochish
                   </NavLink>
                 </Button>
 
@@ -114,7 +179,7 @@ export default function BasicCard() {
               component="div"
             >
               <span className="font-bold text-xl my-3 text-black">
-                {item.id}-презентация
+                {item.id}-taqdimot
               </span>
               {item.themeName}
             </Typography>

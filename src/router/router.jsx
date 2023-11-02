@@ -31,16 +31,26 @@ import LectureTen from "../pages/lecture/pages/10";
 
 import Presentation from "../pages/presentation";
 
-import PresentationOne from "../pages/presentation/pages/one";
-import PresentationTwo from "../pages/presentation/pages/two/index";
-import PresentationThree from "../pages/presentation/pages/three";
-import PresentationFour from "../pages/presentation/pages/four";
-import PresentationFive from "../pages/presentation/pages/five";
-import PresentationSix from "../pages/presentation/pages/six";
-import PresentationSeven from "../pages/presentation/pages/seven";
-import PresentationEight from "../pages/presentation/pages/eight";
-import PresentationNine from "../pages/presentation/pages/nine";
-import PresentationTen from "../pages/presentation/pages/ten";
+import PresentationOne from "../pages/presentation/pages/1";
+import PresentationTwo from "../pages/presentation/pages/2";
+import PresentationThree from "../pages/presentation/pages/3";
+import PresentationFour from "../pages/presentation/pages/4";
+import PresentationFive from "../pages/presentation/pages/5";
+import PresentationSix from "../pages/presentation/pages/6";
+import PresentationSeven from "../pages/presentation/pages/7";
+import PresentationEight from "../pages/presentation/pages/8";
+import PresentationNine from "../pages/presentation/pages/9";
+import PresentationTen from "../pages/presentation/pages/10";
+import PresentationEleven from "../pages/presentation/pages/11";
+import PresentationTwelve from "../pages/presentation/pages/12";
+import PresentationThreeTeen from "../pages/presentation/pages/13";
+import PresentationFourTeen from "../pages/presentation/pages/14";
+import PresentationFifTeen from "../pages/presentation/pages/15";
+import PresentationSixteen from "../pages/presentation/pages/16";
+import PresentationSeventeen from "../pages/presentation/pages/17";
+import PresentationEightteen from "../pages/presentation/pages/18";
+import PresentationNineteen from "../pages/presentation/pages/19";
+import PresentationTwenty from "../pages/presentation/pages/20";
 
 import Practice from "../pages/practice/index";
 
@@ -100,6 +110,16 @@ function router() {
           <Route path="8" element={<PresentationEight />} />
           <Route path="9" element={<PresentationNine />} />
           <Route path="10" element={<PresentationTen />} />
+          <Route path="11" element={<PresentationEleven />} />
+          <Route path="12" element={<PresentationTwelve />} />
+          <Route path="13" element={<PresentationThreeTeen />} />
+          <Route path="14" element={<PresentationFourTeen />} />
+          <Route path="15" element={<PresentationFifTeen />} />
+          <Route path="16" element={<PresentationSixteen />} />
+          <Route path="17" element={<PresentationSeventeen />} />
+          <Route path="18" element={<PresentationEightteen />} />
+          <Route path="19" element={<PresentationNineteen />} />
+          <Route path="20" element={<PresentationTwenty />} />
         </Route>
         <Route path={LECTURE_PAGE}>
           <Route path="" element={<Lecture />} />
