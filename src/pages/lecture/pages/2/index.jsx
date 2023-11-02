@@ -48,6 +48,17 @@ import fortyFive from "./img/45.jpeg";
 import fortySix from "./img/46.jpeg";
 import fortySeven from "./img/47.jpeg";
 import fortyEight from "./img/48.jpeg";
+import fortyNine from "./img/49.jpeg";
+import fifty from "./img/50.jpeg";
+import fiftyOne from "./img/51.jpeg";
+import fiftyTwo from "./img/52.jpeg";
+import fiftyThree from "./img/53.jpeg";
+import fiftyFour from "./img/54.jpeg";
+import fiftyFive from "./img/55.jpeg";
+import fiftySix from "./img/56.jpeg";
+import fiftySeven from "./img/57.jpeg";
+import fiftyEight from "./img/58.jpeg";
+import fiftyNine from "./img/59.jpeg";
 
 import "./style.css";
 
@@ -108,6 +119,17 @@ function One() {
     { id: 46, name: fortySix },
     { id: 47, name: fortySeven },
     { id: 48, name: fortyEight },
+    { id: 49, name: fortyNine },
+    { id: 50, name: fifty },
+    { id: 51, name: fiftyOne },
+    { id: 52, name: fiftyTwo },
+    { id: 53, name: fiftyThree },
+    { id: 54, name: fiftyFour },
+    { id: 55, name: fiftyFive },
+    { id: 56, name: fiftySix },
+    { id: 57, name: fiftySeven },
+    { id: 58, name: fiftyEight },
+    { id: 59, name: fiftyNine },
   ];
   return (
     <Container sx={{ width: "100%" }}>
