@@ -26,13 +26,12 @@ import {
   PRESENTATION_PAGE,
   LECTURE_PAGE,
   TEST_PAGE,
-  VIDEOS_PAGE,
+
 } from "../../router/const";
 
 const pages = [
   { id: 1, name: "Лекции", path: LECTURE_PAGE },
   { id: 2, name: "Презентации", path: PRESENTATION_PAGE },
-  { id: 2, name: "Видео", path: VIDEOS_PAGE },
   { id: 3, name: "Практики", path: PRACTICE_PAGE },
   { id: 4, name: "Лаборатории", path: LABORATORY_PAGE },
   { id: 5, name: "Тесты", path: TEST_PAGE },

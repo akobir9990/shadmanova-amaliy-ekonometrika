@@ -71,6 +71,42 @@ export default function Lecture() {
       url: "10",
       themeName: "10-практическая работа",
     },
+    {
+      id: 111,
+      path: "",
+      url: "11-1",
+      themeName: "11-1-практическая работа",
+    },
+    {
+      id: 112,
+      path: "",
+      url: "11-2",
+      themeName: "11-2-практическая работа",
+    },
+    {
+      id: 12,
+      path: "",
+      url: "12",
+      themeName: "12-практическая работа",
+    },
+    {
+      id: 13,
+      path: "",
+      url: "13",
+      themeName: "13-практическая работа",
+    },
+    {
+      id: 14,
+      path: "",
+      url: "14",
+      themeName: "14-практическая работа",
+    },
+    {
+      id: 15,
+      path: "",
+      url: "15",
+      themeName: "15-практическая работа",
+    },
   ];
   return (
     <Box sx={{ minWidth: 275 }}>

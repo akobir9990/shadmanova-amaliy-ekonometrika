@@ -28,6 +28,16 @@ import LectureSeven from "../pages/lecture/pages/7";
 import LectureEight from "../pages/lecture/pages/8";
 import LectureNine from "../pages/lecture/pages/9";
 import LectureTen from "../pages/lecture/pages/10";
+import LectureEleven from "../pages/lecture/pages/11";
+import LectureTwelve from "../pages/lecture/pages/12";
+import LectureThreeTeen from "../pages/lecture/pages/13";
+import LectureFourTeen from "../pages/lecture/pages/14";
+import LectureFifTeen from "../pages/lecture/pages/15";
+import LectureSixteen from "../pages/lecture/pages/16";
+import LectureSeventeen from "../pages/lecture/pages/17";
+import LectureEightteen from "../pages/lecture/pages/18";
+import LectureNineteen from "../pages/lecture/pages/19";
+import LectureTwenty from "../pages/lecture/pages/20";
 
 import Presentation from "../pages/presentation";
 
@@ -133,6 +143,16 @@ function router() {
           <Route path="8" element={<LectureEight />} />
           <Route path="9" element={<LectureNine />} />
           <Route path="10" element={<LectureTen />} />
+          <Route path="11" element={<LectureEleven />} />
+          <Route path="12" element={<LectureTwelve />} />
+          <Route path="13" element={<LectureThreeTeen />} />
+          <Route path="14" element={<LectureFourTeen />} />
+          <Route path="15" element={<LectureFifTeen />} />
+          <Route path="16" element={<LectureSixteen />} />
+          <Route path="17" element={<LectureSeventeen />} />
+          <Route path="18" element={<LectureEightteen />} />
+          <Route path="19" element={<LectureNineteen />} />
+          <Route path="20" element={<LectureTwenty />} />
         </Route>
 
         <Route path={PRACTICE_PAGE}>
