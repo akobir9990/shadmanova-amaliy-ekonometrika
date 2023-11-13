@@ -74,6 +74,12 @@ import PracticeSeven from "../pages/practice/pages/7";
 import PracticeEight from "../pages/practice/pages/8";
 import PracticeNine from "../pages/practice/pages/9";
 import PracticeTen from "../pages/practice/pages/10";
+import PracticeElevenFirstPart from "../pages/practice/pages/11 (1)";
+import PracticeElevenSecondPart from "../pages/practice/pages/11 (2)";
+import PracticeTwelve from "../pages/practice/pages/12";
+import PracticeThreeTeen from "../pages/practice/pages/13";
+import PracticeFourTeen from "../pages/practice/pages/14";
+import PracticeFifteen from "../pages/practice/pages/15";
 
 import "./const";
 import {
@@ -167,6 +173,12 @@ function router() {
           <Route path="8" element={<PracticeEight />} />
           <Route path="9" element={<PracticeNine />} />
           <Route path="10" element={<PracticeTen />} />
+          <Route path="11-1" element={<PracticeElevenFirstPart />} />
+          <Route path="11-2" element={<PracticeElevenSecondPart />} />
+          <Route path="12" element={<PracticeTwelve />} />
+          <Route path="13" element={<PracticeThreeTeen />} />
+          <Route path="14" element={<PracticeFourTeen />} />
+          <Route path="15" element={<PracticeFifteen />} />
         </Route>
         <Route path={TEST_PAGE} element={<TestAPage />} />
       </Routes>

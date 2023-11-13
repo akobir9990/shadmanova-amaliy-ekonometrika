@@ -17,6 +17,7 @@ import fourTeen from "./img/14.jpeg";
 import fifTeen from "./img/15.jpeg";
 import sixteen from "./img/16.jpeg";
 import seventeen from "./img/17.jpeg";
+import eightteen from "./img/18.jpeg";
 
 import "./style.css";
 
@@ -46,6 +47,7 @@ function One() {
     { id: 15, name: fifTeen },
     { id: 16, name: sixteen },
     { id: 17, name: seventeen },
+    { id: 18, name: eightteen },
   ];
   return (
     <Container sx={{ width: "100%" }}>
