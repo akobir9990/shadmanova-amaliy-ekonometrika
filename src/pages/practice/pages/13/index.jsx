@@ -1,10 +1,31 @@
 import React, { useState } from "react";
 
-import one from "./img/1.jpeg";
-import two from "./img/2.jpeg";
-import three from "./img/3.jpeg";
-import four from "./img/4.jpeg";
-import five from "./img/5.jpeg";
+import one from "./img/1.svg";
+import two from "./img/2.svg";
+import three from "./img/3.svg";
+import four from "./img/4.svg";
+import five from "./img/5.svg";
+import six from "./img/6.svg";
+import seven from "./img/7.svg";
+import eight from "./img/8.svg";
+import nine from "./img/9.svg";
+import ten from "./img/10.svg";
+import eleven from "./img/11.svg";
+import twelve from "./img/12.svg";
+import threeTeen from "./img/13.svg";
+import fourTeen from "./img/14.svg";
+import fifTeen from "./img/15.svg";
+import sixteen from "./img/16.svg";
+import seventeen from "./img/17.svg";
+import eightteen from "./img/18.svg";
+import nineteen from "./img/19.svg";
+import twenty from "./img/20.svg";
+import twentyOne from "./img/21.svg";
+import twentyTwo from "./img/22.svg";
+import twentyThree from "./img/23.svg";
+import twentyFour from "./img/24.svg";
+import twentyFive from "./img/25.svg";
+import twentySix from "./img/26.svg";
 
 import "./style.css";
 
@@ -22,6 +43,27 @@ function One() {
     { id: 3, name: three },
     { id: 4, name: four },
     { id: 5, name: five },
+    { id: 6, name: six },
+    { id: 7, name: seven },
+    { id: 8, name: eight },
+    { id: 9, name: nine },
+    { id: 10, name: ten },
+    { id: 11, name: eleven },
+    { id: 12, name: twelve },
+    { id: 13, name: threeTeen },
+    { id: 14, name: fourTeen },
+    { id: 15, name: fifTeen },
+    { id: 16, name: sixteen },
+    { id: 17, name: seventeen },
+    { id: 18, name: eightteen },
+    { id: 19, name: nineteen },
+    { id: 20, name: twenty },
+    { id: 21, name: twentyOne },
+    { id: 22, name: twentyTwo },
+    { id: 23, name: twentyThree },
+    { id: 24, name: twentyFour },
+    { id: 25, name: twentyFive },
+    { id: 26, name: twentySix },
   ];
   return (
     <Container sx={{ width: "100%" }}>
