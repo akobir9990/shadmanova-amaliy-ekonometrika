@@ -1,5 +1,3 @@
-import { Flag } from "@mui/icons-material";
-
 export const questions = [
   {
     questionText:
