@@ -8,9 +8,9 @@ function HomePage() {
       <Box>
         <Box className="h-[90vh] flex justify-center items-center text-center">
           <p className="md:text-5xl text-[22px]">
-            Информационные технологии и математическое моделирование процессов
+            Axborot texnologiyalari va jarayonlarni matematik modellashtirish{" "}
             <br />
-            <b>web учебник</b>
+            <b>web darslik</b>
           </p>
         </Box>
       </Box>

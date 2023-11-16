@@ -139,7 +139,7 @@ export default function BasicCard() {
   ];
   return (
     <Box sx={{ minWidth: 275 }}>
-      <h1 className="text-center text-[50px] font-bold">Taqdimot</h1>
+      <h1 className="text-center text-[50px] font-bold">Taqdimotlar</h1>
 
       {items.map((item) => (
         <Card

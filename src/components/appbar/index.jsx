@@ -26,19 +26,26 @@ import {
   PRESENTATION_PAGE,
   LECTURE_PAGE,
   TEST_PAGE,
-
+  SCIENCE_PROGRAM,
+  GLOSSARIES,
+  SILLABUS,
+  VIDEOS_PAGE,
 } from "../../router/const";
 
 const pages = [
-  { id: 1, name: "Лекции", path: LECTURE_PAGE },
-  { id: 2, name: "Презентации", path: PRESENTATION_PAGE },
-  { id: 3, name: "Практики", path: PRACTICE_PAGE },
-  { id: 4, name: "Лаборатории", path: LABORATORY_PAGE },
-  { id: 5, name: "Тесты", path: TEST_PAGE },
+  { id: 1, name: "Ma'ruza", path: LECTURE_PAGE },
+  { id: 2, name: "Taqdimot", path: PRESENTATION_PAGE },
+  { id: 3, name: "Amaliyot", path: PRACTICE_PAGE },
+  { id: 4, name: "Laboratoria", path: LABORATORY_PAGE },
+  { id: 4, name: "Video ma'ruzalar", path: VIDEOS_PAGE },
+  { id: 5, name: "Test", path: TEST_PAGE },
 ];
 const settings = [
-  { id: 1, name: "Об авторе", path: AUTHOR_PAGE },
-  { id: 2, name: "О программе", path: ABOUT_PAGE },
+  { id: 1, name: "Muallif", path: AUTHOR_PAGE },
+  { id: 2, name: "Dastur haqida", path: ABOUT_PAGE },
+  { id: 3, name: "Sillabus", path: SILLABUS },
+  { id: 4, name: "Glossary", path: GLOSSARIES },
+  { id: 5, name: "Fan dasturi", path: SCIENCE_PROGRAM },
 ];
 
 function ResponsiveAppBar() {
@@ -59,7 +66,7 @@ function ResponsiveAppBar() {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
-  const nameOfScinece = "ИТММП";
+  const nameOfScinece = "ATvaJMM";
 
   return (
     <div>

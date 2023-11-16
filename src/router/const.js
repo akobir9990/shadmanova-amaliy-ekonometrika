@@ -8,4 +8,7 @@ export const AUTHOR_PAGE = "author";
 export const PRACTICE_PAGE = "practice";
 export const LABORATORY_PAGE = "laboratory";
 export const TEST_PAGE = "test";
+export const SCIENCE_PROGRAM = "science-program";
+export const SILLABUS = "sillabus";
+export const GLOSSARIES = "glossaries";
 export const NOT_FOUND_PAGE = "error";

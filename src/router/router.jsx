@@ -4,6 +4,16 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "../pages/homePage";
 import Author from "../pages/author";
 import About from "../pages/about";
+import ScienceProgram from "../pages/scienceProgram";
+import Glossaires from "../pages/glossaries";
+
+import Sillabus from "../pages/sillabus";
+import Mmtx from "../pages/sillabus/MMTX";
+import Qsxts from "../pages/sillabus/QSXTS";
+import Qxittq from "../pages/sillabus/QXITTQ";
+import Qxmpt from "../pages/sillabus/QXM_PT";
+import Qxm from "../pages/sillabus/QXM";
+import Sxmim from "../pages/sillabus/SXMIM";
 
 import Videos from "../pages/videos";
 import Tutorial from "../pages/tutorial";
@@ -93,6 +103,9 @@ import {
   TEST_PAGE,
   TUTORIAL_PAGE,
   VIDEOS_PAGE,
+  SCIENCE_PROGRAM,
+  SILLABUS,
+  GLOSSARIES,
 } from "./const";
 
 function router() {
@@ -104,6 +117,19 @@ function router() {
         <Route path={AUTHOR_PAGE} element={<Author />} />
         <Route path={ABOUT_PAGE} element={<About />} />
         <Route path={VIDEOS_PAGE} element={<Videos />} />
+        <Route path={SCIENCE_PROGRAM} element={<ScienceProgram />} />
+        <Route path={GLOSSARIES} element={<Glossaires />} />
+
+        <Route path={SILLABUS} element={<Sillabus />} />
+        <Route path={SILLABUS}>
+          <Route path="" element={<Sillabus />} />
+          <Route path="mmtx" element={<Mmtx />} />
+          <Route path="qsxts" element={<Qsxts />} />
+          <Route path="qxittq" element={<Qxittq />} />
+          <Route path="qxmpt" element={<Qxmpt />} />
+          <Route path="qxm" element={<Qxm />} />
+          <Route path="sxmim" element={<Sxmim />} />
+        </Route>
 
         <Route path={LABORATORY_PAGE}>
           <Route path="" element={<Laboratory />} />

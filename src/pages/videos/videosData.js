@@ -1,21 +1,72 @@
-import one from "./img/1.svg";
-// import two from "./img/2.svg";
-// import three from "./img/3.svg";
-// import four from "./img/4.svg";
-// import five from "./img/5.svg";
-// import six from "./img/6.svg";
-// import seven from "./img/7.svg";
-// import eight from "./img/8.svg";
-// import nine from "./img/9.svg";
-// import ten from "./img/10.svg";
-
 export const items = [
   {
     id: 1,
-    name: "1-тема",
-    url: "",
+    name: "1-mavzu",
+    url: "https://www.youtube.com/watch?v=oWtDab8nrRY",
     content: "content - 1",
     panel: "panel1",
-    img: one,
+  },
+  {
+    id: 2,
+    name: "2-mavzu",
+    url: "https://youtu.be/hI5SUPpT-X8",
+    content: "content - 2",
+    panel: "panel2",
+  },
+  {
+    id: 3,
+    name: "3-mavzu",
+    url: "https://youtu.be/lwvzw_g0y4E",
+    content: "content - 3",
+    panel: "panel3",
+  },
+  {
+    id: 4,
+    name: "4-mavzu",
+    url: "https://youtu.be/G5Uf05CeUE4",
+    content: "content - 4",
+    panel: "panel4",
+  },
+  {
+    id: 5,
+    name: "5-mavzu",
+    url: "https://youtu.be/_EwiW769Fvw",
+    content: "content - 5",
+    panel: "panel5",
+  },
+  {
+    id: 6,
+    name: "6-mavzu",
+    url: "https://youtu.be/D5P9peW1vA8",
+    content: "content - 6",
+    panel: "panel6",
+  },
+  {
+    id: 7,
+    name: "7-mavzu",
+    url: "https://youtu.be/4uC4a9LCho4",
+    content: "content - 7",
+    panel: "panel7",
+  },
+  {
+    id: 8,
+    name: "8-mavzu",
+    url: "https://youtu.be/GTGLlKt4soM",
+    content: "content - 8",
+    panel: "panel8",
+  },
+  {
+    id: 9,
+    name: "9-mavzu",
+    url: "https://youtu.be/cywI87deWXY",
+    content: "content - 9",
+    panel: "panel9",
+  },
+  {
+    id: 10,
+    name: "10-mavzu",
+    url: "https://youtu.be/dnzyR2Wzydk",
+    content: "content - 10",
+    panel: "panel10",
   },
 ];

@@ -1,4 +1,4 @@
-import aynakulov from "../../assets/images/authors/abdullayev.jpeg";
+import aynakulov from "../../assets/images/authors/aynakulov.jpeg";
 
 export const authors = [
   {

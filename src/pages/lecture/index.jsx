@@ -139,7 +139,7 @@ export default function Lecture() {
   ];
   return (
     <Box sx={{ minWidth: 275 }}>
-      <h1 className="text-center text-[50px] font-bold">Лекции</h1>
+      <h1 className="text-center text-[50px] font-bold">Ma'ruzalar</h1>
       {items.map((item) => (
         <Card
           sx={{

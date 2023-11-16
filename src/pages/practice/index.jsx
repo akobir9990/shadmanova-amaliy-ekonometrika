@@ -15,102 +15,102 @@ export default function Lecture() {
       id: 1,
       path: "",
       url: "1",
-      themeName: "1-практическая работа ",
+      themeName: "1-amaliy mashg'ulot ",
     },
     {
       id: 2,
       path: "",
       url: "2",
-      themeName: "2-практическая работа",
+      themeName: "2-amaliy mashg'ulot",
     },
     {
       id: 3,
       path: "",
       url: "3",
-      themeName: "3-практическая работа",
+      themeName: "3-amaliy mashg'ulot",
     },
     {
       id: 4,
       path: "",
       url: "4",
-      themeName: "4-практическая работа",
+      themeName: "4-amaliy mashg'ulot",
     },
     {
       id: 5,
       path: "",
       url: "5",
-      themeName: "5-практическая работа",
+      themeName: "5-amaliy mashg'ulot",
     },
     {
       id: 6,
       path: "",
       url: "6",
-      themeName: "6-практическая работа",
+      themeName: "6-amaliy mashg'ulot",
     },
     {
       id: 7,
       path: "",
       url: "7",
-      themeName: "7-практическая работа",
+      themeName: "7-amaliy mashg'ulot",
     },
     {
       id: 8,
       path: "",
       url: "8",
-      themeName: "8-практическая работа",
+      themeName: "8-amaliy mashg'ulot",
     },
     {
       id: 9,
       path: "",
       url: "9",
-      themeName: "9-практическая работа",
+      themeName: "9-amaliy mashg'ulot",
     },
     {
       id: 10,
       path: "",
       url: "10",
-      themeName: "10-практическая работа",
+      themeName: "10-amaliy mashg'ulot",
     },
     {
       id: 111,
       path: "",
       url: "11-1",
-      themeName: "11-1-практическая работа",
+      themeName: "11-1-amaliy mashg'ulot",
     },
     {
       id: 112,
       path: "",
       url: "11-2",
-      themeName: "11-2-практическая работа",
+      themeName: "11-2-amaliy mashg'ulot",
     },
     {
       id: 12,
       path: "",
       url: "12",
-      themeName: "12-практическая работа",
+      themeName: "12-amaliy mashg'ulot",
     },
     {
       id: 13,
       path: "",
       url: "13",
-      themeName: "13-практическая работа",
+      themeName: "13-amaliy mashg'ulot",
     },
     {
       id: 14,
       path: "",
       url: "14",
-      themeName: "14-практическая работа",
+      themeName: "14-amaliy mashg'ulot",
     },
     {
       id: 15,
       path: "",
       url: "15",
-      themeName: "15-практическая работа",
+      themeName: "15-amaliy mashg'ulot",
     },
   ];
   return (
     <Box sx={{ minWidth: 275 }}>
-      <h1 className="text-center text-[50px] font-bold">Практическая работа</h1>
+      <h1 className="text-center text-[50px] font-bold">Amaliy mashg'ulot</h1>
       {items.map((item) => (
         <Card
           sx={{

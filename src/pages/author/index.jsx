@@ -5,7 +5,7 @@ import { authors } from "./authors";
 
 export default function MediaCard() {
   return (
-    <div className="">
+    <div className="h-[100vh]">
       {authors.map((item) => (
         <Card className="flex flex-col p-7 items-center sm:flex-row my-7">
           <div>
