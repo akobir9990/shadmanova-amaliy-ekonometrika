@@ -1,1071 +1,829 @@
+import { Flag } from "@mui/icons-material";
+
 export const questions = [
   {
-    questionText: "База данных – это …",
+    questionText:
+      "Ob'ekt, jarayon yoki hodisa holati to'g'risida yangi sifatli axborotlarni olish uchun berilgan axborotlarni yig'ish, qayta ishlash va uzatish usullaridan foydalanish jarayoni … deyiladi.",
     answerOptions: [
-      { id: 1, answerText: "программы обработки данных", isCorrect: false },
+      { id: 1, answerText: "axborot texnologiyalari", isCorrect: true },
+      { id: 2, answerText: "texnologiya", isCorrect: false },
+      { id: 3, answerText: "kod", isCorrect: false },
+      { id: 4, answerText: "axborot", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Axborotning eng katta o`lchov birligi nima?",
+    answerOptions: [
+      { id: 1, answerText: "eksabayt", isCorrect: false },
+      { id: 2, answerText: "maxabayt", isCorrect: false },
+      { id: 3, answerText: "yottabayt", isCorrect: true },
+      { id: 4, answerText: "zettabayt", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Ikkilik sanoq tizimidagi 101101 soni  o’n  oltilik  sanoq tizimida nimaga teng?    ",
+    answerOptions: [
+      { id: 1, answerText: "1F", isCorrect: false },
+      { id: 2, answerText: "2D", isCorrect: true },
+      { id: 3, answerText: "1A", isCorrect: false },
+      { id: 4, answerText: "22", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Axborot texnologiyalarining dasturiy ta’minoti  turini aniqlang?    ",
+    answerOptions: [
+      { id: 1, answerText: "amaliy dasturlar", isCorrect: true },
+      { id: 2, answerText: "operatsion dasturlar", isCorrect: false },
+      { id: 3, answerText: "axborot dasturlari", isCorrect: false },
+      { id: 4, answerText: "yordamchi dasturlar", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Operatsion tizim turini aniqlang",
+    answerOptions: [
+      { id: 1, answerText: "MS DOS", isCorrect: true },
+      { id: 2, answerText: "Mendeley", isCorrect: false },
+      { id: 3, answerText: "Lunix", isCorrect: false },
+      { id: 4, answerText: "MS DIR", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MS Word  dasturida matndagi to`lqinli qizil chiziq nimani anglatadi?    ",
+    answerOptions: [
+      { id: 1, answerText: "xato yozilgan so`zni", isCorrect: true },
       {
         id: 2,
-        answerText: "совокупность данных и программ для их обработки",
+        answerText: "to`g`ri  o`rnatilgan tinish belgisini",
         isCorrect: false,
       },
       {
         id: 3,
-        answerText: "произвольная совокупность данных",
+        answerText: "xato o`rnatilgan tinish belgisini",
+        isCorrect: false,
+      },
+      { id: 4, answerText: "to`g`ri  yozilgan so`zni", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MS Word  dasturida matnni xotiraga olish qanday tugmalar orqali  bajariladi?    ",
+    answerOptions: [
+      { id: 1, answerText: "Ctrl + O tugmalari", isCorrect: false },
+      { id: 2, answerText: "Ctrl+N tugmalari", isCorrect: false },
+      { id: 3, answerText: "Shift+F12 tugmalari", isCorrect: true },
+      { id: 4, answerText: "Ctrl + P tugmalari", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MS Word  dasturida yangi xujjat yaratish qanday tugmalar orqali  bajariladi?    ",
+    answerOptions: [
+      { id: 1, answerText: "Ctrl + O tugmalari", isCorrect: false },
+      { id: 2, answerText: "Shift+F12 tugmalari", isCorrect: false },
+      { id: 3, answerText: "Ctrl+N tugmalari", isCorrect: true },
+      { id: 4, answerText: "Ctrl + A tugmalari", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Kompyuter qurilmalari ishini  boshqarib, ularni o`zaro bog`lovchi, foydalanuvchi bilan kompyuter o`rtasida muloqot o`rnatuvchi dasuriy vosita qanday nomlanadi?",
+    answerOptions: [
+      { id: 1, answerText: "operatsion tizim", isCorrect: true },
+      { id: 2, answerText: "bulut dasturi", isCorrect: false },
+      { id: 3, answerText: "utilit", isCorrect: false },
+      { id: 4, answerText: "drayver", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MS Power Point  dasturi lentasiga tegishli bo`limni toping.    ",
+    answerOptions: [
+      { id: 1, answerText: "Razmetka stranits", isCorrect: false },
+      { id: 2, answerText: "Danniye", isCorrect: false },
+      { id: 3, answerText: "Dizayn", isCorrect: true },
+      { id: 4, answerText: "Formuli", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MS Power Point    dasturini yopish qanday tugmalar orqali  bajariladi?    ",
+    answerOptions: [
+      { id: 1, answerText: "Alt+F4 tugmalari", isCorrect: true },
+      { id: 2, answerText: "Ctrl + O tugmalari", isCorrect: false },
+      { id: 3, answerText: "Ctrl+N tugmalari", isCorrect: false },
+      { id: 4, answerText: "Ctrl +P  tugmalari", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MS Power Point    dasturida faylni xotiraga olish qanday tugmalar orqali  bajariladi?    ",
+    answerOptions: [
+      { id: 1, answerText: "Ctrl + O tugmalari", isCorrect: false },
+      { id: 2, answerText: "Alt+F4 tugmalari", isCorrect: false },
+      { id: 3, answerText: "Ctrl + P tugmalari", isCorrect: false },
+      { id: 4, answerText: "Ctrl+S tugmalari", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "MS Excel da ish kitobi  nimadan tashkil topgan?    ",
+    answerOptions: [
+      { id: 1, answerText: "satrlar", isCorrect: false },
+      { id: 2, answerText: "kataklar", isCorrect: false },
+      { id: 3, answerText: "ish varaqalari", isCorrect: true },
+      { id: 4, answerText: "ish sahifalari", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "MS Excelda formula qanday belgi bilan boshlanadi?    ",
+    answerOptions: [
+      { id: 1, answerText: "minus belgisi bilan", isCorrect: false },
+      { id: 2, answerText: "qo`shtirnoq bilan", isCorrect: false },
+      { id: 3, answerText: "barobar belgisi bilan", isCorrect: true },
+      { id: 4, answerText: "plyus belgisi bilan", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "MS Excelda IF funktsiyasi qaysi toifaga kiradi?    ",
+    answerOptions: [
+      { id: 1, answerText: "matematik", isCorrect: false },
+      { id: 2, answerText: "statistik", isCorrect: false },
+      { id: 3, answerText: "mantiqiy", isCorrect: true },
+      { id: 4, answerText: "sana", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "MS Excelda ma'lumotlarning qanday  turlari mavjud?    ",
+    answerOptions: [
+      { id: 1, answerText: "son, formula", isCorrect: false },
+      { id: 2, answerText: "matn, son, formula", isCorrect: true },
+      { id: 3, answerText: "son, sana,matn", isCorrect: false },
+      { id: 4, answerText: "matn, son, rasm", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "MS Access  ma'lumotlar bazasining asosiy ob'ekti:    ",
+    answerOptions: [
+      { id: 1, answerText: "shakl", isCorrect: false },
+      { id: 2, answerText: "matn, son, formula", isCorrect: true },
+      { id: 3, answerText: "son, sana,matn", isCorrect: false },
+      { id: 4, answerText: "matn, son, rasm", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "MS Access  ma'lumotlar bazasining asosiy ob'ekti:",
+    answerOptions: [
+      { id: 1, answerText: "shakl", isCorrect: false },
+      { id: 2, answerText: "so`rov", isCorrect: false },
+      { id: 3, answerText: "jadval", isCorrect: true },
+      { id: 4, answerText: "hisobot", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "MS Access da  hisobot nima uchun mo'ljallangan?    ",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "ishni avtomatlashtirish uchun buyruqlar yaratish",
+        isCorrect: false,
+      },
+      { id: 2, answerText: "ma'lumotlarni saqlash", isCorrect: false },
+      {
+        id: 3,
+        answerText: "ma'lumotlarni kiritish va tahrirlash",
+        isCorrect: false,
+      },
+      { id: 4, answerText: "ma'lumotlarni chop etish", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "MS Access da katta hajmdagi matnlarni saqlash uchun qanday maydon ishlatiladi?    ",
+    answerOptions: [
+      { id: 1, answerText: "Matn", isCorrect: false },
+      { id: 2, answerText: "OLE", isCorrect: false },
+      { id: 3, answerText: "MEMO", isCorrect: true },
+      { id: 4, answerText: "Gipermurojaat", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "MS Accesda jadval ustuni qanday nomlanadi?    ",
+    answerOptions: [
+      { id: 1, answerText: "yozuv", isCorrect: false },
+      { id: 2, answerText: "maydon", isCorrect: true },
+      { id: 3, answerText: "ma’lumotlar bazasi", isCorrect: false },
+      { id: 4, answerText: "ustun", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "MAN qisqartmasining ma’nosini toping.    ",
+    answerOptions: [
+      { id: 1, answerText: "Metropolitan Areal Netword", isCorrect: false },
+      { id: 2, answerText: "Mega Tarmoq", isCorrect: false },
+      { id: 3, answerText: "Metropolitan Area Network", isCorrect: true },
+      { id: 4, answerText: "Mega Areal Netword", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "LAN qisqartmasining ma’nosini toping.",
+    answerOptions: [
+      { id: 1, answerText: "Local Area Netword", isCorrect: false },
+      { id: 2, answerText: "Local Area Network", isCorrect: true },
+      { id: 3, answerText: "Location Area Network", isCorrect: false },
+      { id: 4, answerText: "Local Areal Network", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Standart Internet protokoli qanday nomlanadi?",
+    answerOptions: [
+      { id: 1, answerText: "SMTP", isCorrect: false },
+      { id: 2, answerText: "TCP / IP", isCorrect: true },
+      { id: 3, answerText: "HTTP", isCorrect: false },
+      { id: 4, answerText: "FTP", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Qaysi topologiya mavjud emasligini ko'rsating.",
+    answerOptions: [
+      { id: 1, answerText: "Yulduz", isCorrect: false },
+      { id: 2, answerText: "Shina", isCorrect: false },
+      { id: 3, answerText: "Lokal", isCorrect: true },
+      { id: 4, answerText: "Halqa", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Serverga asoslangan topologiyaga ega bo'lgan tarmoq qanday nomlanadi?",
+    answerOptions: [
+      { id: 1, answerText: "halqa", isCorrect: false },
+      { id: 2, answerText: "yulduz", isCorrect: true },
+      { id: 3, answerText: "shina", isCorrect: false },
+      { id: 4, answerText: "chiziqli", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Algoritm -bu:",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "muayyan harakatlarni bajarish qoidalari",
         isCorrect: false,
       },
       {
-        id: 4,
-        answerText: "упорядоченная совокупность данных",
+        id: 2,
+        answerText: "buyruqlarning bajarilish ko'rsatuvchi grafik",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText:
+          "qo`yilgan maqsadga erishishga qaratilgan harakatlar ketma-ketligini bajarish uchun aniq ko'rsatmalar      ",
         isCorrect: true,
       },
-    ],
-  },
-  {
-    questionText:
-      "В каком пункте меню расположена команда построения диаграмм в MS Excel?",
-    answerOptions: [
-      { id: 1, answerText: "вставка", isCorrect: true },
-      { id: 2, answerText: "правка", isCorrect: false },
-      { id: 3, answerText: "файл", isCorrect: false },
-      { id: 4, answerText: "формат", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Где помещается значок окна при сворачивании в MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "в буфере обмена", isCorrect: false },
-      { id: 2, answerText: "в корзине", isCorrect: false },
-      { id: 3, answerText: "на панели задач", isCorrect: true },
-      { id: 4, answerText: "на панели инструментов", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Информационные технологии – это … {",
-    answerOptions: [
-      { id: 1, answerText: "средства сбора данных", isCorrect: false },
-      { id: 2, answerText: "средства обработки данных", isCorrect: false },
-      { id: 3, answerText: "совокупность компьютеров", isCorrect: false },
       {
         id: 4,
-        answerText:
-          "совокупность программных и технических средств обработки информации",
-        isCorrect: true,
+        answerText: "kompyuter uchun buyruqlar to'plami",
+        isCorrect: false,
       },
     ],
   },
   {
-    questionText: "",
-    answerOptions: [
-      { id: 1, answerText: "", isCorrect: false },
-      { id: 2, answerText: "", isCorrect: false },
-      { id: 3, answerText: "", isCorrect: false },
-      { id: 4, answerText: "", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Как обозначается диапазон ячеек в MS Excel?",
-    answerOptions: [
-      { id: 1, answerText: "b2;d4", isCorrect: false },
-      { id: 2, answerText: "b2:d4", isCorrect: true },
-      { id: 3, answerText: "b2+d4", isCorrect: false },
-      { id: 4, answerText: "b2-d4", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какая кнопка используется вместе с кнопкой мышь для копирования документов в MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "shift", isCorrect: false },
-      { id: 2, answerText: "ctrl", isCorrect: true },
-      { id: 3, answerText: "alt", isCorrect: false },
-      { id: 4, answerText: "caps lock", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какая кнопка используется вместе с кнопкой мышь для перемещения документов в MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "никакая", isCorrect: true },
-      { id: 2, answerText: "capslock", isCorrect: false },
-      { id: 3, answerText: "alt", isCorrect: false },
-      { id: 4, answerText: "shift", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какая кнопка появляется при нажатии кнопки восстановить окно в MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "развернуть", isCorrect: true },
-      { id: 2, answerText: "закрыть", isCorrect: false },
-      { id: 3, answerText: "свернуть", isCorrect: false },
-      { id: 4, answerText: "пуск", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      " Какая последовательность команд используется для вывода файла на экран в MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "файл-открыть", isCorrect: true },
-      { id: 2, answerText: "правка-вставить", isCorrect: false },
-      { id: 3, answerText: "правка-копировать", isCorrect: false },
-      { id: 4, answerText: "файл-создать", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какая последовательность команд используется для загрузки файла с памяти?",
-    answerOptions: [
-      { id: 1, answerText: "правка-копировать", isCorrect: false },
-      { id: 2, answerText: "файл-создать", isCorrect: false },
-      { id: 3, answerText: "файл-открыть", isCorrect: true },
-      { id: 4, answerText: "правка-вставить", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какая последовательность команд используется для изменения конфигурации экрана в MS Windows",
-    answerOptions: [
-      { id: 1, answerText: "пуск-настройка", isCorrect: true },
-      { id: 2, answerText: "пуск-программы", isCorrect: false },
-      { id: 3, answerText: "пуск-документ", isCorrect: false },
-      { id: 4, answerText: "пуск-поиск", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какая последовательность команд используется для создания папки и документа в MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "файл-открыть", isCorrect: false },
-      { id: 2, answerText: "файл-создать", isCorrect: true },
-      { id: 3, answerText: "правка-копировать", isCorrect: false },
-      { id: 4, answerText: "правка-вставить", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какая система счислений является основой современных компьютеров?",
-    answerOptions: [
-      { id: 1, answerText: "шестнадцатеричная", isCorrect: false },
-      { id: 2, answerText: "восьмеричная", isCorrect: false },
-      { id: 3, answerText: "двоичная", isCorrect: true },
-      { id: 4, answerText: "десятичная", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какие программы относятся к системному программному обеспечению? {",
+    questionText: "Algoritmning natijaviylik xususiyati:    ",
     answerOptions: [
       {
         id: 1,
         answerText:
-          "операционные системы, сервисные программы, трансляторы языков программирования, программы ~технического сервиса",
-        isCorrect: true,
-      },
-      { id: 2, answerText: "программы технического сервиса", isCorrect: false },
-      {
-        id: 3,
-        answerText: "операционные системы и сервисные программы",
+          "algoritmda faqat uning buyruqlari tizimiga kiritilgan buyruqlardan foydalanish mumkin",
         isCorrect: false,
       },
       {
+        id: 2,
+        answerText:
+          "algoritm alohida qadamlardan iborat  tuzilishga ega bo'lishi kerak (alohida bosqichlar ketma-ketligiga bo'linishi kerak)",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText:
+          "algoritmning barcha buyruqlari aniq bajarilgach,  jarayon  chekli qadamlardan keyin ma'lum bir natijaga olib kelishi kerak",
+        isCorrect: true,
+      },
+      {
         id: 4,
-        answerText: "трансляторы языков программирования",
+        answerText:
+          "algoritm bitta aniq masalani emas, balki shu turdagi masalalar sinfning yechimini ta'minlashi kerak",
         isCorrect: false,
       },
     ],
   },
   {
-    questionText: "Какие устройства находятся в системном блоке?",
+    questionText: "Algoritmning diskretlik xususiyati:    ",
     answerOptions: [
       {
         id: 1,
         answerText:
-          "микропроцессор, оперативная память, жесткий диск, электронные схемы и порты",
+          "algoritm alohida qadamlardan iborat  tuzilishga ega bo'lishi kerak (alohida bosqichlar ketma-ketligiga bo'linishi kerak)",
         isCorrect: true,
       },
       {
         id: 2,
-        answerText: "только микропроцессор, оперативная память, жесткий диск",
-        isCorrect: false,
-      },
-      {
-        id: 3,
-        answerText: "только микропроцессор и оперативная память",
-        isCorrect: false,
-      },
-      {
-        id: 4,
-        answerText: "только микропроцессор и дисководы",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    questionText:
-      "Каким образом обычно изображаются значки документов в MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "белым цветом", isCorrect: false },
-      { id: 2, answerText: "красным цветом", isCorrect: false },
-      { id: 3, answerText: "рисунком", isCorrect: true },
-      { id: 4, answerText: "желтым цветом", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Каким свойством не должна обладать информация?",
-    answerOptions: [
-      { id: 1, answerText: "неопределенностью", isCorrect: true },
-      { id: 2, answerText: "значимостью", isCorrect: false },
-      { id: 3, answerText: "полнотой", isCorrect: false },
-      { id: 4, answerText: "достоверностью", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Каким цветом обычно изображаются значки папок в MS Windows? ",
-    answerOptions: [
-      { id: 1, answerText: "белым", isCorrect: false },
-      { id: 2, answerText: "желтым", isCorrect: true },
-      { id: 3, answerText: "красным", isCorrect: false },
-      { id: 4, answerText: "зеленым", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какое меню содержит команду выключения компьютера в MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "формат", isCorrect: false },
-      { id: 2, answerText: "правка", isCorrect: false },
-      { id: 3, answerText: "файл", isCorrect: false },
-      { id: 4, answerText: "главное меню", isCorrect: true },
-    ],
-  },
-  {
-    questionText: "Какое меню содержит команду копирования?",
-    answerOptions: [
-      { id: 1, answerText: "правка", isCorrect: true },
-      { id: 2, answerText: "файл", isCorrect: false },
-      { id: 3, answerText: "Формат", isCorrect: false },
-      { id: 4, answerText: "Сервис", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Какое окно раскрывается при запуске MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "панель инструментов", isCorrect: false },
-      { id: 2, answerText: "рабочий стол", isCorrect: true },
-      { id: 3, answerText: "панель управления", isCorrect: false },
-      { id: 4, answerText: "панель задач", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Какое число записано с постоянной (фиксированной) запятой?",
-    answerOptions: [
-      { id: 1, answerText: "25", isCorrect: false },
-      { id: 2, answerText: "0.5∙10", isCorrect: false },
-      { id: 3, answerText: "25.5", isCorrect: true },
-      { id: 4, answerText: "0.5е -2", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какой элемент окна используется для перемещения окна при помощи мышки в MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "строка заголовка", isCorrect: true },
-      { id: 2, answerText: "строка состояния", isCorrect: false },
-      { id: 3, answerText: "строка меню", isCorrect: false },
-      { id: 4, answerText: "панель инструментов", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Какую функцию выполняет операционная система?",
-    answerOptions: [
-      {
-        id: 1,
-        answerText: "отправление программ пользователю",
-        isCorrect: false,
-      },
-      {
-        id: 2,
-        answerText: "чтение и запись программ и данных",
+        answerText:
+          "ma'lum bir algoritmni yozishda faqat uning buyruqlari tizimiga kiritilgan buyruqlardan foydalanishingiz mumkin",
         isCorrect: false,
       },
       {
         id: 3,
         answerText:
-          "управление обработкой информации и обеспечение диалога между пользователем и компьютером",
-        isCorrect: true,
+          "algoritm bitta aniq masalani emas, balki shu turdagi masalalar sinfning yechimini ta'minlashi kerak",
+        isCorrect: false,
       },
       {
         id: 4,
-        answerText: "управление процессом обработки информации",
+        answerText:
+          "algoritmning barcha buyruqlari aniq bajarilgach,  jarayon  chekli qadamlardan keyin ma'lum bir natijaga olib kelihi kerak",
         isCorrect: false,
       },
     ],
   },
   {
-    questionText: "Какую функцию выполняет правая кнопка мышь?",
-    answerOptions: [
-      { id: 1, answerText: "вывод контекстного меню", isCorrect: true },
-      { id: 2, answerText: "открытие объекта", isCorrect: false },
-      { id: 3, answerText: "выделение объекта", isCorrect: false },
-      { id: 4, answerText: "удаление объекта", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Какую функцию выполняет принтер?",
-    answerOptions: [
-      {
-        id: 1,
-        answerText: "копирование информации с экрана на бумагу",
-        isCorrect: true,
-      },
-      { id: 2, answerText: "вывод данных на бумагу", isCorrect: false },
-      { id: 3, answerText: "печать результатов на бумаге", isCorrect: false },
-      {
-        id: 4,
-        answerText: "вывод текстовых данных на бумагу",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    questionText: "Клавиатура предназначена для …",
-    answerOptions: [
-      { id: 1, answerText: "ввода информации", isCorrect: true },
-      {
-        id: 2,
-        answerText: "обеспечения диалога пользователь-компьютер",
-        isCorrect: false,
-      },
-      { id: 3, answerText: "управления компьютером", isCorrect: false },
-      { id: 4, answerText: "записи программ", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Куда помещаются удаленные файлы в MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "в панель задач", isCorrect: false },
-      { id: 2, answerText: "в корзину", isCorrect: true },
-      { id: 3, answerText: "в программу «мой компьютер»", isCorrect: false },
-      { id: 4, answerText: "в основное меню", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Микропроцессор – это …",
+    questionText: "Algoritm chiziqli deb nomlanadi:",
     answerOptions: [
       {
         id: 1,
         answerText:
-          "устройство выполнения операций и управления другими устройствами компьютера",
-        isCorrect: true,
+          "agar uning bajarilishi bir xil harakatlarni  takrorlashni o'z ichiga olsa",
+        isCorrect: false,
       },
       {
         id: 2,
-        answerText: "блок, соединяющий все устройства компьютера",
+        answerText:
+          "agar uni amalga oshirish jarayoni muayyan shartlarning bajarilishiga bog'liq bo'lsa",
         isCorrect: false,
       },
       {
         id: 3,
         answerText:
-          "устройство, которое выполняет команды, хранит информацию и программы ",
-        isCorrect: false,
-      },
-      {
-        id: 4,
-        answerText: "вспомогательное устройство компьютера",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    questionText: "Монитор предназначен для …",
-    answerOptions: [
-      { id: 1, answerText: "вывода текста на экран", isCorrect: false },
-      { id: 2, answerText: "записи информации на экран", isCorrect: false },
-      {
-        id: 3,
-        answerText: "вывода на экран графической и текстовой информации",
+          "agar uning buyruqlari  ketma-ket tabiiy tartibda bajarilsa",
         isCorrect: true,
       },
       {
         id: 4,
-        answerText: "сохранения информации на экране",
+        answerText: "agar u yordamchi algoritmni o'z ichiga olsa",
         isCorrect: false,
       },
     ],
   },
   {
-    questionText: "Нажатие какой кнопки открывает главное меню MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "свернуть", isCorrect: false },
-      { id: 2, answerText: "развернуть", isCorrect: false },
-      { id: 3, answerText: "закрыть", isCorrect: false },
-      { id: 4, answerText: "пуск", isCorrect: true },
-    ],
-  },
-  {
-    questionText: "Оперативная память – это …",
-    answerOptions: [
-      { id: 1, answerText: "устройство обработки данных", isCorrect: false },
-      {
-        id: 2,
-        answerText:
-          "устройство временного хранения и обработки текущей программы и текущих данных",
-        isCorrect: true,
-      },
-      { id: 3, answerText: "устройство печати данных", isCorrect: false },
-      { id: 4, answerText: "устройство ввода данных", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Операционная система – это … ",
-    answerOptions: [
-      {
-        id: 1,
-        answerText: "программа автоматизации процесса ввода-вывода информации",
-        isCorrect: false,
-      },
-      {
-        id: 2,
-        answerText: "программа обеспечения диалога пользователя с компьютером",
-        isCorrect: false,
-      },
-      {
-        id: 3,
-        answerText: "программа управления процессом обработки информации",
-        isCorrect: false,
-      },
-      {
-        id: 4,
-        answerText:
-          "программа управления обработки информации и обеспечения диалога пользователь -компьютер",
-        isCorrect: true,
-      },
-    ],
-  },
-  {
-    questionText: "Покажите дополнительные устройства компьютера.",
-    answerOptions: [
-      { id: 1, answerText: "принтер и сканер", isCorrect: true },
-      { id: 2, answerText: "процессор и принтер", isCorrect: false },
-      { id: 3, answerText: "процессор и дискета", isCorrect: false },
-      {
-        id: 4,
-        answerText: "внутренняя память, клавиатура и принтер",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    questionText: "Покажите разделитель между именем файла и расширением.",
-    answerOptions: [
-      { id: 1, answerText: "; (точка с запятой)", isCorrect: false },
-      { id: 2, answerText: ": (двоеточие)", isCorrect: false },
-      { id: 3, answerText: ", (запятая)", isCorrect: false },
-      { id: 4, answerText: ". (точка)", isCorrect: true },
-    ],
-  },
-  {
-    questionText: "Покажите способы представления алгоритмов",
-    answerOptions: [
-      { id: 1, answerText: "только в виде блок – схем", isCorrect: false },
-      {
-        id: 2,
-        answerText:
-          "в виде блок - схем, словесно, аналитически, таблично, на алгоритмическом языке, в виде программы ",
-        isCorrect: true,
-      },
-      {
-        id: 3,
-        answerText: "только аналитически и в виде блок – схем",
-        isCorrect: false,
-      },
-      {
-        id: 4,
-        answerText: "только таблично и в виде блок – схем",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    questionText: "Программа – это  …",
-    answerOptions: [
-      { id: 1, answerText: "машинные языки", isCorrect: false },
-      { id: 2, answerText: "алгоритмические языки", isCorrect: false },
-      {
-        id: 3,
-        answerText: "последовательность действий для компьютера",
-        isCorrect: true,
-      },
-      {
-        id: 4,
-        answerText: "машинные и алгоритмические языки",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    questionText:
-      "При помощи какого знака выполняются вычисления в таблицах MS Excel?",
-    answerOptions: [
-      { id: 1, answerText: "=", isCorrect: true },
-      { id: 2, answerText: "+", isCorrect: false },
-      { id: 3, answerText: ":", isCorrect: false },
-      { id: 4, answerText: "-", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Программное обеспечение – это …",
-    answerOptions: [
-      {
-        id: 1,
-        answerText: "система обработки данных в компьютере",
-        isCorrect: false,
-      },
-      {
-        id: 2,
-        answerText: "программы и устройства, обеспечивающие работу компьютера",
-        isCorrect: false,
-      },
-      {
-        id: 3,
-        answerText: "комплекс программ, используемых в компьютерах",
-        isCorrect: true,
-      },
-      {
-        id: 4,
-        answerText: "программы, обеспечивающие работу операционной системы",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    questionText: "Виды программного обеспечения ",
+    questionText: "Algoritmni grafik ko`rinishda ifodalash-bu:    ",
     answerOptions: [
       {
         id: 1,
         answerText:
-          "системное программное обеспечение, прикладное программное обеспечение, инструментарий технологии программирования, техническое обеспечение",
+          "Algoritmni jadvallar va hisoblash formulalari ko'rinishida taqdim etish",
         isCorrect: false,
       },
       {
         id: 2,
         answerText:
-          "системное программное обеспечение, прикладное программное обеспечение, инструментарий технологии программирования, информационное обеспечение",
-        isCorrect: false,
+          "Geometrik shakllar yordamida algoritmni aks ettirish usuli",
+        isCorrect: true,
       },
       {
         id: 3,
         answerText:
-          "системное программное обеспечение, прикладное программное обеспечение, инструментарий технологии программирования",
-        isCorrect: true,
-      },
-      {
-        id: 4,
-        answerText:
-          "системное программное обеспечение, прикладное программное обеспечение, инструментарий технологии программирования, математическое обеспечение",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    questionText: "Сколько кнопок имеется в строке заголовка окна MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "3", isCorrect: true },
-      { id: 2, answerText: "1", isCorrect: false },
-      { id: 3, answerText: "2", isCorrect: false },
-      { id: 4, answerText: "4", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Сколько цифр используется в двоичной системе счислений? {",
-    answerOptions: [
-      { id: 1, answerText: "одна", isCorrect: false },
-      { id: 2, answerText: "три", isCorrect: false },
-      { id: 3, answerText: "четыре", isCorrect: false },
-      { id: 4, answerText: "две", isCorrect: true },
-    ],
-  },
-  {
-    questionText:
-      "Устройство копирования текстовых и графических данных в память компьютера - это …",
-    answerOptions: [
-      { id: 1, answerText: "плоттер", isCorrect: false },
-      { id: 2, answerText: "сканер", isCorrect: true },
-      { id: 3, answerText: "принтер", isCorrect: false },
-      { id: 4, answerText: "модем", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Чем отличается база данных от базы знаний?",
-    answerOptions: [
-      { id: 1, answerText: "применением", isCorrect: false },
-      { id: 2, answerText: "не отличаются", isCorrect: false },
-      {
-        id: 3,
-        answerText: "содержимой информацией и их применением",
-        isCorrect: true,
-      },
-      { id: 4, answerText: "только содержимой информацией", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Что означает двойное нажатие левой кнопки мышь на значке документа в MS Windows?",
-    answerOptions: [
-      { id: 1, answerText: "выделение документа", isCorrect: false },
-      { id: 2, answerText: "открытие документа", isCorrect: true },
-      { id: 3, answerText: "закрытие документа", isCorrect: false },
-      { id: 4, answerText: "удаление документа", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Что составляет элементную базу ЭВМ второго поколения?",
-    answerOptions: [
-      { id: 1, answerText: "полупроводники", isCorrect: true },
-      {
-        id: 2,
-        answerText: "большие интегральные схемы (микропроцессоры)",
-        isCorrect: false,
-      },
-      { id: 3, answerText: "радиолампы", isCorrect: false },
-      { id: 4, answerText: "малые интегральные схемы", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Что составляет элементную базу ЭВМ третьего поколения?",
-    answerOptions: [
-      { id: 1, answerText: "радиолампы", isCorrect: false },
-      { id: 2, answerText: "полупроводни", isCorrect: false },
-      { id: 3, answerText: "интегральные схемы", isCorrect: true },
-      {
-        id: 4,
-        answerText: "большие интегральные схемы (микропроцессоры)",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    questionText: "Что составляет элементную базу ЭВМ первого поколения?",
-    answerOptions: [
-      { id: 1, answerText: "радиолампы", isCorrect: true },
-      { id: 2, answerText: "полупроводники", isCorrect: false },
-      { id: 3, answerText: "малые интегральные схемы", isCorrect: false },
-      {
-        id: 4,
-        answerText: "большие интегральные схемы (микропроцессоры)",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    questionText: "Что составляет элементную базу ЭВМ четвертого поколения?",
-    answerOptions: [
-      {
-        id: 1,
-        answerText: "большие интегральные схемы (микропроцессоры)",
-        isCorrect: true,
-      },
-      { id: 2, answerText: "малые интегральные схемы", isCorrect: false },
-      { id: 3, answerText: "радиолампы", isCorrect: false },
-      { id: 4, answerText: "полупроводники", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Что такое информация?",
-    answerOptions: [
-      {
-        id: 1,
-        answerText:
-          "сведения о параметрах, свойствах и состоянии объектов, событий и процессов в окружающем мире",
-        isCorrect: true,
-      },
-      { id: 2, answerText: "совокупность знаний", isCorrect: false },
-      {
-        id: 3,
-        answerText:
-          "сведения о материальном мире, представленные в виде совокупности символов",
-        isCorrect: false,
-      },
-      { id: 4, answerText: "объяснение, описание", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Какие информационные модели баз данных существуют?",
-    answerOptions: [
-      {
-        id: 1,
-        answerText: "реляционные, иерархические, сетевые, системные",
-        isCorrect: false,
-      },
-      {
-        id: 2,
-        answerText: "реляционные, иерархические, фактографические",
-        isCorrect: false,
-      },
-      {
-        id: 3,
-        answerText:
-          "реляционные, иерархические, сетевые, системные, информационные",
+          "Algoritmlarni bajarish qoidalari va ularni belgilash tizimi",
         isCorrect: false,
       },
       {
         id: 4,
-        answerText: "реляционные, иерархические, сетевые",
-        isCorrect: true,
+        answerText: "Algoritmni so'zlar yordamida aks ettirish",
+        isCorrect: false,
       },
     ],
   },
   {
-    questionText: "Как называется столбец в таблице базы данных?",
-    answerOptions: [
-      { id: 1, answerText: "запись", isCorrect: false },
-      { id: 2, answerText: "поле", isCorrect: true },
-      { id: 3, answerText: "элемент", isCorrect: false },
-      { id: 4, answerText: "объект", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Как называется строка в таблице базы данных?",
-    answerOptions: [
-      { id: 1, answerText: "поле", isCorrect: false },
-      { id: 2, answerText: "элемент", isCorrect: false },
-      { id: 3, answerText: "объект", isCorrect: false },
-      { id: 4, answerText: "запись", isCorrect: true },
-    ],
-  },
-  {
-    questionText:
-      "При помощи каких объектов можно ввести данные в базу данных?",
-    answerOptions: [
-      { id: 1, answerText: "таблица, форма, запрос", isCorrect: false },
-      { id: 2, answerText: "таблица, форма, отчет и запрос", isCorrect: false },
-      { id: 3, answerText: "таблица и форма", isCorrect: true },
-      { id: 4, answerText: "таблица, отчет и запрос", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Kакие из следующих программ являются системами управления баз данных (СУБД)?",
+    questionText: "Algoritmni grafik ko`rinishda ifodalash-bu:    ",
     answerOptions: [
       {
         id: 1,
-        answerText: "=MS Access, Clipper, Paradox, Foxpro",
+        answerText:
+          "Geometrik shakllar yordamida algoritmni aks ettirish usuli",
         isCorrect: true,
       },
       {
         id: 2,
-        answerText: "~MS Access, Clipper, MS Excel, Foxpro, MS Word",
+        answerText:
+          "Algoritmni jadvallar va hisoblash formulalari ko'rinishida taqdim etish",
         isCorrect: false,
       },
       {
         id: 3,
-        answerText: "~MS Access, MS Excel, Clipper, Paradox, Foxpro",
+        answerText:
+          "Algoritmlarni bajarish qoidalari va ularni belgilash tizimi",
         isCorrect: false,
       },
-      { id: 4, answerText: "~MS Access, Foxpro", isCorrect: false },
+      {
+        id: 4,
+        answerText: "Algoritmni so'zlar yordamida aks ettirish",
+        isCorrect: false,
+      },
     ],
   },
   {
-    questionText: "Операционная система – это:",
+    questionText:
+      "Quyidagilardan qaysi biri C ++ da ma'lumotlar turi emas?    ",
+    answerOptions: [
+      { id: 1, answerText: "double", isCorrect: false },
+      { id: 2, answerText: "float", isCorrect: false },
+      { id: 3, answerText: "real", isCorrect: true },
+      { id: 4, answerText: "int", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "C ++ dasturlash tili asoschisi kim?",
+    answerOptions: [
+      { id: 1, answerText: "Donald Knut", isCorrect: false },
+      { id: 2, answerText: "Byorn Stroustrup", isCorrect: true },
+      { id: 3, answerText: "Ken Tompson", isCorrect: false },
+      { id: 4, answerText: "Niklaus Virt", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "C ++ da to`g`ri yozilgan ma'lumotlar turlarini toping.    ",
     answerOptions: [
       {
         id: 1,
-        answerText: "совокупность основных устройств компьютера",
+        answerText:
+          "butun sonlar –int, haqiqiy sonlar –float yoki double, belgilar –string",
         isCorrect: false,
       },
       {
         id: 2,
         answerText:
-          "набор программ, обеспечивающий работу всех устройств компьютера и доступ пользователя к ним",
-        isCorrect: true,
+          "butun sonlar –int, haqiqiy sonlar –float yoki real, belgilar –char",
+        isCorrect: false,
       },
       {
         id: 3,
         answerText:
-          "совокупность программ, используемых для операций с документами",
-        isCorrect: false,
+          "butun sonlar –int, haqiqiy sonlar –float yoki double, belgilar –char",
+        isCorrect: true,
       },
       {
         id: 4,
-        answerText: "программа для уничтожения компьютерных вирусов",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    questionText: "Укажите параметр, характеризующий память компьютера",
-    answerOptions: [
-      { id: 1, answerText: "тактовая  частота", isCorrect: false },
-      { id: 2, answerText: "производительность", isCorrect: false },
-      { id: 3, answerText: "скорость передачи", isCorrect: false },
-      { id: 4, answerText: "объем", isCorrect: true },
-    ],
-  },
-  {
-    questionText:
-      "Укажите тип пользователя, обладающего полными правами по управлению и пользованию ",
-    answerOptions: [
-      { id: 1, answerText: "администратор", isCorrect: true },
-      { id: 2, answerText: "гость", isCorrect: false },
-      { id: 3, answerText: "обычный пользователь", isCorrect: false },
-      { id: 4, answerText: "внешний пользователь", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Укажите тип пользователя который может войти в систему без пароля,  но не  обладает возможностями по управлению и использованию функций компьютера и операционной системы",
-    answerOptions: [
-      { id: 1, answerText: "администратор", isCorrect: false },
-      { id: 2, answerText: "гость", isCorrect: true },
-      { id: 3, answerText: "внешний пользователь", isCorrect: false },
-      { id: 4, answerText: "обычный пользователь", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Как называется объект, обладающий своим именем на диске, включающий в себя разные файлы?",
-    answerOptions: [
-      { id: 1, answerText: "папка", isCorrect: true },
-      { id: 2, answerText: "программа", isCorrect: false },
-      { id: 3, answerText: "файл", isCorrect: false },
-      { id: 4, answerText: "программа", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какое название присваивается по умолчанию при создании нового документа в Ms Excel? ",
-    answerOptions: [
-      { id: 1, answerText: "“таблица 1”", isCorrect: false },
-      { id: 2, answerText: "“лист 1”", isCorrect: false },
-      { id: 3, answerText: " “документ 1”", isCorrect: false },
-      { id: 4, answerText: "“книга 1”", isCorrect: true },
-    ],
-  },
-  {
-    questionText:
-      "Какая из нижеследующих функций является логической в программе Microsoft Excel",
-    answerOptions: [
-      { id: 1, answerText: "сумм", isCorrect: false },
-      { id: 2, answerText: "если", isCorrect: true },
-      { id: 3, answerText: "мах", isCorrect: false },
-      { id: 4, answerText: "срзнач", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какой из нижеследующих типов данных отсутствует в программе Microsoft Excel?",
-    answerOptions: [
-      { id: 1, answerText: "текстовый", isCorrect: false },
-      { id: 2, answerText: "числовой", isCorrect: false },
-      { id: 3, answerText: "денежный", isCorrect: false },
-      { id: 4, answerText: "графический", isCorrect: true },
-    ],
-  },
-  {
-    questionText:
-      "Как называется выделенное поле между лентой задач и рабочим полем в Microsoft Excel?",
-    answerOptions: [
-      { id: 1, answerText: "панель инструментов", isCorrect: false },
-      { id: 2, answerText: "строка состояния", isCorrect: false },
-      { id: 3, answerText: "командная строка", isCorrect: false },
-      { id: 4, answerText: "строка формул", isCorrect: true },
-    ],
-  },
-  {
-    questionText:
-      "Укажите формулу для сложения значений в ячейках А1 и В1 в Microsoft Excel",
-    answerOptions: [
-      { id: 1, answerText: "=А1+В1", isCorrect: true },
-      { id: 2, answerText: "=СУММА(15:10)", isCorrect: false },
-      { id: 3, answerText: "С1=А1+В1", isCorrect: false },
-      { id: 4, answerText: "=СУММА(А1:С1)", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Как называется панель интерфейса программы между заголовком и лентой задач? ",
-    answerOptions: [
-      { id: 1, answerText: "панель инструментов", isCorrect: false },
-      { id: 2, answerText: "строка меню", isCorrect: true },
-      { id: 3, answerText: "командная строка", isCorrect: false },
-      { id: 4, answerText: "строка состояния", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Назовите объект, имеющий имя, расширение и объем, включающий в себя любую информацию? {",
-    answerOptions: [
-      { id: 1, answerText: "программа", isCorrect: false },
-      { id: 2, answerText: "ярлык", isCorrect: false },
-      { id: 3, answerText: "папка", isCorrect: false },
-      { id: 4, answerText: "файл", isCorrect: true },
-    ],
-  },
-  {
-    questionText:
-      "Как называется объект, обладающий своим именем на диске, включающий в себя разные файлы?",
-    answerOptions: [
-      { id: 1, answerText: "программа", isCorrect: false },
-      { id: 2, answerText: "папка", isCorrect: true },
-      { id: 3, answerText: "файл", isCorrect: false },
-      { id: 4, answerText: "Ярлык", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Укажите формулу для суммирования значений в  ячейках А1:А9 в Microsoft Excel",
-    answerOptions: [
-      { id: 1, answerText: "=сумм(А1:А9)", isCorrect: true },
-      { id: 2, answerText: "=срзнач(А1:А9)", isCorrect: false },
-      { id: 3, answerText: "=сумма(А1:А9)", isCorrect: false },
-      { id: 4, answerText: "=счет(А1:А9)", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Укажите правильный адрес ячейки в Microsoft Excel:",
-    answerOptions: [
-      { id: 1, answerText: "5D6", isCorrect: false },
-      { id: 2, answerText: "B7", isCorrect: true },
-      { id: 3, answerText: "12A", isCorrect: false },
-      { id: 4, answerText: "F2C", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Укажите неправильную формулу в Microsoft Excel:",
-    answerOptions: [
-      { id: 1, answerText: "A2+B4", isCorrect: true },
-      { id: 2, answerText: "=D6/G12", isCorrect: false },
-      { id: 3, answerText: "=B7-A2", isCorrect: false },
-      { id: 4, answerText: "=F2+F3", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какие функции выполняет Запрос в системах управления базами данных?",
-    answerOptions: [
-      {
-        id: 1,
-        answerText: "подготовка данных к печати в удобном виде",
-        isCorrect: false,
-      },
-      { id: 2, answerText: "хранение всех данных базы", isCorrect: false },
-      {
-        id: 3,
-        answerText: "ввод данных в базу или просмотр имеющихся данных",
-        isCorrect: false,
-      },
-      {
-        id: 4,
-        answerText: "отбор из базы нужных данных и их обработка",
+        answerText:
+          "butun sonlar - bool, haqiqiy sonlar - float yoki double, belgilar - satr",
         isCorrect: true,
       },
     ],
   },
   {
-    questionText: "Линейная структура построения программы подразумевает:",
+    questionText:
+      "Barcha C ++ dasturlari qanday funktsiyani o'z ichiga olishi kerak?",
+    answerOptions: [
+      { id: 1, answerText: "program ()", isCorrect: false },
+      { id: 2, answerText: "main ()", isCorrect: true },
+      { id: 3, answerText: "system ()", isCorrect: false },
+      { id: 4, answerText: "start ()", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "C ++ dasturlash tilida a ni b darajaga ko'tarish funktsiyasi qanday yozilgan?",
+    answerOptions: [
+      { id: 1, answerText: "pow (b, ~ ", isCorrect: false },
+      { id: 2, answerText: "exp (b, ~ ", isCorrect: false },
+      { id: 3, answerText: "exp (a, b)", isCorrect: false },
+      { id: 4, answerText: "pow (a, b)", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "lnx standart funktsiyasi C ++ dasturlash tilida qanday yozilgan?    ",
+    answerOptions: [
+      { id: 1, answerText: "log (x)", isCorrect: true },
+      { id: 2, answerText: "loge (x)", isCorrect: false },
+      { id: 3, answerText: "logx", isCorrect: false },
+      { id: 4, answerText: "ln (x)", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Quyidagi Ifoda natijasi qanday bo'ladi?  (1 &&! (0 || 1))    ",
+    answerOptions: [
+      { id: 1, answerText: "noaniqlik", isCorrect: false },
+      { id: 2, answerText: "Yolg'on", isCorrect: true },
+      { id: 3, answerText: "Rost", isCorrect: false },
+      { id: 4, answerText: "2", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Switch operatorida qanday kalit so'z ishlatiladi?    ",
+    answerOptions: [
+      { id: 1, answerText: "program", isCorrect: false },
+      { id: 2, answerText: "label", isCorrect: false },
+      { id: 3, answerText: "include", isCorrect: false },
+      { id: 4, answerText: "break", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "int L [3] [3] massiv qiymatlari {{2, 3, 4}, {3, 4, 8}, {1, 0, 9}} ko`rinishda bo`lsa,  massivning  L [1] [2] elementi qiymati qanday bo'ladi?",
+    answerOptions: [
+      { id: 1, answerText: "2", isCorrect: false },
+      { id: 2, answerText: "3", isCorrect: false },
+      { id: 3, answerText: "4", isCorrect: false },
+      { id: 4, answerText: "8", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "MathCad dasturi asoschisi kim?",
+    answerOptions: [
+      { id: 1, answerText: "Burners Li", isCorrect: false },
+      { id: 2, answerText: "Niklaus Virt", isCorrect: false },
+      { id: 3, answerText: "Byorn Stroustrup", isCorrect: false },
+      { id: 4, answerText: "Allen Razdov", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "MathCad dasturida bir o'lchovli funktsiya grafigini ifodalovchi to'rtburchak ramkada funktsiya nomi qaerga kiritiladi?    ",
     answerOptions: [
       {
         id: 1,
-        answerText: "неоднократное повторение отдельных частей программы",
+        answerText:
+          "to'rtburchak ramkaning o'ng tomonida joylashgan katakchaga",
         isCorrect: false,
       },
       {
         id: 2,
-        answerText: "последовательное выполнение всех элементов программы",
-        isCorrect: true,
+        answerText:
+          "to'rtburchaklar ramkaning yuqori qismidagi joylashgan katakchaga",
+        isCorrect: false,
       },
       {
         id: 3,
         answerText:
-          "выполнение лишь нескольких, удовлетворяющих условию, операторов",
-        isCorrect: false,
-      },
-      {
-        id: 4,
-        answerText: "выполнение только операторов присваивания",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    questionText: "Укажите виды алгоритмов: ",
-    answerOptions: [
-      {
-        id: 1,
-        answerText: "Линейные, разветвляющиеся, арифметические, циклические",
-        isCorrect: false,
-      },
-      {
-        id: 2,
-        answerText: "Линейные, нелинейные, разветвляющиеся, циклические",
-        isCorrect: false,
-      },
-      {
-        id: 3,
-        answerText: "Линейные, разветвляющиеся, циклические",
-        isCorrect: true,
-      },
-      {
-        id: 4,
-        answerText: "Линейные, разветвляющиеся, итерационные, циклические",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    questionText:
-      "Какие операторы используются для программирования линейных алгоритмов в С++?",
-    answerOptions: [
-      { id: 1, answerText: "Операторы If, Switch Case", isCorrect: false },
-      { id: 2, answerText: "Операторы For, While", isCorrect: false },
-      {
-        id: 3,
-        answerText: "Операторы присваивания, ввода и вывода",
-        isCorrect: true,
-      },
-      { id: 4, answerText: "Операторы Repeat, While, Case", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Какие операторы используются для программирования разветвляющихся алгоритмов?",
-    answerOptions: [
-      { id: 1, answerText: "Repeat, While, Case", isCorrect: false },
-      {
-        id: 2,
-        answerText: "Операторы присваивания, ввода и вывода",
-        isCorrect: false,
-      },
-      { id: 3, answerText: "For, Repeat, While", isCorrect: false },
-      { id: 4, answerText: "Операторы Goto, If, Case", isCorrect: true },
-    ],
-  },
-  {
-    questionText:
-      "Для программирования каких алгоритмов используется оператор For? ",
-    answerOptions: [
-      {
-        id: 1,
-        answerText: "Для программирования итерационных циклических алгоритмов",
-        isCorrect: true,
-      },
-      {
-        id: 2,
-        answerText: "Для программирования линейных алгоритмов",
-        isCorrect: false,
-      },
-      {
-        id: 3,
-        answerText: "Для программирования разветвляющихся алгоритмов",
+          "to'rtburchak ramkaning pastki qismida joylashgan katakchaga",
         isCorrect: false,
       },
       {
         id: 4,
         answerText:
-          "Для программирования арифметических циклических алгоритмов",
+          "to'rtburchaklar ramkaning chap tomonida markazda joylashgan katakchaga",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText:
+      "MathCad dasturida lokal qiymat berish operatori qanday belgi yordamida yoziladi?    ",
+    answerOptions: [
+      { id: 1, answerText: "Barobar belgisi yordamida", isCorrect: false },
+      {
+        id: 2,
+        answerText: "Ikki nuqta va barobar belgisi yordamida",
         isCorrect: false,
       },
+      {
+        id: 3,
+        answerText: "O’ngga  strelka  belgisi yordamida",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "Chapga strelka belgisi yordamida",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText:
+      "MathCad dasturida o`zlashtirish operatori qanday belgi yordamida yoziladi?    ",
+    answerOptions: [
+      {
+        id: 1,
+        answerText: "Ikkita kichik belgisi yordamida",
+        isCorrect: false,
+      },
+      { id: 2, answerText: "Ikkita katta belgisi yordamida", isCorrect: false },
+      {
+        id: 3,
+        answerText: "Ikki nuqta va barobar belgisi yordamida",
+        isCorrect: true,
+      },
+      { id: 4, answerText: "Barobar belgisi yordamida", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "MathCadda dasturlash qanday buyruq bilan boshlanadi?",
+    answerOptions: [
+      { id: 1, answerText: "series buyrug`i yordamida", isCorrect: false },
+      { id: 2, answerText: "otherwise buyrug`i yordamida", isCorrect: false },
+      { id: 3, answerText: "Add Line buyrug`i yordamida", isCorrect: true },
+      { id: 4, answerText: "Modifiers buyrug`i yordamida", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MathCadda Math panelining  integrallash, differensiallash, yig'indini hisoblash amallarini bajarish bo'limini toping?",
+    answerOptions: [
+      { id: 1, answerText: "Calculator", isCorrect: false },
+      { id: 2, answerText: "Calculus", isCorrect: true },
+      { id: 3, answerText: "Boolean", isCorrect: false },
+      { id: 4, answerText: "Evaluation", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Qanday model fikrlash mahsuli hisoblanadi?",
+    answerOptions: [
+      { id: 1, answerText: "materiallashgan model", isCorrect: false },
+      { id: 2, answerText: "abstrakt model", isCorrect: true },
+      { id: 3, answerText: "izomorf model", isCorrect: false },
+      { id: 4, answerText: "gomomorf model", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Qaysi model bilan  ob’ekt o‘rtasida o‘zaro bir qiymatli moslik mavjud?",
+    answerOptions: [
+      { id: 1, answerText: "gomomorf model", isCorrect: false },
+      { id: 2, answerText: "izomorf model", isCorrect: true },
+      { id: 3, answerText: "abstrakt model", isCorrect: false },
+      { id: 4, answerText: "materiallashgan model	", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Vaqt bo‘yicha o‘zgaruvchi modelni ko‘rsating.",
+    answerOptions: [
+      { id: 1, answerText: "statik model", isCorrect: false },
+      { id: 2, answerText: "dinamik model", isCorrect: true },
+      {
+        id: 3,
+        answerText: "parametrlari mujassamlashgan  model",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "parametrlari fazoda taqsimlangan  model",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText: "MathCad avtomatik ravishda fayl nomini qanday o'rnatadi?",
+    answerOptions: [
+      { id: 1, answerText: "Документ", isCorrect: false },
+      { id: 2, answerText: "untitled", isCorrect: true },
+      { id: 3, answerText: "Kнига", isCorrect: false },
+      { id: 4, answerText: "Fayl", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MathCad avtomatik ravishda fayl nomini qanday o'rnatadi?    ",
+    answerOptions: [
+      { id: 1, answerText: "Документ", isCorrect: false },
+      { id: 2, answerText: "untitled", isCorrect: true },
+      { id: 3, answerText: "Kнига", isCorrect: false },
+      { id: 4, answerText: "Fayl", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MathCad dasturida bir o'lchovli funktsiya grafigini ifodalovchi to'rtburchak ramkada argument belgisi qaerga kiritiladi?    ",
+    answerOptions: [
+      {
+        id: 1,
+        answerText:
+          "to'rtburchak ramkaning o'ng tomonida joylashgan katakchaga",
+        isCorrect: false,
+      },
+      {
+        id: 2,
+        answerText:
+          "to'rtburchak ramkaning chap tomonida joylashgan katakchaga",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText:
+          "to'rtburchak ramkaning pastki qismida joylashgan katakchaga",
+        isCorrect: true,
+      },
+      {
+        id: 4,
+        answerText:
+          "to'rtburchak ramkaning yuqori qismida joylashgan katakchaga",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      "MathCad dasturiga natijalarni chiqarish uchun qanday belgidan foydalaniladi?",
+    answerOptions: [
+      { id: 1, answerText: "Barobar belgisi yordamida", isCorrect: true },
+      {
+        id: 2,
+        answerText: "Ikki nuqta va barobar belgisi yordamida",
+        isCorrect: false,
+      },
+      {
+        id: 3,
+        answerText: "Ikkita katta  belgisi yordamida",
+        isCorrect: false,
+      },
+      {
+        id: 4,
+        answerText: "Ikkita kichik  belgisi yordamida",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    questionText:
+      "MathCadda Math panelining mantiqiy operatorlarni kiritish bo`limini toping?    ",
+    answerOptions: [
+      { id: 1, answerText: "Calculus", isCorrect: false },
+      { id: 2, answerText: "Calculator", isCorrect: false },
+      { id: 3, answerText: "Boolean", isCorrect: true },
+      { id: 4, answerText: "Evaluation", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "MathCadda siklni to'xtatish operatorini toping.    ",
+    answerOptions: [
+      { id: 1, answerText: "for", isCorrect: false },
+      { id: 2, answerText: "break", isCorrect: true },
+      { id: 3, answerText: "if", isCorrect: false },
+      { id: 4, answerText: "continue", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "MathCadda takrorlanish soni ma'lum bo'lgan sikl operatorini toping.    ",
+    answerOptions: [
+      { id: 1, answerText: "continue", isCorrect: false },
+      { id: 2, answerText: "for", isCorrect: true },
+      { id: 3, answerText: "while", isCorrect: false },
+      { id: 4, answerText: "if", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "MathCadga tangens qanday yoziladi?    ",
+    answerOptions: [
+      { id: 1, answerText: "tg(x)", isCorrect: false },
+      { id: 2, answerText: "tangens(x)", isCorrect: false },
+      { id: 3, answerText: "tan(x)", isCorrect: true },
+      { id: 4, answerText: "tang(x)", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "MathCadda o'nli logarifm qanday yoziladi?",
+    answerOptions: [
+      { id: 1, answerText: "log(x)", isCorrect: true },
+      { id: 2, answerText: "log10(x)", isCorrect: false },
+      { id: 3, answerText: "lg(x)", isCorrect: false },
+      { id: 4, answerText: "log(10,x)", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Transport masalasini yechishda qaysi usuldan foydalaniladi?",
+    answerOptions: [
+      { id: 1, answerText: "simpleks usuli", isCorrect: false },
+      { id: 2, answerText: "jordan usuli", isCorrect: false },
+      { id: 3, answerText: "Runge-_Kutta usuli", isCorrect: false },
+      { id: 4, answerText: "potentsiallar usuli", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Transport masalasida ishlatiladigan punktni koʼrsating.    ",
+    answerOptions: [
+      { id: 1, answerText: "uchrashish punkti", isCorrect: false },
+      { id: 2, answerText: "dam olish punkti", isCorrect: false },
+      { id: 3, answerText: "qabul punkti", isCorrect: true },
+      { id: 4, answerText: "ishlash punkti", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Transport masalasida ishlatiladigan punktni koʼrsating.    ",
+    answerOptions: [
+      { id: 1, answerText: "uchrashish punkti", isCorrect: false },
+      { id: 2, answerText: "dam olish punkti", isCorrect: false },
+      { id: 3, answerText: "joʼnatish punkti", isCorrect: false },
+      { id: 4, answerText: "aloqa punkti", isCorrect: false },
+    ],
+  },
+  {
+    questionText: " Transport masalasida ishlatilmaydigan punktni koʼrsating.",
+    answerOptions: [
+      { id: 1, answerText: "joʼnatish punkti", isCorrect: false },
+      { id: 2, answerText: "dam olish punkti", isCorrect: false },
+      { id: 3, answerText: "qabul punkti", isCorrect: false },
+      { id: 4, answerText: "joʼnitish va qabul punktlari", isCorrect: false },
     ],
   },
 ];

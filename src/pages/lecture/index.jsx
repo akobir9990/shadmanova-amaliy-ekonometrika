@@ -159,7 +159,7 @@ export default function Lecture() {
               <CardActions>
                 <Button variant="outlined" size="small">
                   <NavLink to={item.url} key={items.id}>
-                    открыть
+                    ochish
                   </NavLink>
                 </Button>
 
@@ -176,7 +176,7 @@ export default function Lecture() {
               }}
             >
               <span className="font-bold text-xl my-3 text-black">
-                Лекция - {item.id}
+                Ma'ruza - {item.id}
               </span>
               {item.themeName}
             </Typography>

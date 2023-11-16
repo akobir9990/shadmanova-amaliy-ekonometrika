@@ -179,7 +179,7 @@ export default function BasicCard() {
               component="div"
             >
               <span className="font-bold text-xl my-3 text-black">
-                {item.id}-taqdimot
+                Taqdimot-{item.id}
               </span>
               {item.themeName}
             </Typography>
