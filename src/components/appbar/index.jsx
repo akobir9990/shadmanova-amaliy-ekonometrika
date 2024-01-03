@@ -66,7 +66,7 @@ function ResponsiveAppBar() {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
-  const nameOfScinece = "ATvaJMM";
+  const nameOfScinece = "AT";
 
   return (
     <div>
