@@ -6,44 +6,6 @@ import three from "./img/3.jpeg";
 import four from "./img/4.jpeg";
 import five from "./img/5.jpeg";
 import six from "./img/6.jpeg";
-import seven from "./img/7.jpeg";
-import eight from "./img/8.jpeg";
-import nine from "./img/9.jpeg";
-import ten from "./img/10.jpeg";
-import eleven from "./img/11.jpeg";
-import twelve from "./img/12.jpeg";
-import threeTeen from "./img/13.jpeg";
-import fourTeen from "./img/14.jpeg";
-import fifTeen from "./img/15.jpeg";
-import sixteen from "./img/16.jpeg";
-import seventeen from "./img/17.jpeg";
-import eightteen from "./img/18.jpeg";
-import nineteen from "./img/19.jpeg";
-import twenty from "./img/20.jpeg";
-import twentyOne from "./img/21.jpeg";
-import twentyTwo from "./img/22.jpeg";
-import twentyThree from "./img/23.jpeg";
-import twentyFour from "./img/24.jpeg";
-import twentyFive from "./img/25.jpeg";
-import twentySix from "./img/26.jpeg";
-import twentySeven from "./img/27.jpeg";
-import twentyEight from "./img/28.jpeg";
-import twentyNine from "./img/29.jpeg";
-import thirty from "./img/30.jpeg";
-import thirtyOne from "./img/31.jpeg";
-import thirtyTwo from "./img/32.jpeg";
-import thirtyThree from "./img/33.jpeg";
-import thirtyFour from "./img/34.jpeg";
-import thirtyFive from "./img/35.jpeg";
-import thirtySix from "./img/36.jpeg";
-import thirtySeven from "./img/37.jpeg";
-import thirtyEight from "./img/38.jpeg";
-import thirtyNine from "./img/39.jpeg";
-import fourty from "./img/40.jpeg";
-import fortyOne from "./img/41.jpeg";
-import fortyTwo from "./img/42.jpeg";
-import fortyThree from "./img/43.jpeg";
-import fortyFour from "./img/44.jpeg";
 
 import "./style.css";
 
@@ -62,44 +24,6 @@ function One() {
     { id: 4, name: four },
     { id: 5, name: five },
     { id: 6, name: six },
-    { id: 7, name: seven },
-    { id: 8, name: eight },
-    { id: 9, name: nine },
-    { id: 10, name: ten },
-    { id: 11, name: eleven },
-    { id: 12, name: twelve },
-    { id: 13, name: threeTeen },
-    { id: 14, name: fourTeen },
-    { id: 15, name: fifTeen },
-    { id: 16, name: sixteen },
-    { id: 17, name: seventeen },
-    { id: 18, name: eightteen },
-    { id: 19, name: nineteen },
-    { id: 20, name: twenty },
-    { id: 21, name: twentyOne },
-    { id: 22, name: twentyTwo },
-    { id: 23, name: twentyThree },
-    { id: 24, name: twentyFour },
-    { id: 25, name: twentyFive },
-    { id: 26, name: twentySix },
-    { id: 27, name: twentySeven },
-    { id: 28, name: twentyEight },
-    { id: 29, name: twentyNine },
-    { id: 30, name: thirty },
-    { id: 31, name: thirtyOne },
-    { id: 32, name: thirtyTwo },
-    { id: 33, name: thirtyThree },
-    { id: 34, name: thirtyFour },
-    { id: 35, name: thirtyFive },
-    { id: 36, name: thirtySix },
-    { id: 37, name: thirtySeven },
-    { id: 38, name: thirtyEight },
-    { id: 39, name: thirtyNine },
-    { id: 40, name: fourty },
-    { id: 41, name: fortyOne },
-    { id: 42, name: fortyTwo },
-    { id: 43, name: fortyThree },
-    { id: 44, name: fortyFour },
   ];
   return (
     <Container sx={{ width: "100%" }}>

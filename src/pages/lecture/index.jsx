@@ -76,66 +76,6 @@ export default function Lecture() {
       url: "10",
       themeName: "MathCAD dasturining interfeysi. Funktsiyalar. Grafika.",
     },
-    {
-      id: 11,
-      path: "",
-      url: "11",
-      themeName: "MathCad dasturida algoritmlash va dasturlash.",
-    },
-    {
-      id: 12,
-      path: "",
-      url: "12",
-      themeName: "Matematik model va modelashtirish.",
-    },
-    {
-      id: 13,
-      path: "",
-      url: "13",
-      themeName: "Chizigli modellar va ularni yechish.",
-    },
-    {
-      id: 14,
-      path: "",
-      url: "14",
-      themeName: "Chizigsiz modellar va ularni yechish.",
-    },
-    {
-      id: 15,
-      path: "",
-      url: "15",
-      themeName: "Chizigli dasturlash masalasini grafik lusulida yechish",
-    },
-    {
-      id: 16,
-      path: "",
-      url: "16",
-      themeName: "Chiziqli dasturlash masalasini simpleks usulida yechish",
-    },
-    {
-      id: 17,
-      path: "",
-      url: "17",
-      themeName: "Transport masalasi. Tayanch yechimni topish.",
-    },
-    {
-      id: 18,
-      path: "",
-      url: "18",
-      themeName: "Transport masalasi. Optimal yechim.",
-    },
-    {
-      id: 19,
-      path: "",
-      url: "19",
-      themeName: "Integral modellar ",
-    },
-    {
-      id: 20,
-      path: "",
-      url: "20",
-      themeName: "Differensial modellar.",
-    },
   ];
   return (
     <Box sx={{ minWidth: 275 }}>

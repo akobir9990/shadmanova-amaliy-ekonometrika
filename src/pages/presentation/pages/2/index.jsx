@@ -22,43 +22,6 @@ import nineteen from "./img/19.jpeg";
 import twenty from "./img/20.jpeg";
 import twentyOne from "./img/21.jpeg";
 import twentyTwo from "./img/22.jpeg";
-import twentyThree from "./img/23.jpeg";
-import twentyFour from "./img/24.jpeg";
-import twentyFive from "./img/25.jpeg";
-import twentySix from "./img/26.jpeg";
-import twentySeven from "./img/27.jpeg";
-import twentyEight from "./img/28.jpeg";
-import twentyNine from "./img/29.jpeg";
-import thirty from "./img/30.jpeg";
-import thirtyOne from "./img/31.jpeg";
-import thirtyTwo from "./img/32.jpeg";
-import thirtyThree from "./img/33.jpeg";
-import thirtyFour from "./img/34.jpeg";
-import thirtyFive from "./img/35.jpeg";
-import thirtySix from "./img/36.jpeg";
-import thirtySeven from "./img/37.jpeg";
-import thirtyEight from "./img/38.jpeg";
-import thirtyNine from "./img/39.jpeg";
-import fourty from "./img/40.jpeg";
-import fortyOne from "./img/41.jpeg";
-import fortyTwo from "./img/42.jpeg";
-import fortyThree from "./img/43.jpeg";
-import fortyFour from "./img/44.jpeg";
-import fortyFive from "./img/45.jpeg";
-import fortySix from "./img/46.jpeg";
-import fortySeven from "./img/47.jpeg";
-import fortyEight from "./img/48.jpeg";
-import fortyNine from "./img/49.jpeg";
-import fifty from "./img/50.jpeg";
-import fiftyOne from "./img/51.jpeg";
-import fiftyTwo from "./img/52.jpeg";
-import fiftyThree from "./img/53.jpeg";
-import fiftyFour from "./img/54.jpeg";
-import fiftyFive from "./img/55.jpeg";
-import fiftySix from "./img/56.jpeg";
-import fiftySeven from "./img/57.jpeg";
-import fiftyEight from "./img/58.jpeg";
-import fiftyNine from "./img/59.jpeg";
 import { TelegramIcon, TelegramShareButton } from "react-share";
 import { Box, Button, Container } from "@mui/material";
 import { NavLink } from "react-router-dom";
@@ -90,43 +53,6 @@ function Two() {
     { id: 20, name: twenty },
     { id: 21, name: twentyOne },
     { id: 22, name: twentyTwo },
-    { id: 23, name: twentyThree },
-    { id: 24, name: twentyFour },
-    { id: 25, name: twentyFive },
-    { id: 26, name: twentySix },
-    { id: 27, name: twentySeven },
-    { id: 28, name: twentyEight },
-    { id: 29, name: twentyNine },
-    { id: 30, name: thirty },
-    { id: 31, name: thirtyOne },
-    { id: 32, name: thirtyTwo },
-    { id: 33, name: thirtyThree },
-    { id: 34, name: thirtyFour },
-    { id: 35, name: thirtyFive },
-    { id: 36, name: thirtySix },
-    { id: 37, name: thirtySeven },
-    { id: 38, name: thirtyEight },
-    { id: 39, name: thirtyNine },
-    { id: 40, name: fourty },
-    { id: 41, name: fortyOne },
-    { id: 42, name: fortyTwo },
-    { id: 43, name: fortyThree },
-    { id: 44, name: fortyFour },
-    { id: 45, name: fortyFive },
-    { id: 46, name: fortySix },
-    { id: 47, name: fortySeven },
-    { id: 48, name: fortyEight },
-    { id: 49, name: fortyNine },
-    { id: 50, name: fifty },
-    { id: 51, name: fiftyOne },
-    { id: 52, name: fiftyTwo },
-    { id: 53, name: fiftyThree },
-    { id: 54, name: fiftyFour },
-    { id: 55, name: fiftyFive },
-    { id: 56, name: fiftySix },
-    { id: 57, name: fiftySeven },
-    { id: 58, name: fiftyEight },
-    { id: 59, name: fiftyNine },
   ];
   return (
     <Container>

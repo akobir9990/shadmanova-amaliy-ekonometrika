@@ -13,7 +13,8 @@ import ten from "./img/10.jpeg";
 import eleven from "./img/11.jpeg";
 import twelve from "./img/12.jpeg";
 import threeTeen from "./img/13.jpeg";
-
+import fourTeen from "./img/14.jpeg";
+import fiveTeen from "./img/15.jpeg";
 
 import { Box, Button, Container } from "@mui/material";
 import { NavLink } from "react-router-dom";
@@ -36,6 +37,8 @@ function Ten() {
     { id: 11, name: eleven },
     { id: 12, name: twelve },
     { id: 13, name: threeTeen },
+    { id: 14, name: fourTeen },
+    { id: 15, name: fiveTeen },
   ];
   return (
     <Container>

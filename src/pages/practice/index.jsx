@@ -72,40 +72,22 @@ export default function Lecture() {
       themeName: "10-amaliy mashg'ulot",
     },
     {
-      id: 111,
+      id: 11,
       path: "",
       url: "11-1",
       themeName: "11-1-amaliy mashg'ulot",
     },
     {
-      id: 112,
+      id: 12,
       path: "",
       url: "11-2",
       themeName: "11-2-amaliy mashg'ulot",
-    },
-    {
-      id: 12,
-      path: "",
-      url: "12",
-      themeName: "12-amaliy mashg'ulot",
     },
     {
       id: 13,
       path: "",
       url: "13",
       themeName: "13-amaliy mashg'ulot",
-    },
-    {
-      id: 14,
-      path: "",
-      url: "14",
-      themeName: "14-amaliy mashg'ulot",
-    },
-    {
-      id: 15,
-      path: "",
-      url: "15",
-      themeName: "15-amaliy mashg'ulot",
     },
   ];
   return (

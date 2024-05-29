@@ -38,16 +38,6 @@ import LectureSeven from "../pages/lecture/pages/7";
 import LectureEight from "../pages/lecture/pages/8";
 import LectureNine from "../pages/lecture/pages/9";
 import LectureTen from "../pages/lecture/pages/10";
-import LectureEleven from "../pages/lecture/pages/11";
-import LectureTwelve from "../pages/lecture/pages/12";
-import LectureThreeTeen from "../pages/lecture/pages/13";
-import LectureFourTeen from "../pages/lecture/pages/14";
-import LectureFifTeen from "../pages/lecture/pages/15";
-import LectureSixteen from "../pages/lecture/pages/16";
-import LectureSeventeen from "../pages/lecture/pages/17";
-import LectureEightteen from "../pages/lecture/pages/18";
-import LectureNineteen from "../pages/lecture/pages/19";
-import LectureTwenty from "../pages/lecture/pages/20";
 
 import Presentation from "../pages/presentation";
 
@@ -66,11 +56,6 @@ import PresentationTwelve from "../pages/presentation/pages/12";
 import PresentationThreeTeen from "../pages/presentation/pages/13";
 import PresentationFourTeen from "../pages/presentation/pages/14";
 import PresentationFifTeen from "../pages/presentation/pages/15";
-import PresentationSixteen from "../pages/presentation/pages/16";
-import PresentationSeventeen from "../pages/presentation/pages/17";
-import PresentationEightteen from "../pages/presentation/pages/18";
-import PresentationNineteen from "../pages/presentation/pages/19";
-import PresentationTwenty from "../pages/presentation/pages/20";
 
 import Practice from "../pages/practice/index";
 
@@ -84,12 +69,9 @@ import PracticeSeven from "../pages/practice/pages/7";
 import PracticeEight from "../pages/practice/pages/8";
 import PracticeNine from "../pages/practice/pages/9";
 import PracticeTen from "../pages/practice/pages/10";
-import PracticeElevenFirstPart from "../pages/practice/pages/11 (1)";
-import PracticeElevenSecondPart from "../pages/practice/pages/11 (2)";
+import PracticeEleven from "../pages/practice/pages/11";
 import PracticeTwelve from "../pages/practice/pages/12";
 import PracticeThreeTeen from "../pages/practice/pages/13";
-import PracticeFourTeen from "../pages/practice/pages/14";
-import PracticeFifteen from "../pages/practice/pages/15";
 
 import "./const";
 import {
@@ -157,11 +139,6 @@ function router() {
           <Route path="13" element={<PresentationThreeTeen />} />
           <Route path="14" element={<PresentationFourTeen />} />
           <Route path="15" element={<PresentationFifTeen />} />
-          <Route path="16" element={<PresentationSixteen />} />
-          <Route path="17" element={<PresentationSeventeen />} />
-          <Route path="18" element={<PresentationEightteen />} />
-          <Route path="19" element={<PresentationNineteen />} />
-          <Route path="20" element={<PresentationTwenty />} />
         </Route>
         <Route path={LECTURE_PAGE}>
           <Route path="" element={<Lecture />} />
@@ -175,16 +152,6 @@ function router() {
           <Route path="8" element={<LectureEight />} />
           <Route path="9" element={<LectureNine />} />
           <Route path="10" element={<LectureTen />} />
-          <Route path="11" element={<LectureEleven />} />
-          <Route path="12" element={<LectureTwelve />} />
-          <Route path="13" element={<LectureThreeTeen />} />
-          <Route path="14" element={<LectureFourTeen />} />
-          <Route path="15" element={<LectureFifTeen />} />
-          <Route path="16" element={<LectureSixteen />} />
-          <Route path="17" element={<LectureSeventeen />} />
-          <Route path="18" element={<LectureEightteen />} />
-          <Route path="19" element={<LectureNineteen />} />
-          <Route path="20" element={<LectureTwenty />} />
         </Route>
 
         <Route path={PRACTICE_PAGE}>
@@ -199,12 +166,9 @@ function router() {
           <Route path="8" element={<PracticeEight />} />
           <Route path="9" element={<PracticeNine />} />
           <Route path="10" element={<PracticeTen />} />
-          <Route path="11-1" element={<PracticeElevenFirstPart />} />
-          <Route path="11-2" element={<PracticeElevenSecondPart />} />
+          <Route path="11" element={<PracticeEleven />} />
           <Route path="12" element={<PracticeTwelve />} />
           <Route path="13" element={<PracticeThreeTeen />} />
-          <Route path="14" element={<PracticeFourTeen />} />
-          <Route path="15" element={<PracticeFifteen />} />
         </Route>
         <Route path={TEST_PAGE} element={<TestAPage />} />
       </Routes>

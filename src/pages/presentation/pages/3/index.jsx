@@ -17,33 +17,6 @@ import fourteen from "./img/14.jpeg";
 import fifteen from "./img/15.jpeg";
 import sixteen from "./img/16.jpeg";
 import seventeen from "./img/17.jpeg";
-import eighteen from "./img/18.jpeg";
-import nineteen from "./img/19.jpeg";
-import twenty from "./img/20.jpeg";
-import twentyOne from "./img/21.jpeg";
-import twentyTwo from "./img/22.jpeg";
-import twentyThree from "./img/23.jpeg";
-import twentFour from "./img/24.jpeg";
-import twentyFive from "./img/25.jpeg";
-import twentySix from "./img/26.jpeg";
-import twentySeven from "./img/27.jpeg";
-import twentyEight from "./img/28.jpeg";
-import twentyNine from "./img/29.jpeg";
-import thirty from "./img/30.jpeg";
-import thirtyOne from "./img/31.jpeg";
-import thirtyTwo from "./img/32.jpeg";
-import thirtyThree from "./img/33.jpeg";
-import thirtyFour from "./img/34.jpeg";
-import thirtyFive from "./img/35.jpeg";
-import thirtySix from "./img/36.jpeg";
-import thirtySeven from "./img/37.jpeg";
-import thirtyEight from "./img/38.jpeg";
-import thirtyNine from "./img/39.jpeg";
-import fourty from "./img/40.jpeg";
-import fortyOne from "./img/41.jpeg";
-import fortyTwo from "./img/42.jpeg";
-import fortyThree from "./img/43.jpeg";
-import fortyFour from "./img/44.jpeg";
 
 import { TelegramIcon, TelegramShareButton } from "react-share";
 
@@ -71,33 +44,6 @@ function Three() {
     { id: 15, name: fifteen },
     { id: 16, name: sixteen },
     { id: 17, name: seventeen },
-    { id: 18, name: eighteen },
-    { id: 19, name: nineteen },
-    { id: 20, name: twenty },
-    { id: 21, name: twentyOne },
-    { id: 22, name: twentyTwo },
-    { id: 23, name: twentyThree },
-    { id: 24, name: twentFour },
-    { id: 25, name: twentyFive },
-    { id: 26, name: twentySix },
-    { id: 27, name: twentySeven },
-    { id: 28, name: twentyEight },
-    { id: 29, name: twentyNine },
-    { id: 30, name: thirty },
-    { id: 31, name: thirtyOne },
-    { id: 32, name: thirtyTwo },
-    { id: 33, name: thirtyThree },
-    { id: 34, name: thirtyFour },
-    { id: 35, name: thirtyFive },
-    { id: 36, name: thirtySix },
-    { id: 37, name: thirtySeven },
-    { id: 38, name: thirtyEight },
-    { id: 39, name: thirtyNine },
-    { id: 40, name: fourty },
-    { id: 41, name: fortyOne },
-    { id: 42, name: fortyTwo },
-    { id: 43, name: fortyThree },
-    { id: 44, name: fortyFour },
   ];
   return (
     <Container>

@@ -106,36 +106,6 @@ export default function BasicCard() {
       url: "15",
       themeName: "Chizigli dasturlash masalasini grafik lusulida yechish",
     },
-    {
-      id: 16,
-      path: "",
-      url: "16",
-      themeName: "Chiziqli dasturlash masalasini simpleks usulida yechish",
-    },
-    {
-      id: 17,
-      path: "",
-      url: "17",
-      themeName: "Transport masalasi. Tayanch yechimni topish.",
-    },
-    {
-      id: 18,
-      path: "",
-      url: "18",
-      themeName: "Transport masalasi. Optimal yechim.",
-    },
-    {
-      id: 19,
-      path: "",
-      url: "19",
-      themeName: "Integral modellar ",
-    },
-    {
-      id: 20,
-      path: "",
-      url: "20",
-      themeName: "Differensial modellar.",
-    },
   ];
   return (
     <Box sx={{ minWidth: 275 }}>

@@ -20,14 +20,6 @@ import seventeen from "./img/17.jpeg";
 import eighteen from "./img/18.jpeg";
 import ninteen from "./img/19.jpeg";
 import twenty from "./img/20.jpeg";
-import twentyOne from "./img/21.jpeg";
-import twentyTwo from "./img/22.jpeg";
-import twentyThree from "./img/23.jpeg";
-import twentyFour from "./img/24.jpeg";
-import twentyFive from "./img/25.jpeg";
-import twentySix from "./img/26.jpeg";
-import twentySeven from "./img/27.jpeg";
-import twentyEight from "./img/28.jpeg";
 
 import { TelegramIcon, TelegramShareButton } from "react-share";
 import { Box, Button, Container } from "@mui/material";
@@ -57,14 +49,6 @@ function Five() {
     { id: 18, name: eighteen },
     { id: 19, name: ninteen },
     { id: 20, name: twenty },
-    { id: 21, name: twentyOne },
-    { id: 22, name: twentyTwo },
-    { id: 23, name: twentyThree },
-    { id: 24, name: twentyFour },
-    { id: 25, name: twentyFive },
-    { id: 26, name: twentySix },
-    { id: 27, name: twentySeven },
-    { id: 28, name: twentyEight },
   ];
   return (
     <Container>

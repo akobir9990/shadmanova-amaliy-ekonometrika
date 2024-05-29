@@ -21,14 +21,11 @@ import "../../router/const";
 import {
   ABOUT_PAGE,
   AUTHOR_PAGE,
-  LABORATORY_PAGE,
   PRACTICE_PAGE,
   PRESENTATION_PAGE,
   LECTURE_PAGE,
   TEST_PAGE,
-  SCIENCE_PROGRAM,
   GLOSSARIES,
-  SILLABUS,
   VIDEOS_PAGE,
 } from "../../router/const";
 
@@ -36,16 +33,13 @@ const pages = [
   { id: 1, name: "Ma'ruza", path: LECTURE_PAGE },
   { id: 2, name: "Taqdimot", path: PRESENTATION_PAGE },
   { id: 3, name: "Amaliyot", path: PRACTICE_PAGE },
-  { id: 4, name: "Laboratoria", path: LABORATORY_PAGE },
   { id: 4, name: "Video ma'ruzalar", path: VIDEOS_PAGE },
   { id: 5, name: "Test", path: TEST_PAGE },
 ];
 const settings = [
   { id: 1, name: "Muallif", path: AUTHOR_PAGE },
   { id: 2, name: "Dastur haqida", path: ABOUT_PAGE },
-  { id: 3, name: "Sillabus", path: SILLABUS },
-  { id: 4, name: "Glossary", path: GLOSSARIES },
-  { id: 5, name: "Fan dasturi", path: SCIENCE_PROGRAM },
+  { id: 3, name: "Glossary", path: GLOSSARIES },
 ];
 
 function ResponsiveAppBar() {
@@ -66,7 +60,7 @@ function ResponsiveAppBar() {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
-  const nameOfScinece = "AT";
+  const nameOfScinece = "AE";
 
   return (
     <div>

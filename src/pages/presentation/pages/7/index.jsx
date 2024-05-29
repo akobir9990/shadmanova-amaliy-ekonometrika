@@ -11,6 +11,16 @@ import eight from "./img/8.jpeg";
 import nine from "./img/9.jpeg";
 import ten from "./img/10.jpeg";
 import eleven from "./img/11.jpeg";
+import twelve from "./img/12.jpeg";
+import therteen from "./img/13.jpeg";
+import fourTeen from "./img/14.jpeg";
+import fiveTeen from "./img/15.jpeg";
+import sixTeen from "./img/16.jpeg";
+import secenTeen from "./img/17.jpeg";
+import eighTeen from "./img/18.jpeg";
+import nineTeen from "./img/19.jpeg";
+import twenty from "./img/20.jpeg";
+import twentyOne from "./img/21.jpeg";
 
 import { Box, Button, Container } from "@mui/material";
 import { NavLink } from "react-router-dom";
@@ -31,6 +41,16 @@ function Seven() {
     { id: 9, name: nine },
     { id: 10, name: ten },
     { id: 11, name: eleven },
+    { id: 12, name: twelve },
+    { id: 13, name: therteen },
+    { id: 14, name: fourTeen },
+    { id: 15, name: fiveTeen },
+    { id: 16, name: sixTeen },
+    { id: 17, name: secenTeen },
+    { id: 18, name: eighTeen },
+    { id: 19, name: nineTeen },
+    { id: 20, name: twenty },
+    { id: 21, name: twentyOne },
   ];
   return (
     <Container>
