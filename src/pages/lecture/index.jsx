@@ -15,66 +15,63 @@ export default function Lecture() {
       id: 1,
       path: "",
       url: "1",
-      themeName:
-        '"Axborot texnologiyalari va jarayonlarni matematik modellashtirish" fanning asosiy tushunchalari. Ma`lumotlarni kodlash. Axborot jarayonlarining texnik va dasturiy ta`minoti.',
+      themeName: "Ekonometrik modellashtirish asoslari",
     },
     {
       id: 2,
       path: "",
       url: "2",
-      themeName:
-        "Mutaxassislik masalalarini yech-ishda axborot tenologiyalarini qo'llash. MS Office dasturlari.",
+      themeName: "Matematik statistika elementlari",
     },
     {
       id: 3,
       path: "",
       url: "3",
-      themeName: "Kompyuter tarmoglari va tarmoq texnologiyalari.",
+      themeName:
+        "Bir ozgaruvchili va ko'p o'zgaruvchili korrelyasiya tahlillari",
     },
     {
       id: 4,
       path: "",
       url: "4",
-      themeName: "Algoritmning xossalari.Algoritmni tasvirlash usullari.",
+      themeName: "Bir o'zgaruvchili chiziqli regressiya tahlili",
     },
     {
       id: 5,
       path: "",
       url: "5",
-      themeName:
-        "Dasturlash tili elementlari. Masalalarini chiziqli algoritmlar yordamida dasturlash.",
+      themeName: "Bir o'zgaruvchili chiziqli regressiya tahlili",
     },
     {
       id: 6,
       path: "",
       url: "6",
-      themeName:
-        "Masalalarni tarmoqlanuvchi al-goritmlar yordamida dasturlash.",
+      themeName: "Modelning haqqoniyligi talablarini tekshirish",
     },
     {
       id: 7,
       path: "",
       url: "7",
-      themeName:
-        "Masalalarni tarmoqlanuvchi al-goritmlar yordamida dasturlash.",
+      themeName: "Modelning haqqoniyligi talablarini tekshirish",
     },
     {
       id: 8,
       path: "",
       url: "8",
-      themeName: "Masalalarini dasturlashda massivlardan foydalanish",
+      themeName: "Ko'p o'zgaruvchili chiziqli regressiya modellari",
     },
     {
       id: 9,
       path: "",
       url: "9",
-      themeName: "Masalalarni dasturlashda funktsiyalardan foydalanish.",
+      themeName:
+        "Ko'p o'zgaruvchili regressiya koeffitsiyentlarining xossalari",
     },
     {
       id: 10,
       path: "",
       url: "10",
-      themeName: "MathCAD dasturining interfeysi. Funktsiyalar. Grafika.",
+      themeName: "Talab va taklifning ekonometrik modellari",
     },
   ];
   return (
